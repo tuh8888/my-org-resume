@@ -1,0 +1,166 @@
+* Config/Preamble :noexport:
+** LaTeX Config
+#+BEGIN_SRC emacs-lisp :exports none  :results none :eval always
+(setq org-latex-logfiles-extensions (quote ("lof" "lot" "tex~" "aux" "idx" "log" "out" "toc" "nav" "snm" "vrb" "dvi" "fdb_latexmk" "blg" "brf" "fls" "entoc" "ps" "spl" "bbl" "xmpi" "run.xml" "bcf")))
+(add-to-list 'org-latex-classes
+             '("altacv" "\\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
+
+% Change the page layout if you need to
+\\geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm,columnsep=1.2cm}
+
+% Use roboto and lato for fonts
+\\renewcommand{\\familydefault}{\\sfdefault}
+
+% Change the colours if you want to
+\\definecolor{SlateGrey}{HTML}{2E2E2E}
+\\definecolor{LightGrey}{HTML}{666666}
+\\definecolor{DarkPastelRed}{HTML}{450808}
+\\definecolor{PastelRed}{HTML}{8F0D0D}
+\\definecolor{GoldenEarth}{HTML}{E7D192}
+\\colorlet{name}{black}
+\\colorlet{tagline}{PastelRed}
+\\colorlet{heading}{DarkPastelRed}
+\\colorlet{headingrule}{GoldenEarth}
+\\colorlet{subheading}{PastelRed}
+\\colorlet{accent}{PastelRed}
+\\colorlet{emphasis}{SlateGrey}
+\\colorlet{body}{LightGrey}
+
+% Change some fonts, if necessary
+\\renewcommand{\\namefont}{\\Huge\\rmfamily\\bfseries}
+\\renewcommand{\\personalinfofont}{\\footnotesize}
+\\renewcommand{\\cvsectionfont}{\\LARGE\\rmfamily\\bfseries}
+\\renewcommand{\\cvsubsectionfont}{\\large\\bfseries}
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\\renewcommand{\\itemmarker}{{\\small\\textbullet}}
+\\renewcommand{\\ratingmarker}{\\faCircle}
+"
+
+               ("\\cvsection{%s}" . "\\cvsection*{%s}")
+               ("\\cvevent{%s}" . "\\cvevent*{%s}")))
+(setq org-latex-packages-alist 'nil)
+(setq org-latex-default-packages-alist
+      '(("rm" "roboto"  t)
+        ("defaultsans" "lato" t)
+        ("" "paracol" t)
+        ))
+(require 'ox-extra)
+(ox-extras-activate '(latex-header-blocks ignore-headlines))
+#+END_SRC
+#+LATEX_CLASS: altacv
+#+LATEX_HEADER: \columnratio{0.6} % Set the left/right column width ratio to 6:4.
+#+LATEX_HEADER: \usepackage[bottom]{footmisc}
+*** Bibliography
+# #+LATEX_HEADER: \DeclareNameAlias{sortname}{last-first}
+#+LATEX_HEADER: \DeclareNameAlias{sortname}{given-family}
+#+LATEX_HEADER: \addbibresource{resume.bib}
+# #+LATEX_HEADER: \usepackage[citestyle=numeric-comp, maxcitenames=1, maxbibnames=4, doi=false, isbn=false, eprint=true, backend=bibtex, hyperref=true, url=false, natbib=true]{biblatex}
+# #+LATEX_HEADER: \usepackage[backend=biber, sorting=nyvt, style=authoryear, firstinits]{biblatex}
+# #+LATEX_HEADER: \usepackage[backend=natbib, giveninits=true]{biblatex}
+#+LATEX_HEADER: \usepackage[style=trad-abbrv,sorting=none,sortcites=true,doi=false,url=false,giveninits=true,hyperref]{biblatex}
+
+** Exporter Settings
+#+AUTHOR: Harrison Pielke-Lombardo
+#+EXPORT_FILE_NAME: ./cover-letter.pdf
+#+OPTIONS: toc:nil title:nil H:1
+** Macros
+#+MACRO: cvevent \cvevent{$1}{$2}{$3}{$4}
+#+MACRO: cvachievement \cvachievement{$1}{$2}{$3}{$4}
+#+MACRO: cvtag \cvtag{$1}
+#+MACRO: divider \divider
+#+MACRO: par-div \par\divider
+#+MACRO: new-page \newpage
+
+* Header                                                             :ignore:
+
+** Photo & Tagline :ignore:
+#+begin_export latex
+\name{Harrison Pielke-Lombardo}
+\photoR{2.8cm}{Harrison_2015s.jpg}
+\tagline{PhD Researcher}
+#+end_export
+
+** Personal Info :ignore:
+#+begin_export latex
+\personalinfo{
+ %%  \homepage{www.github.com/tuh8888}
+  \email{harrison.pielke-lombardo@cuanschutz.edu}
+  \phone{720 209 6249}
+%% \location{Denver, CO}
+  \github{tuh8888}
+  \linkedin{tuh8888}
+%%  \dob{12 May 1995}
+%%   \driving{US Driving Licence
+  }
+}
+\makecvheader
+#+end_export
+
+** Contact Info                                                    :noexport:
+   - Phone :: (720) - 209 - 6249
+   - Email :: harrison.pielke-lombardo@cuanschutz.edu
+   - GitHub :: www.github.com/tuh8888
+   - LinkedIn :: www.linkedin.com/in/tuh8888
+   - Address :: 1855 N Gaylord St. Apt. 202, Denver, CO, 80206
+
+* Salutation (arrival)                                               :ignore:
+
+  To Reify Health hiring team,
+
+* Body                                                               :ignore:
+  \hfill \break
+
+** Introduction                                                      :ignore:
+
+  The opportunity to implement and drive data-oriented software solutions for improving health care that your company presents has attracted me to your job posting. As both a Clojure programmer and a graduate in the field of biomedical sciences, this seems like the kind of position I have been preparing for.
+
+** About me                                                          :ignore:
+
+  \hfill \break
+
+  There are two areas that have always interested me: software development and biology. Software development, for me, satisfies a creative itch when designing new systems while also being intellectually stimulating when solving domain specific challenges. Biology represents a uniquely complex system to untangle and understand while also being incredibly important to helping the people we know and love. To meet these interests, I have pursued a career in computational biology which lead me to study in the Computational Biosciences Program at the University of Colorado, Anschutz Medical Campus where my thesis research involved developing a method to reason about knowledge graphs of disease mechanisms in order to hypothesize drug treatments.
+
+** Skills                                                            :ignore:
+  \hfill \break
+
+*** Skills (paragraph)                                               :ignore:
+
+  As a graduate of this program, I have developed skills in algorithm-development, domain-modeling, data science, machine learning, and artificial intelligence. Now, I am eager to apply what I have learned to solve challenges in the world. I know that your company uses Clojure in its architecture, and I am happy to say that I have been programming in Clojure for 6 years now and consider myself to have an expert proficiency. I have contributed to the Clojure ecosystem with a number of my own projects as well as by submitting pull-requests to several open source libraries as well.
+
+*** Skills (list)                                           :ignore:noexport:
+  \hfill \break
+
+  As a graduate of the Computational Biosciences program at the University of Colorado, Anschutz Medical Campus, I have developed skills in:
+  - algorithm-development
+  - domain-modeling
+  - data science
+  - machine learning
+  - artificial intelligence.
+
+  I have expert proficiency in several programming languages:
+  - Clojure
+  - Python
+  - Java
+
+*** Closing                                                          :ignore:
+  \hfill \break
+
+  I hope that you will consider me in your decision-making process as I would like to contribute my expertise to improving your products and learning from your team how to use software to improve the world.
+
+
+* Salutation (departure)                                             :ignore:
+
+  \hfill \break
+
+  Sincerely,
+
+  \hfill \break
+
+  Harrison Pielke-Lombardo
+
+* Back Matter                                                        :ignore:
+#+begin_export latex
+\end{document}
+#+end_export
