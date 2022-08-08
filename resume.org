@@ -110,7 +110,7 @@
 ** Personal Statement General                               :ignore:
 #+begin_export latex
  \begin{quote}
- ``I am a Computational Bioscience graduate interested in developing software for artificial intelligence, health informatics, and game development. My work has included developing novel algorithms for symbolic AI and natural language processing. I am a polyglot programmer who enjoys turning difficult problems for people into easy solutions for computers.''
+ ``I am a Computational Bioscience graduate interested in developing software for artificial intelligence, health informatics, and game development. My work includes developing novel algorithms for symbolic AI and natural language processing. As a polyglot programmer, I enjoy turning difficult problems for people into easy solutions for computers.''
  \end{quote}
 #+end_export
 ** Personal Statement Reify Health                          :ignore:noexport:
@@ -124,7 +124,7 @@
 {{{cvevent(PhD Researcher, University of Colorado\, Anschutz Medical Campus, 2016 -- 2022, Aurora\, CO)}}}
 
 - Thesis title: Schematization of biological mechanisms using network alignment and computational analogy for hypothesizing about disease mechanisms and their interventions.
-- Managed multiple, interconnected computational projects across different teams.
+- Managed multiple, interconnected computational projects across different teams from planning to publication.
 - Communicated with technical and non-technical audiences.
 - Developed interpretable, symbolic artificial intelligence and machine learning methods for identifying drug-targets in text and performing inductive reasoning about drug-disease mechanisms.
 - Maintained sustainable, open software development practices.
@@ -136,11 +136,10 @@
 ** Projects
 *** LeSS                                                             :ignore:
 
-    {{{cvevent(Schematization of biological mechanisms using structural\, semantic\, and causal properties.,,,,)}}}
+    {{{cvevent(Schematization of biological mechanisms using structural\, semantic\, and causal properties,,,,)}}}
 
-    - Compare knowledge graphs using
-    # - Extends analogical reasoning to allow for comparison and generalization.
-    - Can be used for hypothesis generation, cross-disciplinary knowledge transfer, and contextualization of scientific findings
+    - Developed algorithmic approaches in Clojure and Python for extending analogical reasoning of complex networks representing biological knowledge.
+    - Merged and harmonized large biomedical knowledge graphs.
 
       # {{{cvtag(Artificial intelligence)}}}
       # {{{cvtag(Knowledge graphs)}}}
@@ -151,10 +150,10 @@
 
 {{{par-div}}}
 
-{{{cvevent(Knowtator: Concept and relation annotation plugin for Protégé,,,)}}}
+{{{cvevent(Knowtator: Concept/relation annotation for Protégé,,,)}}}
 
-- User-oriented interactions between structured and unstructured data.
-- Interop between ontology development and concept/relation annotation
+- Deployed a WYSIWYG plugin for ontology development and text annotation that includes interactive graph visualization for textual features.
+- Incorporated user feedback  in several feature updates.
 
 # {{{cvtag(Semantic web)}}}
 # {{{cvtag(UX/GUI)}}}
@@ -166,9 +165,9 @@
 
 {{{cvevent(Bootstrapped relation extraction using word embeddings and dependency paths,,,)}}}
 
-- Extracting drug-target interactions from full text articles.
-- Creates human-interpretable syntax patterns from dependency paths encoded using word embeddings.
-- Bootstrapped algorithm incorporating GPU accelerated matrix operations for scalability
+- Developed a novel bootstrapping relation extraction approach in Clojure that creates human-interpretable syntax patterns from dependency paths and word embeddings
+- Performance optimized with GPU accelerated matrix operations.
+- Evaluated the approach on a large corpus of biomedical text on its ability to identify drug-target relationships.
 
 # {{{cvtag(Natural language processing)}}}
 # {{{cvtag(Semantic web)}}}
@@ -283,8 +282,6 @@ Each year, as part of Formula Student, students design, build and race a single 
     \hfill \break
     {{{cvtag(Reagent)}}}
     {{{cvtag(Re-frame)}}}
-    {{{cvtag(Rum)}}}
-    \hfill \break
     {{{cvtag(Datascript/Datomic)}}}
 *** \textcolor{accent}{Python (10 years)}
     :PROPERTIES:
@@ -300,47 +297,63 @@ Each year, as part of Formula Student, students design, build and race a single 
     :END:
 \hfill \break
 {{{cvtag(Matplotlib)}}}
-{{{cvtag(Vega/VegaLite)}}}
+{{{cvtag(Vega)}}}
 {{{cvtag(GraphViz)}}}
-{{{cvtag(Jupyter(Lab))}}}
 {{{cvtag(D3)}}}
+*** \textcolor{accent}{Communication}
+    :PROPERTIES:
+    :UNNUMBERED: t
+    :END:
+\hfill \break
+{{{cvtag(Jupyter(Lab))}}}
+{{{cvtag(LaTeX)}}}
+{{{cvtag(RMarkdown)}}}
+
 *** \textcolor{accent}{Additional languages}
     :PROPERTIES:
     :UNNUMBERED: t
     :END:
 \hfill \break
 {{{cvtag(Java)}}}
-{{{cvtag(HTML/CSS)}}}
 {{{cvtag(JavaScript)}}}
-{{{cvtag(Common Lisp)}}}
 {{{cvtag(Bash)}}}
+{{{cvtag(Common Lisp)}}}
 {{{cvtag(C++)}}}
 {{{cvtag(R)}}}
 {{{cvtag(MATLAB)}}}
+{{{cvtag(HTML/CSS)}}}
 *** \textcolor{accent}{Development tools}
     :PROPERTIES:
     :UNNUMBERED: t
     :END:
 \hfill \break
-{{{cvtag(Linux)}}}
-{{{cvtag(Windows)}}}
-{{{cvtag(MacOS)}}}
 {{{cvtag(Git)}}}
 {{{cvtag(GitHub)}}}
 {{{cvtag(CI/CD)}}}
-{{{cvtag(Docker)}}}
-{{{cvtag(LaTeX)}}}
-{{{cvtag(Org-mode)}}}
 *** \textcolor{accent}{Areas of expertise}
     :PROPERTIES:
     :UNNUMBERED: t
     :END:
 \hfill \break
 {{{cvtag(Natural Language Processing)}}}
-{{{cvtag(Machine Learnin)}}}
+{{{cvtag(Statistics)}}}
+{{{cvtag(Machine Learning)}}}
 {{{cvtag(Semantic web)}}}
 {{{cvtag(Artificial intelligence)}}}
-{{{cvtag(Statistics)}}}
+{{{cvtag(Domain modelling)}}}
+*** \textcolor{accent}{Big data/Cloud}
+    :PROPERTIES:
+    :UNNUMBERED: t
+    :END:
+\hfill \break
+{{{cvtag(SQL)}}}
+{{{cvtag(SPARQL)}}}
+{{{cvtag(RDF)}}}
+{{{cvtag(AWS)}}}
+{{{cvtag(Kubernetes)}}}
+{{{cvtag(BigQuery)}}}
+{{{cvtag(HPC)}}}
+{{{cvtag(Redis)}}}
 
 ** Education
 *** PhD in CPBS                                                      :ignore:
@@ -362,6 +375,9 @@ Each year, as part of Formula Student, students design, build and race a single 
 
 {{{cvevent(BS in Applied Mathematics, University of Colorado, 2013 -- 2016,Boulder\, CO)}}}
 # - First Class Honours \\
+
+** Note
+   References available upon request. Please see my GitHub page (@tuh8888) for my software projects as well as my contributions to various open-source projects.
 
 ** Newpage :ignore:noexport:
 #+BEGIN_EXPORT latex
