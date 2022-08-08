@@ -124,18 +124,21 @@
 {{{cvevent(PhD Researcher, University of Colorado\, Anschutz Medical Campus, 2016 -- 2022, Aurora\, CO)}}}
 
 - Thesis title: Schematization of biological mechanisms using network alignment and computational analogy for hypothesizing about disease mechanisms and their interventions.
-- Managed ongoing projects for lab
+- Managed multiple, interconnected computational projects across different teams.
+- Communicated with technical and non-technical audiences.
+- Developed interpretable, symbolic artificial intelligence and machine learning methods for identifying drug-targets in text and performing inductive reasoning about drug-disease mechanisms.
+- Maintained sustainable, open software development practices.
 
-{{{cvtag(Knowledge-bases)}}}
+{{{cvtag(Knowledge graphs)}}}
 {{{cvtag(Artificial intelligence)}}}
-{{{cvtag(Biomedical datascience)}}}
+{{{cvtag(Biomedical data science)}}}
 
 ** Projects
 *** LeSS                                                             :ignore:
 
-    {{{cvevent(Least Subsuming Subgraph,,, 2019 -- 2022,)}}}
+    {{{cvevent(Schematization of biological mechanisms using structural\, semantic\, and causal properties.,,,,)}}}
 
-    - Compare knowledge graphs using structural, semantic, and causal properties.
+    - Compare knowledge graphs using
     # - Extends analogical reasoning to allow for comparison and generalization.
     - Can be used for hypothesis generation, cross-disciplinary knowledge transfer, and contextualization of scientific findings
 
@@ -148,7 +151,7 @@
 
 {{{par-div}}}
 
-{{{cvevent(Knowtator: Concept and relation annotation plugin for Protégé,, 2017 - Ongoing,)}}}
+{{{cvevent(Knowtator: Concept and relation annotation plugin for Protégé,,,)}}}
 
 - User-oriented interactions between structured and unstructured data.
 - Interop between ontology development and concept/relation annotation
@@ -161,7 +164,7 @@
 
 {{{par-div}}}
 
-{{{cvevent(Bootstrapped relation extraction using word embeddings and dependency paths,, 2017 -- 2019,)}}}
+{{{cvevent(Bootstrapped relation extraction using word embeddings and dependency paths,,,)}}}
 
 - Extracting drug-target interactions from full text articles.
 - Creates human-interpretable syntax patterns from dependency paths encoded using word embeddings.
@@ -290,7 +293,7 @@ Each year, as part of Formula Student, students design, build and race a single 
 \hfill \break
 {{{cvtag(NumPy)}}}
 {{{cvtag(Pandas)}}}
-{{{cvtag(SciKitLearn)}}}
+{{{cvtag(scikit-learn)}}}
 *** \textcolor{accent}{Data visualization}
     :PROPERTIES:
     :UNNUMBERED: t
@@ -300,6 +303,7 @@ Each year, as part of Formula Student, students design, build and race a single 
 {{{cvtag(Vega/VegaLite)}}}
 {{{cvtag(GraphViz)}}}
 {{{cvtag(Jupyter(Lab))}}}
+{{{cvtag(D3)}}}
 *** \textcolor{accent}{Additional languages}
     :PROPERTIES:
     :UNNUMBERED: t
@@ -307,6 +311,7 @@ Each year, as part of Formula Student, students design, build and race a single 
 \hfill \break
 {{{cvtag(Java)}}}
 {{{cvtag(HTML/CSS)}}}
+{{{cvtag(JavaScript)}}}
 {{{cvtag(Common Lisp)}}}
 {{{cvtag(Bash)}}}
 {{{cvtag(C++)}}}
@@ -318,7 +323,12 @@ Each year, as part of Formula Student, students design, build and race a single 
     :END:
 \hfill \break
 {{{cvtag(Linux)}}}
-{{{cvtag(Git/GitHub)}}}
+{{{cvtag(Windows)}}}
+{{{cvtag(MacOS)}}}
+{{{cvtag(Git)}}}
+{{{cvtag(GitHub)}}}
+{{{cvtag(CI/CD)}}}
+{{{cvtag(Docker)}}}
 {{{cvtag(LaTeX)}}}
 {{{cvtag(Org-mode)}}}
 *** \textcolor{accent}{Areas of expertise}
@@ -326,21 +336,29 @@ Each year, as part of Formula Student, students design, build and race a single 
     :UNNUMBERED: t
     :END:
 \hfill \break
-{{{cvtag(NLP)}}}
-{{{cvtag(ML/AI)}}}
+{{{cvtag(Natural Language Processing)}}}
+{{{cvtag(Machine Learnin)}}}
 {{{cvtag(Semantic web)}}}
-# {{{cvtag(Artificial intelligence)}}}
+{{{cvtag(Artificial intelligence)}}}
+{{{cvtag(Statistics)}}}
 
 ** Education
+*** PhD in CPBS                                                      :ignore:
 {{{cvevent(PhD Candidate in Computational Biosciences, University of Colorado\, Anschutz Medical Campus, 2016 -- Ongoing, Aurora\, Co)}}}
 
-{{{divider}}}
+*** Master of Science                                                :ignore:
+    {{{par-div}}}
 
+{{{cvevent(MS in Biomedical Sciences, University of Colorado\, Anschutz Medical Campus, 2016 --- 2022, Aurora\, CO)}}}
+
+*** Master of Science with footnote                         :ignore:noexport:
+    {{{par-div}}}
 #+BEGIN_EXPORT latex
 \cvevent{\footnote{Awarded if PhD is not completed.} MS in Biomedical Sciences}{University of Colorado\, Anschutz Medical Campus}{2016 --- 2022}{Aurora\, CO}
 #+END_EXPORT
 
-{{{divider}}}
+*** Bachelor of Science                                              :ignore:
+    {{{par-div}}}
 
 {{{cvevent(BS in Applied Mathematics, University of Colorado, 2013 -- 2016,Boulder\, CO)}}}
 # - First Class Honours \\
