@@ -114,7 +114,7 @@
 #+end_export
 ** Experience
 *** PhD Researcher :ignore:
-{{{cvevent(PhD Researcher, University of Colorado\, Anschutz Medical Campus, Aug 2016 -- Aug 2022, Denver\, CO)}}}
+{{{cvevent(PhD Researcher, University of Colorado\, Anschutz Medical Campus, 2016 -- 2022, Aurora\, CO)}}}
 
 Schematization of biological mechanisms using network alignment and computational analogy for hypothesizing about disease mechanisms and their interventions.
 
@@ -124,40 +124,38 @@ Schematization of biological mechanisms using network alignment and computationa
 {{{cvtag(Artificial intelligence)}}}
 {{{cvtag(Biomedical datascience)}}}
 
-*** Teaching Assistant :ignore:noexport:
-{{{par-div}}}
-{{{cvevent(Teaching Assistant, University of Bristol,Sept 2018 -- Ongoing, Bristol\, UK)}}}
-
-Alongside my PhD I have assisted teaching:
-- [[https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?ayrCode=19%2F20&unitCode=COMS30007][Machine Learning COMS30007]]
-  # This course introduced student to probabilistic machine learning: bayesian linear regression, Gaussian processes, probabilistic PCA, Bayesian optimisation.
-- [[https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?ayrCode=19%2F20&unitCode=COMSM0012][Robotic Systems COMSM0012]]
-  # This course introduced student to probabilistic robotics, e.g. particle filtering.
-- [[https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?ayrCode=19/20\&unitCode=EMATM0042][Intelligent Information Systems EMATM0042]]
-
-{{{cvtag(Communication)}}}
-{{{cvtag(Active listening)}}}
-{{{cvtag(Teaching)}}}
-
 ** Projects
+*** LeSS                                                             :ignore:
+
+    {{{cvevent(Least Subsuming Subgraph,,, 2019 -- 2022,)}}}
+
+    - Compare knowledge graphs using structural, semantic, and causal properties.
+    # - Extends analogical reasoning to allow for comparison and generalization.
+    - Can be used for hypothesis generation, cross-disciplinary knowledge transfer, and contextualization of scientific findings
+
+      {{{cvtag(Artificial intelligence)}}}
+      {{{cvtag(Knowledge graphs)}}}
+      {{{cvtag(Algorithm development)}}}
+      {{{cvtag(Analogical reasoning)}}}
+
 *** Knowtator                                                        :ignore:
 
-# {{{cvevent(Investigating Exploration-Exploitation in Multimodal Dynamical Systems (Academic), University of Bristol, May 2021 - Ongoing, Bristol\, UK)}}}
-{{{cvevent(Knowtator: Concept and relation annotation plugin for Protégé, , 2017 - Ongoing, Denver\, CO)}}}
+{{{par-div}}}
+
+{{{cvevent(Knowtator: Concept and relation annotation plugin for Protégé,, 2017 - Ongoing,)}}}
 
 - User-oriented interactions between structured and unstructured data.
 - Interop between ontology development and concept/relation annotation
 
 {{{cvtag(Semantic web)}}}
-{{{cvtag(GUI)}}}
+{{{cvtag(UX/GUI)}}}
+{{{cvtag(Ontology)}}}
 
 *** Dep2Rel                                                          :ignore:
 
-    \n
+{{{par-div}}}
 
-{{{divider}}}
-
-{{{cvevent(Bootstrapped relation extraction using word embeddings and dependency paths, University of Colorado\, Anschutz Medical Campus, 2017 - 2019, Denver\, CO)}}}
+{{{cvevent(Bootstrapped relation extraction using word embeddings and dependency paths,, 2017 -- 2019,)}}}
 
 - Extracting drug-target interactions from full text articles.
 - Creates human-interpretable syntax patterns from dependency paths encoded using word embeddings.
@@ -165,22 +163,6 @@ Alongside my PhD I have assisted teaching:
 
 {{{cvtag(Natural language processing)}}}
 {{{cvtag(Semantic web)}}}
-
-*** LeSS                                                             :ignore:
-
-    \n
-
-{{{divider}}}
-
-    {{{cvevent(Least Subsuming Subgraph algorithm, University of Colorado\, Anschutz Medical Campus, 2019-2022, Denver\, CO)}}}
-
-    - Compare knowledge graphs using structural, semantic, and causal properties.
-    - Extends analogical reasoning to allow for comparison and generalization.
-    - Can be used for hypothesis generation, cross-disciplinary knowledge transfer, and contextualization of scientific findings
-
-      {{{cvtag(Artificial intelligence)}}}
-      {{{cvtag(Knowledge graphs)}}}
-      {{{cvtag(Analogical reasoning)}}}
 
 ** TODO Publications
 #+begin_export latex
@@ -371,17 +353,17 @@ Each year, as part of Formula Student, students design, build and race a single 
 {{{cvtag(Semantic web)}}}
 
 ** Education
-{{{cvevent(PhD Candidate in Computational Biosciences, University of Colorado\, Anschutz Medical Campus, Aug 2016 - Ongoing,)}}}
+{{{cvevent(PhD Candidate in Computational Biosciences, University of Colorado\, Anschutz Medical Campus, 2016 -- Ongoing, Aurora\, Co)}}}
 
 {{{divider}}}
 
 #+BEGIN_EXPORT latex
-\cvevent{\footnote{Awarded if PhD is not completed.} MS in Biomedical Sciences}{University of Colorado\, Anschutz Medical Campus}{Aug 2016 -- Aug 2022}{}
+\cvevent{\footnote{Awarded if PhD is not completed.} MS in Biomedical Sciences}{University of Colorado\, Anschutz Medical Campus}{2016 --- 2022}{Aurora\, CO}
 #+END_EXPORT
 
 {{{divider}}}
 
-{{{cvevent(BS in Applied Mathematics, University of Colorado, Aug 2013 -- May 2016,)}}}
+{{{cvevent(BS in Applied Mathematics, University of Colorado, 2013 -- 2016,Boulder\, CO)}}}
 # - First Class Honours \\
 
 ** Newpage :ignore:noexport:
