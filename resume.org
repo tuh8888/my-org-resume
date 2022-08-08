@@ -100,16 +100,16 @@
 #+begin_export latex
 \begin{paracol}{2}
 #+end_export
-** Personal Statement Secondmind :ignore:noexport:
+** Personal Statement General                               :ignore:
 #+begin_export latex
  \begin{quote}
- ``I am a  graduate from the University of Colorado, Anschutz Medical Campus in the prgram for Computational Bioscience. My work has included developing novel algorithms for symbolic AI and natural language processing. I am a polyglot programmer who enjoys turning difficult problems for people into easy solutions for computers.''
+ ``I am a Computational Bioscience graduate interested in developing software for artificial intelligence, health informatics, and game development. My work has included developing novel algorithms for symbolic AI and natural language processing. I am a polyglot programmer who enjoys turning difficult problems for people into easy solutions for computers.''
  \end{quote}
 #+end_export
-** Personal Statement Amazon :ignore:
+** Personal Statement Reify Health                          :ignore:noexport:
 #+begin_export latex
  \begin{quote}
- ``I am a  graduate from the University of Colorado, Anschutz Medical Campus in the prgram for Computational Bioscience. My work has included developing novel algorithms for symbolic AI and natural language processing. I am a polyglot programmer who enjoys turning difficult problems for people into easy solutions for computers.''
+ ``I am a Computational Bioscience graduate interested in developing software for healthcare, bioinformatics, and clinical applications. My work has included developing novel algorithms for symbolic AI and natural language processing. I am a polyglot programmer who enjoys turning difficult problems for people into easy solutions for computers.''
  \end{quote}
 #+end_export
 ** Experience
@@ -117,6 +117,8 @@
 {{{cvevent(PhD Researcher, University of Colorado\, Anschutz Medical Campus, Aug 2016 -- Aug 2022, Denver\, CO)}}}
 
 Schematization of biological mechanisms using network alignment and computational analogy for hypothesizing about disease mechanisms and their interventions.
+
+- Managed ongoing projects for lab
 
 {{{cvtag(Knowledge-bases)}}}
 {{{cvtag(Artificial intelligence)}}}
@@ -137,28 +139,19 @@ Alongside my PhD I have assisted teaching:
 {{{cvtag(Active listening)}}}
 {{{cvtag(Teaching)}}}
 
-** TODO Publications
-#+begin_export latex
-\nocite{*}
-% \printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
-% \divider
-% \printbibliography[heading=pubtype,title={\printinfo{\faFile*[regular]}{Journal Articles}},type=article]
-% \divider
-\printbibliography[heading=pubtype,title={\printinfo{\faUsers}{Conference Proceedings}},type=inproceedings]
-#+end_export
-
 ** Projects
-*** Knowtator :ignore:
+*** Knowtator                                                        :ignore:
 
 # {{{cvevent(Investigating Exploration-Exploitation in Multimodal Dynamical Systems (Academic), University of Bristol, May 2021 - Ongoing, Bristol\, UK)}}}
-{{{cvevent(Knowtator: Concept and relation annotation plugin for Protégé, University of Colorado\, Anschutz Medical Campus, 2017 - Ongoing, Denver\, CO)}}}
+{{{cvevent(Knowtator: Concept and relation annotation plugin for Protégé, , 2017 - Ongoing, Denver\, CO)}}}
 
 - User-oriented interactions between structured and unstructured data.
+- Interop between ontology development and concept/relation annotation
 
 {{{cvtag(Semantic web)}}}
 {{{cvtag(GUI)}}}
 
-*** Dep2Rel :ignore:
+*** Dep2Rel                                                          :ignore:
 
     \n
 
@@ -188,6 +181,16 @@ Alongside my PhD I have assisted teaching:
       {{{cvtag(Artificial intelligence)}}}
       {{{cvtag(Knowledge graphs)}}}
       {{{cvtag(Analogical reasoning)}}}
+
+** TODO Publications
+#+begin_export latex
+\nocite{*}
+% \printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
+% \divider
+% \printbibliography[heading=pubtype,title={\printinfo{\faFile*[regular]}{Journal Articles}},type=article]
+% \divider
+\printbibliography[heading=pubtype,title={\printinfo{\faUsers}{Conference Proceedings}},type=inproceedings]
+#+end_export
 
 ** Newpage :ignore:
 {{{new-page}}}
@@ -324,28 +327,29 @@ Each year, as part of Formula Student, students design, build and race a single 
 #+end_export
 
 ** Skills
-{{{cvtag(Clojure(script))}}}
+*** \textcolor{accent}{Clojure(script) (6 years)}
+    :PROPERTIES:
+    :UNNUMBERED: t
+    :END:
+\hfill \break
 {{{cvtag(Reagent)}}}
 {{{cvtag(Re-frame)}}}
 {{{cvtag(Rum)}}}
+\hfill \break
 {{{cvtag(Datascript/Datomic)}}}
-
-{{{divider}}}
-
-{{{cvtag(Python)}}}
+*** \textcolor{accent}{Python (10 years)}
+\hfill \break
 {{{cvtag(NumPy)}}}
 {{{cvtag(Pandas)}}}
 {{{cvtag(SciKitLearn)}}}
-
-{{{divider}}}
-
+*** \textcolor{accent}{Data visualization}
+\hfill \break
 {{{cvtag(Matplotlib)}}}
 {{{cvtag(Vega/VegaLite)}}}
 {{{cvtag(GraphViz)}}}
 {{{cvtag(Jupyter(Lab))}}}
-
-{{{divider}}}
-
+*** \textcolor{accent}{Additional languages}
+\hfill \break
 {{{cvtag(Java)}}}
 {{{cvtag(HTML/CSS)}}}
 {{{cvtag(Common Lisp)}}}
@@ -353,23 +357,21 @@ Each year, as part of Formula Student, students design, build and race a single 
 {{{cvtag(C++)}}}
 {{{cvtag(R)}}}
 {{{cvtag(MATLAB)}}}
-
-{{{divider}}}
-
+*** \textcolor{accent}{Development tools}
+\hfill \break
 {{{cvtag(Linux)}}}
 {{{cvtag(Git/GitHub)}}}
 {{{cvtag(LaTeX)}}}
 {{{cvtag(Org-mode)}}}
-
-{{{divider}}}
-
+*** \textcolor{accent}{Areas of expertise}
+\hfill \break
 {{{cvtag(Natural Language Processing)}}}
 {{{cvtag(Artificial intelligence)}}}
 {{{cvtag(Machine Learning)}}}
 {{{cvtag(Semantic web)}}}
 
 ** Education
-{{{cvevent(PhD program in Computational Biosciences, University of Colorado\, Anschutz Medical Campus, Aug 2016 - Aug 2022,)}}}
+{{{cvevent(PhD Candidate in Computational Biosciences, University of Colorado\, Anschutz Medical Campus, Aug 2016 - Ongoing,)}}}
 
 {{{divider}}}
 
@@ -432,7 +434,7 @@ Each year, as part of Formula Student, students design, build and race a single 
 #+end_export
 
 \newpage
-** References
+** References                                                      :noexport:
 #+begin_export latex
 % \cvref{name}{email}{mailing address}
 \cvref{Dr.\ Lawrence Hunter}{University of Colorado}{lawrence.hunter@cuanschutz.edu}
