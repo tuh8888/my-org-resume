@@ -1,7 +1,14 @@
-* Config/Preamble :noexport:
+# #+bibliography: resume.bib
+#+cite_export: biblatex
+
+* Config/Preamble                                                  :noexport:
 ** LaTeX Config
 #+BEGIN_SRC emacs-lisp :exports none  :results none :eval always
+(require 'oc-biblatex)
+(setq org-latex-with-hyperref nil) ;; stop org adding hypersetup{author..} to latex export
+
 (setq org-latex-logfiles-extensions (quote ("lof" "lot" "tex~" "aux" "idx" "log" "out" "toc" "nav" "snm" "vrb" "dvi" "fdb_latexmk" "blg" "brf" "fls" "entoc" "ps" "spl" "bbl" "xmpi" "run.xml" "bcf")))
+
 (add-to-list 'org-latex-classes
              '("altacv" "\\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
 
@@ -59,7 +66,7 @@
 # #+LATEX_HEADER: \usepackage[citestyle=numeric-comp, maxcitenames=1, maxbibnames=4, doi=false, isbn=false, eprint=true, backend=bibtex, hyperref=true, url=false, natbib=true]{biblatex}
 # #+LATEX_HEADER: \usepackage[backend=biber, sorting=nyvt, style=authoryear, firstinits]{biblatex}
 # #+LATEX_HEADER: \usepackage[backend=natbib, giveninits=true]{biblatex}
-#+LATEX_HEADER: \usepackage[style=trad-abbrv,sorting=none,sortcites=true,doi=false,url=false,giveninits=true,hyperref]{biblatex}
+# #+LATEX_HEADER: \usepackage[style=trad-abbrv,sorting=none,sortcites=true,doi=false,url=false,giveninits=true,hyperref]{biblatex}
 
 ** Exporter Settings
 #+AUTHOR: Harrison Pielke-Lombardo
@@ -87,9 +94,9 @@
   \email{harrison.pielke-lombardo@cuanschutz.edu}
   \phone{720 209 6249}
   \location{Denver, CO}
+  \dob{12 May 1995}
   \github{tuh8888}
   \linkedin{tuh8888}
-  \dob{12 May 1995}
 %%   \driving{US Driving Licence
   }
 }
@@ -116,8 +123,7 @@
 *** PhD Researcher :ignore:
 {{{cvevent(PhD Researcher, University of Colorado\, Anschutz Medical Campus, 2016 -- 2022, Aurora\, CO)}}}
 
-Schematization of biological mechanisms using network alignment and computational analogy for hypothesizing about disease mechanisms and their interventions.
-
+- Thesis title: Schematization of biological mechanisms using network alignment and computational analogy for hypothesizing about disease mechanisms and their interventions.
 - Managed ongoing projects for lab
 
 {{{cvtag(Knowledge-bases)}}}
@@ -133,10 +139,10 @@ Schematization of biological mechanisms using network alignment and computationa
     # - Extends analogical reasoning to allow for comparison and generalization.
     - Can be used for hypothesis generation, cross-disciplinary knowledge transfer, and contextualization of scientific findings
 
-      {{{cvtag(Artificial intelligence)}}}
-      {{{cvtag(Knowledge graphs)}}}
-      {{{cvtag(Algorithm development)}}}
-      {{{cvtag(Analogical reasoning)}}}
+      # {{{cvtag(Artificial intelligence)}}}
+      # {{{cvtag(Knowledge graphs)}}}
+      # {{{cvtag(Algorithm development)}}}
+      # {{{cvtag(Analogical reasoning)}}}
 
 *** Knowtator                                                        :ignore:
 
@@ -147,9 +153,9 @@ Schematization of biological mechanisms using network alignment and computationa
 - User-oriented interactions between structured and unstructured data.
 - Interop between ontology development and concept/relation annotation
 
-{{{cvtag(Semantic web)}}}
-{{{cvtag(UX/GUI)}}}
-{{{cvtag(Ontology)}}}
+# {{{cvtag(Semantic web)}}}
+# {{{cvtag(UX/GUI)}}}
+# {{{cvtag(Ontology)}}}
 
 *** Dep2Rel                                                          :ignore:
 
@@ -161,65 +167,23 @@ Schematization of biological mechanisms using network alignment and computationa
 - Creates human-interpretable syntax patterns from dependency paths encoded using word embeddings.
 - Bootstrapped algorithm incorporating GPU accelerated matrix operations for scalability
 
-{{{cvtag(Natural language processing)}}}
-{{{cvtag(Semantic web)}}}
+# {{{cvtag(Natural language processing)}}}
+# {{{cvtag(Semantic web)}}}
 
-** TODO Publications
-#+begin_export latex
-\nocite{*}
-% \printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
-% \divider
-% \printbibliography[heading=pubtype,title={\printinfo{\faFile*[regular]}{Journal Articles}},type=article]
-% \divider
-\printbibliography[heading=pubtype,title={\printinfo{\faUsers}{Conference Proceedings}},type=inproceedings]
-#+end_export
+** Publications                                                    :noexport:
+    #+begin_export latex
+ \nocite{*}
+ % \printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
+ % \divider
+ % \printbibliography[heading=pubtype,title={\printinfo{\faFile*[regular]}{Journal Articles}},type=article]
+ % \divider
+ \printbibliography[heading=none]
+ #+end_export
 
 ** Newpage :ignore:
 {{{new-page}}}
 
-** Projects (Cont.)
-*** Traj Opt :ignore:
-# {{{divider}}}
-
-{{{cvevent(Trajectory Optimisation in Learned Multimodal Dynamical Systems, University of Bristol, Sept 2019 - March 2021, Bristol\, UK)}}}
-
-- Synergising Bayesian inference and Riemannian geometry to control multimodal dynamical systems.
-   # Learning multimodal probabilistic transition dynamics.
-- Finds trajectories that 1) remain in a desired dynamics mode, 2) avoid regions of the dynamics with high epistemic uncertainty.
-- [[https://github.com/aidanscannell/trajectory-optimisation-in-learned-multimodal-dynamical-systems][\faGithub aidanscannell/trajectory-optimisation-in-learned-multimodal-dynamical-systems]]
-# - [[https://www.aidanscannell.com/publication/trajectory-optimisation-in-learned-multimodal-dynamical-systems-via-latent-ode-collocation/paper.pdf][\faBook published @ ICRA 2021]]
-
-{{{cvtag(JAX)}}}
-{{{cvtag(Probabilistic geometries)}}}
-{{{cvtag(Optimal control)}}}
-
-
-*** SVGP :ignore:
-{{{par-div}}}
-
-{{{cvevent(Identifiable Mixtures of Sparse Variational Gaussian Process Experts, University of Bristol, Sept 2018 - Ongoing, Bristol\, UK)}}}
-
-- Improving identifiability and scalability in the Mixtures of Gaussian Process Experts model with GP-based gating networks.
-- Variational inference based on sparse GP approximations.
--  [[https://github.com/aidanscannell/mogpe][\faGithub aidanscannell/mogpe]]
-
-{{{cvtag(GPflow)}}}
-{{{cvtag(TensorFlow)}}}
-{{{cvtag(Gaussian processes)}}}
-{{{cvtag(Variational inference)}}}
-
-*** GPJax :ignore:noexport:
-{{{divider}}}
-
-{{{cvevent(Gaussian Processes in JAX (Code), Emacs, March 2021 - Ongoing, Bristol\, UK)}}}
-
-- Minimal Gaussian process library in JAX with a simple (custom) approach to state management.
-- \faGithub [[https://github.com/aidanscannell/GPJax][aidanscannell/GPJax]]
-
-{{{cvtag(Gaussian processes)}}}
-{{{cvtag(Variational inference)}}}
-{{{cvtag(JAX)}}}
-{{{cvtag(SVGP)}}}
+** Projects (Cont.)                                                :noexport:
 
 ** A day of my life :noexport:
 # #+begin_export latex
@@ -313,24 +277,33 @@ Each year, as part of Formula Student, students design, build and race a single 
     :PROPERTIES:
     :UNNUMBERED: t
     :END:
-\hfill \break
-{{{cvtag(Reagent)}}}
-{{{cvtag(Re-frame)}}}
-{{{cvtag(Rum)}}}
-\hfill \break
-{{{cvtag(Datascript/Datomic)}}}
+    \hfill \break
+    {{{cvtag(Reagent)}}}
+    {{{cvtag(Re-frame)}}}
+    {{{cvtag(Rum)}}}
+    \hfill \break
+    {{{cvtag(Datascript/Datomic)}}}
 *** \textcolor{accent}{Python (10 years)}
+    :PROPERTIES:
+    :UNNUMBERED: t
+    :END:
 \hfill \break
 {{{cvtag(NumPy)}}}
 {{{cvtag(Pandas)}}}
 {{{cvtag(SciKitLearn)}}}
 *** \textcolor{accent}{Data visualization}
+    :PROPERTIES:
+    :UNNUMBERED: t
+    :END:
 \hfill \break
 {{{cvtag(Matplotlib)}}}
 {{{cvtag(Vega/VegaLite)}}}
 {{{cvtag(GraphViz)}}}
 {{{cvtag(Jupyter(Lab))}}}
 *** \textcolor{accent}{Additional languages}
+    :PROPERTIES:
+    :UNNUMBERED: t
+    :END:
 \hfill \break
 {{{cvtag(Java)}}}
 {{{cvtag(HTML/CSS)}}}
@@ -340,17 +313,23 @@ Each year, as part of Formula Student, students design, build and race a single 
 {{{cvtag(R)}}}
 {{{cvtag(MATLAB)}}}
 *** \textcolor{accent}{Development tools}
+    :PROPERTIES:
+    :UNNUMBERED: t
+    :END:
 \hfill \break
 {{{cvtag(Linux)}}}
 {{{cvtag(Git/GitHub)}}}
 {{{cvtag(LaTeX)}}}
 {{{cvtag(Org-mode)}}}
 *** \textcolor{accent}{Areas of expertise}
+    :PROPERTIES:
+    :UNNUMBERED: t
+    :END:
 \hfill \break
-{{{cvtag(Natural Language Processing)}}}
-{{{cvtag(Artificial intelligence)}}}
-{{{cvtag(Machine Learning)}}}
+{{{cvtag(NLP)}}}
+{{{cvtag(ML/AI)}}}
 {{{cvtag(Semantic web)}}}
+# {{{cvtag(Artificial intelligence)}}}
 
 ** Education
 {{{cvevent(PhD Candidate in Computational Biosciences, University of Colorado\, Anschutz Medical Campus, 2016 -- Ongoing, Aurora\, Co)}}}
@@ -435,3 +414,7 @@ Each year, as part of Formula Student, students design, build and race a single 
 \end{paracol}
 \end{document}
 #+end_export
+
+# Local Variables:
+# org-cite-global-bibliography: nil
+# End:
