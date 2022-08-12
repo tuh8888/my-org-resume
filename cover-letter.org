@@ -146,8 +146,8 @@
 **** Skills (list)                                 :ignore:
    \hfill \break
 
-   Below are listed a selection of tools, packages, and concepts which I have experience using or have implemented in my own projects.
-   - Clojure, Clojurescript, Re-Frame, Reagent
+   Below are listed a relevant selection of tools, packages, and concepts which I have experience using or have implemented in my own projects.
+   - Clojure, Clojurescript, Re-Frame, Reagent, Spec
    - Python, Tensorflow, Pandas, Numpy, Scikit-Learn
    - Java, Swing
    - Docker
@@ -157,7 +157,8 @@
    - Git, GitHub, CI/CD
    - AWS
    - Algorithm development
-   - Domain-modeling, FAIR data principles
+   - Domain-modeling
+   - FAIR data principles, Test-Driven-Development
    - Artificial intelligence, machine learning, statistics model optimization/evaluation
    - SQL, SPARQL, RDF, Neo4j, Datomic, Datascript
 
