@@ -143,52 +143,58 @@
 
      As a graduate of this program, I have developed skills in algorithm-development, domain-modeling, data science, machine learning, and artificial intelligence. Now, I am eager to apply what I have learned to solve challenges in the world. I know that your company uses Clojure in its architecture, and I am happy to say that I have been programming in Clojure for 6 years now and consider myself to have expert proficiency. I have contributed to the Clojure ecosystem with a number of my own projects as well as by submitting pull-requests to several open source libraries.
 
-**** Skills (list)                                 :ignore:
-     \hfill \break
-
-     Below are listed a relevant selection of tools, packages, and concepts which I have experience using or have implemented in my own projects.
-     - Clojure, Clojurescript, Re-Frame, Reagent, Spec
-     - Python, Tensorflow, Pandas, Numpy, Scikit-Learn
-     - Java, Swing
-     - Docker
-     - Data visualization, graph/network interaction
-     - Technical communication, API documentation, non-technical explanation,
-     - Inter-disciplinary communication
-     - Git, GitHub, CI/CD
-     - AWS
-     - Algorithm development
-     - Domain-modeling
-     - FAIR data principles, Test-Driven-Development
-     - Artificial intelligence, machine learning, statistics model optimization/evaluation
-     - SQL, SPARQL, RDF, Neo4j, Datomic, Datascript
-
-*** Closing                                                          :ignore:
-    \hfill \break
-
-    I hope that you will consider me in your decision-making process as I would like to contribute my expertise to improving your products as well as learn from your team how to use software to improve the world.
-
-
 ** ThorTech                                                 :ignore:
 
 *** Introduction                                                     :ignore:
 
-    It's hard to say I love healthcare. Certainly, it's one of the most impactful industries and improves nearly every life on the planet. But when you've had loved ones go through the health care system and you see how long it takes to get adequate treatment and how rare it is to get diagnosed or even properly treated, I can't help but think it could be so much better.
+    Certainly, healthcare is one of the most impactful industries and improves nearly every life on the planet.  But it's hard to say I love healthcare. When you've had loved ones go through the healthcare system and you see how long it takes to get adequate treatment and properly diagnosed, I can't help but think it could be so much better.
 
 *** About me                                                         :ignore:
 
     \hfill \break
 
-    To make health care and medicine better is why I've devoted my life to studying computational biomedical systems. As a PhD researcher in a biomedical artificial intelligence laboratory, I've developed systems written exclusively in Clojure to reason about large knowledge graphs of biological mechanisms. This required both domain knowledge of drug-disease pathways as well as computer systems knowledge and algorithm design to handle the large amount of information and computations. In addition, I've built Clojurescript Re-Frame/React-based interactive frontends to visualize and communicate my results with other researchers.
+    Making healthcare and medicine better is why I've devoted my life to studying computational biomedical systems. As a PhD researcher in a biomedical artificial intelligence laboratory, I've developed systems written exclusively in Clojure to reason about large knowledge graphs of biological mechanisms. This required knowledge of drug-disease pathways as well as computer systems knowledge and algorithm design to handle the large amount of information and computations involved. In addition, I've built Clojurescript Re-Frame/React-based interactive frontends to visualize and communicate my results with other researchers.
 
     \hfill \break
 
-    Additionally, I had two major projects relating to natural language processing. The first was a relation extraction approach for identifying drug-target relations from biomedical journal articles. For my second project, I deployed a text annotation tool called Knowtator for developing manually annotated corpora. I released several user-informed feature-releases and it has been used to create the CRAFT corpus which itself is the foundation of several natural language models.
+     I have also worked on two major natural language processing projects. The first was a relation extraction approach for identifying drug-target relations from biomedical journal articles. For my second project, I deployed a text annotation tool, called Knowtator, for developing manually annotated corpora. I released several user-informed feature-releases and it has been used to create the CRAFT corpus which itself is the foundation of several natural language models.
 
-*** Closing                                                          :ignore:
 
-    \hfill \break
+* Skills (list)                                                      :ignore:
 
-    I've come to love writing in clojure, but with an opportunity to also improve health care, working with your client through ThorTech would be a great opportunity. Hopefully this letter and my resume demonstrate that working with me would be an equally great opportunity for you. I look forward to getting to know ThorTech and the client I would be working with. I have references available upon request.
+  \hfill \break
+
+  Below are listed a relevant selection of tools, packages, and concepts which I have experience using or have implemented in my own projects.
+
+** Clojure                                                           :ignore:
+
+  - Clojure, Clojurescript, Re-Frame, Reagent, Spec
+  - Python, Tensorflow, Pandas, Numpy, Scikit-Learn
+  - Java, Swing
+  - Docker
+  - Data visualization, graph/network interaction
+  - Technical communication, API documentation, non-technical explanation,
+  - Inter-disciplinary communication
+  - Git, GitHub, CI/CD
+  - AWS
+  - Algorithm development
+  - Domain-modeling
+  - FAIR data principles, Test-Driven-Development
+  - Artificial intelligence, machine learning, statistics model optimization/evaluation
+  - SQL, SPARQL, RDF, Neo4j, Datomic, Datascript
+
+* Closing                                                            :ignore:
+
+** Reify Health                                             :ignore:noexport:
+   \hfill \break
+
+   I hope that you will consider me in your decision-making process as I would like to contribute my expertise to improving your products as well as learn from your team how to use software to improve the world.
+
+** ThorTech                                                          :ignore:
+
+   \hfill \break
+
+   I've come to love writing in clojure, and believe my biomedical experience makes me a strong candidate for ThorTech and its client(s). Hopefully this letter and my resume demonstrate that working with me would be an equally great opportunity for you. I look forward to getting to know ThorTech and the client I would be working with. I have references available upon request.
 
 
 * Salutation (departure)                                             :ignore:
