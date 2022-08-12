@@ -79,7 +79,9 @@
 #+MACRO: divider \divider
 #+MACRO: par-div \par\divider
 #+MACRO: new-page \newpage
-* CV Header :ignore:
+
+* Header                                                             :ignore:
+
 ** Photo & Tagline :ignore:
 #+begin_export latex
 \name{Harrison Pielke-Lombardo}

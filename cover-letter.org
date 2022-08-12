@@ -1,7 +1,14 @@
-* Config/Preamble :noexport:
+# #+bibliography: resume.bib
+#+cite_export: biblatex
+
+* Config/Preamble                                                  :noexport:
 ** LaTeX Config
 #+BEGIN_SRC emacs-lisp :exports none  :results none :eval always
+(require 'oc-biblatex)
+(setq org-latex-with-hyperref nil) ;; stop org adding hypersetup{author..} to latex export
+
 (setq org-latex-logfiles-extensions (quote ("lof" "lot" "tex~" "aux" "idx" "log" "out" "toc" "nav" "snm" "vrb" "dvi" "fdb_latexmk" "blg" "brf" "fls" "entoc" "ps" "spl" "bbl" "xmpi" "run.xml" "bcf")))
+
 (add-to-list 'org-latex-classes
              '("altacv" "\\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
 
@@ -57,8 +64,9 @@
 #+LATEX_HEADER: \DeclareNameAlias{sortname}{given-family}
 #+LATEX_HEADER: \addbibresource{resume.bib}
 # #+LATEX_HEADER: \usepackage[citestyle=numeric-comp, maxcitenames=1, maxbibnames=4, doi=false, isbn=false, eprint=true, backend=bibtex, hyperref=true, url=false, natbib=true]{biblatex}
+# #+LATEX_HEADER: \usepackage[backend=biber, sorting=nyvt, style=authoryear, firstinits]{biblatex}
 # #+LATEX_HEADER: \usepackage[backend=natbib, giveninits=true]{biblatex}
-#+LATEX_HEADER: \usepackage[style=trad-abbrv,sorting=none,sortcites=true,doi=false,url=false,giveninits=true,hyperref]{biblatex}
+# #+LATEX_HEADER: \usepackage[style=trad-abbrv,sorting=none,sortcites=true,doi=false,url=false,giveninits=true,hyperref]{biblatex}
 
 ** Exporter Settings
 #+AUTHOR: Harrison Pielke-Lombardo
@@ -163,3 +171,7 @@
 #+begin_export latex
 \end{document}
 #+end_export
+
+# Local Variables:
+# org-cite-global-bibliography: nil
+# End:
