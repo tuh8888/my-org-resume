@@ -86,7 +86,7 @@
 ** Photo & Tagline :ignore:
    #+begin_export latex
    \name{Harrison Pielke-Lombardo}
-   \photoR{2.8cm}{Harrison_2015s.jpg}
+   \photoR{2.8cm}{2018-07-01 20.32.16.jpg}
    \tagline{PhD Researcher}
    #+end_export
 
