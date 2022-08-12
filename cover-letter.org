@@ -4,7 +4,7 @@
 
 * Config/Preamble                                                  :noexport:
 ** LaTeX Config
-#+BEGIN_SRC emacs-lisp :exports none  :results none :eval always
+   #+BEGIN_SRC emacs-lisp :exports none  :results none :eval always
 (require 'oc-biblatex)
 (setq org-latex-with-hyperref nil) ;; stop org adding hypersetup{author..} to latex export
 
@@ -56,55 +56,55 @@
         ))
 (require 'ox-extra)
 (ox-extras-activate '(latex-header-blocks ignore-headlines))
-#+END_SRC
-#+LATEX_CLASS: altacv
-#+LATEX_HEADER: \columnratio{0.6} % Set the left/right column width ratio to 6:4.
-#+LATEX_HEADER: \usepackage[bottom]{footmisc}
+   #+END_SRC
+   #+LATEX_CLASS: altacv
+   #+LATEX_HEADER: \columnratio{0.6} % Set the left/right column width ratio to 6:4.
+   #+LATEX_HEADER: \usepackage[bottom]{footmisc}
 *** Bibliography
-# #+LATEX_HEADER: \DeclareNameAlias{sortname}{last-first}
-#+LATEX_HEADER: \DeclareNameAlias{sortname}{given-family}
-#+LATEX_HEADER: \addbibresource{resume.bib}
-# #+LATEX_HEADER: \usepackage[citestyle=numeric-comp, maxcitenames=1, maxbibnames=4, doi=false, isbn=false, eprint=true, backend=bibtex, hyperref=true, url=false, natbib=true]{biblatex}
-# #+LATEX_HEADER: \usepackage[backend=biber, sorting=nyvt, style=authoryear, firstinits]{biblatex}
-# #+LATEX_HEADER: \usepackage[backend=natbib, giveninits=true]{biblatex}
-# #+LATEX_HEADER: \usepackage[style=trad-abbrv,sorting=none,sortcites=true,doi=false,url=false,giveninits=true,hyperref]{biblatex}
+    # #+LATEX_HEADER: \DeclareNameAlias{sortname}{last-first}
+    #+LATEX_HEADER: \DeclareNameAlias{sortname}{given-family}
+    #+LATEX_HEADER: \addbibresource{resume.bib}
+    # #+LATEX_HEADER: \usepackage[citestyle=numeric-comp, maxcitenames=1, maxbibnames=4, doi=false, isbn=false, eprint=true, backend=bibtex, hyperref=true, url=false, natbib=true]{biblatex}
+    # #+LATEX_HEADER: \usepackage[backend=biber, sorting=nyvt, style=authoryear, firstinits]{biblatex}
+    # #+LATEX_HEADER: \usepackage[backend=natbib, giveninits=true]{biblatex}
+    # #+LATEX_HEADER: \usepackage[style=trad-abbrv,sorting=none,sortcites=true,doi=false,url=false,giveninits=true,hyperref]{biblatex}
 
 ** Exporter Settings
-#+AUTHOR: Harrison Pielke-Lombardo
-#+EXPORT_FILE_NAME: ./cover-letter.pdf
-#+OPTIONS: toc:nil title:nil H:1
+   #+AUTHOR: Harrison Pielke-Lombardo
+   #+EXPORT_FILE_NAME: ./cover-letter.pdf
+   #+OPTIONS: toc:nil title:nil H:1
 ** Macros
-#+MACRO: cvevent \cvevent{$1}{$2}{$3}{$4}
-#+MACRO: cvachievement \cvachievement{$1}{$2}{$3}{$4}
-#+MACRO: cvtag \cvtag{$1}
-#+MACRO: divider \divider
-#+MACRO: par-div \par\divider
-#+MACRO: new-page \newpage
+   #+MACRO: cvevent \cvevent{$1}{$2}{$3}{$4}
+   #+MACRO: cvachievement \cvachievement{$1}{$2}{$3}{$4}
+   #+MACRO: cvtag \cvtag{$1}
+   #+MACRO: divider \divider
+   #+MACRO: par-div \par\divider
+   #+MACRO: new-page \newpage
 
 * Header                                                             :ignore:
 
 ** Photo & Tagline :ignore:
-#+begin_export latex
-\name{Harrison Pielke-Lombardo}
-\photoR{2.8cm}{Harrison_2015s.jpg}
-\tagline{PhD Researcher}
-#+end_export
+   #+begin_export latex
+   \name{Harrison Pielke-Lombardo}
+   \photoR{2.8cm}{Harrison_2015s.jpg}
+   \tagline{PhD Researcher}
+   #+end_export
 
 ** Personal Info :ignore:
-#+begin_export latex
-\personalinfo{
- %%  \homepage{www.github.com/tuh8888}
-  \email{harrison.pielke-lombardo@cuanschutz.edu}
-  \phone{720 209 6249}
-%% \location{Denver, CO}
-  \github{tuh8888}
-  \linkedin{tuh8888}
-%%  \dob{12 May 1995}
-%%   \driving{US Driving Licence
-  }
-}
-\makecvheader
-#+end_export
+   #+begin_export latex
+   \personalinfo{
+    %%  \homepage{www.github.com/tuh8888}
+     \email{harrison.pielke-lombardo@cuanschutz.edu}
+     \phone{720 209 6249}
+   %% \location{Denver, CO}
+     \github{tuh8888}
+     \linkedin{tuh8888}
+   %%  \dob{12 May 1995}
+   %%   \driving{US Driving Licence
+     }
+   }
+   \makecvheader
+   #+end_export
 
 ** Contact Info                                                    :noexport:
    - Phone :: (720) - 209 - 6249
@@ -116,7 +116,7 @@
 * Salutation (arrival)                                               :ignore:
 ** Reify Health                                             :ignore:noexport:
 
-  To Reify Health hiring team,
+   To Reify Health hiring team,
 
 ** ThorTech                                                 :ignore:
 
@@ -128,67 +128,67 @@
 ** Reify Health                                             :ignore:noexport:
 *** Introduction                                                     :ignore:
 
-   The opportunity to implement and drive data-oriented software solutions for improving health care that Reify Health presents has attracted me to your job posting. As both a Clojure programmer and a graduate in the field of biomedical sciences, this is the position I have been preparing for.
+    The opportunity to implement and drive data-oriented software solutions for improving health care that Reify Health presents has attracted me to your job posting. As both a Clojure programmer and a graduate in the field of biomedical sciences, this is the position I have been preparing for.
 
 *** About me                                                         :ignore:
 
-   \hfill \break
+    \hfill \break
 
-   There are two areas that have always interested me: software development and biology. Software development, for me, satisfies a creative itch when designing new systems while also being intellectually stimulating when solving domain specific challenges. Biology represents a uniquely complex system to untangle and understand while also being incredibly important to helping the people we know and love. To meet these interests, I have pursued a career in computational biology which lead me to study in the Computational Biosciences Program at the University of Colorado, Anschutz Medical Campus where my thesis research involved developing a method to reason about knowledge graphs of disease mechanisms in order to hypothesize drug treatments.
+    There are two areas that have always interested me: software development and biology. Software development, for me, satisfies a creative itch when designing new systems while also being intellectually stimulating when solving domain specific challenges. Biology represents a uniquely complex system to untangle and understand while also being incredibly important to helping the people we know and love. To meet these interests, I have pursued a career in computational biology which lead me to study in the Computational Biosciences Program at the University of Colorado, Anschutz Medical Campus where my thesis research involved developing a method to reason about knowledge graphs of disease mechanisms in order to hypothesize drug treatments.
 
 *** Skills                                                           :ignore:
-   \hfill \break
+    \hfill \break
 
 **** Skills (paragraph)                                              :ignore:
 
-   As a graduate of this program, I have developed skills in algorithm-development, domain-modeling, data science, machine learning, and artificial intelligence. Now, I am eager to apply what I have learned to solve challenges in the world. I know that your company uses Clojure in its architecture, and I am happy to say that I have been programming in Clojure for 6 years now and consider myself to have expert proficiency. I have contributed to the Clojure ecosystem with a number of my own projects as well as by submitting pull-requests to several open source libraries.
+     As a graduate of this program, I have developed skills in algorithm-development, domain-modeling, data science, machine learning, and artificial intelligence. Now, I am eager to apply what I have learned to solve challenges in the world. I know that your company uses Clojure in its architecture, and I am happy to say that I have been programming in Clojure for 6 years now and consider myself to have expert proficiency. I have contributed to the Clojure ecosystem with a number of my own projects as well as by submitting pull-requests to several open source libraries.
 
 **** Skills (list)                                 :ignore:
-   \hfill \break
+     \hfill \break
 
-   Below are listed a relevant selection of tools, packages, and concepts which I have experience using or have implemented in my own projects.
-   - Clojure, Clojurescript, Re-Frame, Reagent, Spec
-   - Python, Tensorflow, Pandas, Numpy, Scikit-Learn
-   - Java, Swing
-   - Docker
-   - Data visualization, graph/network interaction
-   - Technical communication, API documentation, non-technical explanation,
-   - Inter-disciplinary communication
-   - Git, GitHub, CI/CD
-   - AWS
-   - Algorithm development
-   - Domain-modeling
-   - FAIR data principles, Test-Driven-Development
-   - Artificial intelligence, machine learning, statistics model optimization/evaluation
-   - SQL, SPARQL, RDF, Neo4j, Datomic, Datascript
+     Below are listed a relevant selection of tools, packages, and concepts which I have experience using or have implemented in my own projects.
+     - Clojure, Clojurescript, Re-Frame, Reagent, Spec
+     - Python, Tensorflow, Pandas, Numpy, Scikit-Learn
+     - Java, Swing
+     - Docker
+     - Data visualization, graph/network interaction
+     - Technical communication, API documentation, non-technical explanation,
+     - Inter-disciplinary communication
+     - Git, GitHub, CI/CD
+     - AWS
+     - Algorithm development
+     - Domain-modeling
+     - FAIR data principles, Test-Driven-Development
+     - Artificial intelligence, machine learning, statistics model optimization/evaluation
+     - SQL, SPARQL, RDF, Neo4j, Datomic, Datascript
 
 *** Closing                                                          :ignore:
-  \hfill \break
+    \hfill \break
 
-  I hope that you will consider me in your decision-making process as I would like to contribute my expertise to improving your products as well as learn from your team how to use software to improve the world.
+    I hope that you will consider me in your decision-making process as I would like to contribute my expertise to improving your products as well as learn from your team how to use software to improve the world.
 
 
 ** ThorTech                                                 :ignore:
 
 *** Introduction                                                     :ignore:
 
-It's hard to say I love healthcare. Certainly, it's one of the most impactful industries and improves nearly every life on the planet. But when you've had loved ones go through the health care system and you see how long it takes to get adequate treatment and how rare it is to get diagnosed or even properly treated, I can't help but think it could be so much better.
+    It's hard to say I love healthcare. Certainly, it's one of the most impactful industries and improves nearly every life on the planet. But when you've had loved ones go through the health care system and you see how long it takes to get adequate treatment and how rare it is to get diagnosed or even properly treated, I can't help but think it could be so much better.
 
 *** About me                                                         :ignore:
 
-   \hfill \break
+    \hfill \break
 
-To make health care and medicine better is why I've devoted my life to studying computational biomedical systems. As a PhD researcher in a biomedical artificial intelligence laboratory, I've developed systems written exclusively in Clojure to reason about large knowledge graphs of biological mechanisms. This required both domain knowledge of drug-disease pathways as well as computer systems knowledge and algorithm design to handle the large amount of information and computations. In addition, I've built Clojurescript Re-Frame/React-based interactive frontends to visualize and communicate my results with other researchers.
+    To make health care and medicine better is why I've devoted my life to studying computational biomedical systems. As a PhD researcher in a biomedical artificial intelligence laboratory, I've developed systems written exclusively in Clojure to reason about large knowledge graphs of biological mechanisms. This required both domain knowledge of drug-disease pathways as well as computer systems knowledge and algorithm design to handle the large amount of information and computations. In addition, I've built Clojurescript Re-Frame/React-based interactive frontends to visualize and communicate my results with other researchers.
 
-   \hfill \break
+    \hfill \break
 
-Additionally, I had two major projects relating to natural language processing. The first was a relation extraction approach for identifying drug-target relations from biomedical journal articles. For my second project, I deployed a text annotation tool called Knowtator for developing manually annotated corpora. I released several user-informed feature-releases and it has been used to create the CRAFT corpus which itself is the foundation of several natural language models.
+    Additionally, I had two major projects relating to natural language processing. The first was a relation extraction approach for identifying drug-target relations from biomedical journal articles. For my second project, I deployed a text annotation tool called Knowtator for developing manually annotated corpora. I released several user-informed feature-releases and it has been used to create the CRAFT corpus which itself is the foundation of several natural language models.
 
 *** Closing                                                          :ignore:
 
-   \hfill \break
+    \hfill \break
 
-I've come to love writing in clojure, but with an opportunity to also improve health care, working with your client through ThorTech would be a great opportunity. Hopefully this letter and my resume demonstrate that working with me would be an equally great opportunity for you. I look forward to getting to know ThorTech and the client I would be working with. I have references available upon request.
+    I've come to love writing in clojure, but with an opportunity to also improve health care, working with your client through ThorTech would be a great opportunity. Hopefully this letter and my resume demonstrate that working with me would be an equally great opportunity for you. I look forward to getting to know ThorTech and the client I would be working with. I have references available upon request.
 
 
 * Salutation (departure)                                             :ignore:
@@ -202,10 +202,10 @@ I've come to love writing in clojure, but with an opportunity to also improve he
   Harrison Pielke-Lombardo
 
 * Back Matter                                                        :ignore:
-#+begin_export latex
-\end{document}
-#+end_export
+  #+begin_export latex
+  \end{document}
+  #+end_export
 
-# Local Variables:
-# org-cite-global-bibliography: nil
-# End:
+  # Local Variables:
+  # org-cite-global-bibliography: nil
+  # End:
