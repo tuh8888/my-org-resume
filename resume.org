@@ -1,3 +1,4 @@
+# -*- eval: (pdf-auto-export-mode); -*-
 # #+bibliography: resume.bib
 #+cite_export: biblatex
 

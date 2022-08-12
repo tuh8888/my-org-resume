@@ -1,3 +1,4 @@
+# -*- eval: (pdf-auto-export-mode); -*-
 # #+bibliography: resume.bib
 #+cite_export: biblatex
 
@@ -113,49 +114,57 @@
    - Address :: 1855 N Gaylord St. Apt. 202, Denver, CO, 80206
 
 * Salutation (arrival)                                               :ignore:
+** Reify Health                                                      :ignore:
 
   To Reify Health hiring team,
+
+** ThorTech                                                 :ignore:noexport:
+
+   To ThorTech hiring team,
 
 * Body                                                               :ignore:
   \hfill \break
 
-** Introduction                                                      :ignore:
+** Reify Health                                                      :ignore:
+*** Introduction                                                     :ignore:
 
-  The opportunity to implement and drive data-oriented software solutions for improving health care that your company presents has attracted me to your job posting. As both a Clojure programmer and a graduate in the field of biomedical sciences, this seems like the kind of position I have been preparing for.
+   The opportunity to implement and drive data-oriented software solutions for improving health care that your company presents has attracted me to your job posting. As both a Clojure programmer and a graduate in the field of biomedical sciences, this seems like the kind of position I have been preparing for.
 
-** About me                                                          :ignore:
+*** About me                                                         :ignore:
 
-  \hfill \break
+   \hfill \break
 
-  There are two areas that have always interested me: software development and biology. Software development, for me, satisfies a creative itch when designing new systems while also being intellectually stimulating when solving domain specific challenges. Biology represents a uniquely complex system to untangle and understand while also being incredibly important to helping the people we know and love. To meet these interests, I have pursued a career in computational biology which lead me to study in the Computational Biosciences Program at the University of Colorado, Anschutz Medical Campus where my thesis research involved developing a method to reason about knowledge graphs of disease mechanisms in order to hypothesize drug treatments.
+   There are two areas that have always interested me: software development and biology. Software development, for me, satisfies a creative itch when designing new systems while also being intellectually stimulating when solving domain specific challenges. Biology represents a uniquely complex system to untangle and understand while also being incredibly important to helping the people we know and love. To meet these interests, I have pursued a career in computational biology which lead me to study in the Computational Biosciences Program at the University of Colorado, Anschutz Medical Campus where my thesis research involved developing a method to reason about knowledge graphs of disease mechanisms in order to hypothesize drug treatments.
 
-** Skills                                                            :ignore:
-  \hfill \break
+*** Skills                                                           :ignore:
+   \hfill \break
 
-*** Skills (paragraph)                                               :ignore:
+**** Skills (paragraph)                                              :ignore:
 
-  As a graduate of this program, I have developed skills in algorithm-development, domain-modeling, data science, machine learning, and artificial intelligence. Now, I am eager to apply what I have learned to solve challenges in the world. I know that your company uses Clojure in its architecture, and I am happy to say that I have been programming in Clojure for 6 years now and consider myself to have an expert proficiency. I have contributed to the Clojure ecosystem with a number of my own projects as well as by submitting pull-requests to several open source libraries as well.
+   As a graduate of this program, I have developed skills in algorithm-development, domain-modeling, data science, machine learning, and artificial intelligence. Now, I am eager to apply what I have learned to solve challenges in the world. I know that your company uses Clojure in its architecture, and I am happy to say that I have been programming in Clojure for 6 years now and consider myself to have an expert proficiency. I have contributed to the Clojure ecosystem with a number of my own projects as well as by submitting pull-requests to several open source libraries as well.
 
-*** Skills (list)                                           :ignore:noexport:
-  \hfill \break
+**** Skills (list)                                          :ignore:noexport:
+   \hfill \break
 
-  As a graduate of the Computational Biosciences program at the University of Colorado, Anschutz Medical Campus, I have developed skills in:
-  - algorithm-development
-  - domain-modeling
-  - data science
-  - machine learning
-  - artificial intelligence.
+   As a graduate of the Computational Biosciences program at the University of Colorado, Anschutz Medical Campus, I have developed skills in:
+   - algorithm-development
+   - domain-modeling
+   - data science
+   - machine learning
+   - artificial intelligence.
 
-  I have expert proficiency in several programming languages:
-  - Clojure
-  - Python
-  - Java
+   I have expert proficiency in several programming languages:
+   - Clojure
+   - Python
+   - Java
 
 *** Closing                                                          :ignore:
   \hfill \break
 
   I hope that you will consider me in your decision-making process as I would like to contribute my expertise to improving your products and learning from your team how to use software to improve the world.
 
+
+** ThorTech                                                 :ignore:noexport:
 
 * Salutation (departure)                                             :ignore:
 
