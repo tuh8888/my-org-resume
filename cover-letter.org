@@ -114,18 +114,18 @@
    - Address :: 1855 N Gaylord St. Apt. 202, Denver, CO, 80206
 
 * Salutation (arrival)                                               :ignore:
-** Reify Health                                                      :ignore:
+** Reify Health                                             :ignore:noexport:
 
   To Reify Health hiring team,
 
-** ThorTech                                                 :ignore:noexport:
+** ThorTech                                                 :ignore:
 
    To ThorTech hiring team,
 
 * Body                                                               :ignore:
   \hfill \break
 
-** Reify Health                                                      :ignore:
+** Reify Health                                             :ignore:noexport:
 *** Introduction                                                     :ignore:
 
    The opportunity to implement and drive data-oriented software solutions for improving health care that Reify Health presents has attracted me to your job posting. As both a Clojure programmer and a graduate in the field of biomedical sciences, this is the position I have been preparing for.
@@ -168,7 +168,28 @@
   I hope that you will consider me in your decision-making process as I would like to contribute my expertise to improving your products as well as learn from your team how to use software to improve the world.
 
 
-** ThorTech                                                 :ignore:noexport:
+** ThorTech                                                 :ignore:
+
+*** Introduction                                                     :ignore:
+
+It's hard to say I love healthcare. Certainly, it's one of the most impactful industries and improves nearly every life on the planet. But when you've had loved ones go through the health care system and you see how long it takes to get adequate treatment and how rare it is to get diagnosed or even properly treated, I can't help but think it could be so much better.
+
+*** About me                                                         :ignore:
+
+   \hfill \break
+
+To make health care and medicine better is why I've devoted my life to studying computational biomedical systems. As a PhD researcher in a biomedical artificial intelligence laboratory, I've developed systems written exclusively in Clojure to reason about large knowledge graphs of biological mechanisms. This required both domain knowledge of drug-disease pathways as well as computer systems knowledge and algorithm design to handle the large amount of information and computations. In addition, I've built Clojurescript Re-Frame/React-based interactive frontends to visualize and communicate my results with other researchers.
+
+   \hfill \break
+
+Additionally, I had two major projects relating to natural language processing. The first was a relation extraction approach for identifying drug-target relations from biomedical journal articles. For my second project, I deployed a text annotation tool called Knowtator for developing manually annotated corpora. I released several user-informed feature-releases and it has been used to create the CRAFT corpus which itself is the foundation of several natural language models.
+
+*** Closing                                                          :ignore:
+
+   \hfill \break
+
+I've come to love writing in clojure, but with an opportunity to also improve health care, working with your client through ThorTech would be a great opportunity. Hopefully this letter and my resume demonstrate that working with me would be an equally great opportunity for you. I look forward to getting to know ThorTech and the client I would be working with. I have references available upon request.
+
 
 * Salutation (departure)                                             :ignore:
 
