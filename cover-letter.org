@@ -128,7 +128,7 @@
 ** Reify Health                                                      :ignore:
 *** Introduction                                                     :ignore:
 
-   The opportunity to implement and drive data-oriented software solutions for improving health care that your company presents has attracted me to your job posting. As both a Clojure programmer and a graduate in the field of biomedical sciences, this seems like the kind of position I have been preparing for.
+   The opportunity to implement and drive data-oriented software solutions for improving health care that Reify Health presents has attracted me to your job posting. As both a Clojure programmer and a graduate in the field of biomedical sciences, this is the position I have been preparing for.
 
 *** About me                                                         :ignore:
 
@@ -141,27 +141,30 @@
 
 **** Skills (paragraph)                                              :ignore:
 
-   As a graduate of this program, I have developed skills in algorithm-development, domain-modeling, data science, machine learning, and artificial intelligence. Now, I am eager to apply what I have learned to solve challenges in the world. I know that your company uses Clojure in its architecture, and I am happy to say that I have been programming in Clojure for 6 years now and consider myself to have an expert proficiency. I have contributed to the Clojure ecosystem with a number of my own projects as well as by submitting pull-requests to several open source libraries as well.
+   As a graduate of this program, I have developed skills in algorithm-development, domain-modeling, data science, machine learning, and artificial intelligence. Now, I am eager to apply what I have learned to solve challenges in the world. I know that your company uses Clojure in its architecture, and I am happy to say that I have been programming in Clojure for 6 years now and consider myself to have expert proficiency. I have contributed to the Clojure ecosystem with a number of my own projects as well as by submitting pull-requests to several open source libraries.
 
-**** Skills (list)                                          :ignore:noexport:
+**** Skills (list)                                 :ignore:
    \hfill \break
 
-   As a graduate of the Computational Biosciences program at the University of Colorado, Anschutz Medical Campus, I have developed skills in:
-   - algorithm-development
-   - domain-modeling
-   - data science
-   - machine learning
-   - artificial intelligence.
-
-   I have expert proficiency in several programming languages:
-   - Clojure
-   - Python
-   - Java
+   Below are listed a selection of tools, packages, and concepts which I have experience using or have implemented in my own projects.
+   - Clojure, Clojurescript, Re-Frame, Reagent
+   - Python, Tensorflow, Pandas, Numpy, Scikit-Learn
+   - Java, Swing
+   - Docker
+   - Data visualization, graph/network interaction
+   - Technical communication, API documentation, non-technical explanation,
+   - Inter-disciplinary communication
+   - Git, GitHub, CI/CD
+   - AWS
+   - Algorithm development
+   - Domain-modeling, FAIR data principles
+   - Artificial intelligence, machine learning, statistics model optimization/evaluation
+   - SQL, SPARQL, RDF, Neo4j, Datomic, Datascript
 
 *** Closing                                                          :ignore:
   \hfill \break
 
-  I hope that you will consider me in your decision-making process as I would like to contribute my expertise to improving your products and learning from your team how to use software to improve the world.
+  I hope that you will consider me in your decision-making process as I would like to contribute my expertise to improving your products as well as learn from your team how to use software to improve the world.
 
 
 ** ThorTech                                                 :ignore:noexport:
