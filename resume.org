@@ -278,7 +278,7 @@ Each year, as part of Formula Student, students design, build and race a single 
 #+end_export
 
 ** Skills
-*** \textcolor{accent}{Clojure(script) (6 years)}
+*** \textcolor{accent}{Clojure(script) (6 years)}                  :noexport:
     :PROPERTIES:
     :UNNUMBERED: t
     :END:
