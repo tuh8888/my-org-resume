@@ -365,7 +365,7 @@ Each year, as part of Formula Student, students design, build and race a single 
 *** Master of Science                                                :ignore:
     {{{par-div}}}
 
-{{{cvevent(MS in Biomedical Sciences, University of Colorado\, Anschutz Medical Campus, 2016 --- 2022, Aurora\, CO)}}}
+{{{cvevent(MS in Biomedical Sciences and Biotechnology, University of Colorado\, Anschutz Medical Campus, 2016 --- 2022, Aurora\, CO)}}}
 
 *** Master of Science with footnote                         :ignore:noexport:
     {{{par-div}}}
