@@ -118,12 +118,34 @@
 
    To Reify Health hiring team,
 
-** ThorTech                                                 :ignore:
+** ThorTech                                                 :ignore:noexport:
 
    To ThorTech hiring team,
 
+** Epistemic AI                                                      :ignore:
+
+   To Epistemic AI hiring team,
+
 * Body                                                               :ignore:
   \hfill \break
+
+** Epistemic AI                                    :ignore:
+*** Introduction                                                     :ignore:
+
+    I am excited to discover the opportunity at Epistemic AI for implementing AI and NLP driven software tools for improving biomedical research. My thesis advisor, Lawrence Hunter, who serves as a scientific advisor for Epistemic AI suggested that I would be a good fit for building the type of software you use and solving the types of biomedical problems you solve.
+
+*** About me                                                         :ignore:
+
+    \hfill \break
+
+    There are two areas that have always interested me: software development and biology. Software development, for me, satisfies a creative itch when designing new systems while also being intellectually stimulating when solving domain specific challenges. Biology represents a uniquely complex system to untangle and understand while also being incredibly important to helping the people we know and love. To meet these interests, I have pursued a career in computational biology which lead me to study in the Computational Biosciences Program at the University of Colorado, Anschutz Medical Campus where my thesis research involved developing a method to reason about knowledge graphs of disease mechanisms in order to hypothesize drug treatments.
+
+*** Skills                                                           :ignore:
+    \hfill \break
+
+**** Skills (paragraph)                                              :ignore:
+
+     As a graduate of this program, I have developed skills in algorithm-development, domain-modeling, data science, machine learning, and artificial intelligence. Now, I am eager to apply what I have learned to solve challenges in the world. I have over 7 years of programming experience using programming languages from Python to Java and consider myself to have expert proficiency in them. I have contributed to the open-source ecosystem with a number of my own projects as well as by submitting pull-requests to several other libraries. As a member of our lab, I contributed to our team's diverse suite of tools which use Natural Language Processing and Artificial Intelligence to improve biomedical research. These tools incorporate several modern architectures for handling the large amount of data we use including cloud computing and containerization.
 
 ** Reify Health                                             :ignore:noexport:
 *** Introduction                                                     :ignore:
@@ -143,7 +165,7 @@
 
      As a graduate of this program, I have developed skills in algorithm-development, domain-modeling, data science, machine learning, and artificial intelligence. Now, I am eager to apply what I have learned to solve challenges in the world. I know that your company uses Clojure in its architecture, and I am happy to say that I have been programming in Clojure for 6 years now and consider myself to have expert proficiency. I have contributed to the Clojure ecosystem with a number of my own projects as well as by submitting pull-requests to several open source libraries.
 
-** ThorTech                                                 :ignore:
+** ThorTech                                                 :ignore:noexport:
 
 *** Introduction                                                     :ignore:
 
@@ -166,7 +188,7 @@
 
   Below are listed a relevant selection of tools, packages, and concepts which I have experience using or have implemented in my own projects.
 
-** Clojure                                                           :ignore:
+** Clojure                                                  :ignore:noexport:
 
   - Clojure, Clojurescript, Re-Frame, Reagent, Spec
   - Python, Tensorflow, Pandas, Numpy, Scikit-Learn
@@ -176,26 +198,43 @@
   - Technical communication, API documentation, non-technical explanation,
   - Inter-disciplinary communication
   - Git, GitHub, CI/CD
-  - AWS
+  - AWS, Google BigQuery
   - Algorithm development
-  - Domain-modeling
+  - FAIR data principles, Test-Driven-Development
+  - Artificial intelligence, machine learning, statistics model optimization/evaluation
+  - SQL, SPARQL, RDF, Neo4j, Datomic, Datascript
+
+** AI/NLP                                                            :ignore:
+
+  - Python, Tensorflow, Pandas, Numpy, Scikit-Learn
+  - Java, Swing
+  - Docker
+  - Data visualization, graph/network interaction
+  - Technical communication, API documentation, non-technical explanation,
+  - Inter-disciplinary communication
+  - Git, GitHub, CI/CD
+  - AWS, Google BigQuery
+  - Algorithm development
   - FAIR data principles, Test-Driven-Development
   - Artificial intelligence, machine learning, statistics model optimization/evaluation
   - SQL, SPARQL, RDF, Neo4j, Datomic, Datascript
 
 * Closing                                                            :ignore:
 
-** Reify Health                                             :ignore:noexport:
    \hfill \break
+
+** Reify Health                                             :ignore:noexport:
 
    I hope that you will consider me in your decision-making process as I would like to contribute my expertise to improving your products as well as learn from your team how to use software to improve the world.
 
-** ThorTech                                                          :ignore:
+** ThorTech                                                 :ignore:noexport:
 
-   \hfill \break
 
    I've come to love writing in clojure, and believe my biomedical experience makes me a strong candidate for ThorTech and its client(s). Hopefully this letter and my resume demonstrate that working with me would be an equally great opportunity for you. I look forward to getting to know ThorTech and the client I would be working with. I have references available upon request.
 
+** Epistemic AI                                                      :ignore:
+
+   I hope that you will consider me in your decision-making process as I would like to contribute my expertise in biomedical data science and artificial intelligence to improving your products as well as learn from your team how to use software to improve the world.
 
 * Salutation (departure)                                             :ignore:
 
