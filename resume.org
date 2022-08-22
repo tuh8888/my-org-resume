@@ -294,6 +294,7 @@
     {{{cvtag(NumPy)}}}
     {{{cvtag(Pandas)}}}
     {{{cvtag(scikit-learn)}}}
+    {{{cvtag(NLTK)}}}
 *** \textcolor{accent}{Data visualization}
     :PROPERTIES:
     :UNNUMBERED: t
@@ -317,15 +318,15 @@
     :UNNUMBERED: t
     :END:
     \hfill \break
-    {{{cvtag(Java)}}}
-    {{{cvtag(JavaScript)}}}
+    {{{cvtag(Java (10 years))}}}
+    {{{cvtag(JavaScript (6 years))}}}
     {{{cvtag(Bash)}}}
     {{{cvtag(Common Lisp)}}}
     {{{cvtag(C++)}}}
     {{{cvtag(R)}}}
     {{{cvtag(MATLAB)}}}
     {{{cvtag(HTML/CSS)}}}
-*** \textcolor{accent}{Development tools}
+*** \textcolor{accent}{DevOps}
     :PROPERTIES:
     :UNNUMBERED: t
     :END:
@@ -333,6 +334,8 @@
     {{{cvtag(Git)}}}
     {{{cvtag(GitHub)}}}
     {{{cvtag(CI/CD)}}}
+    {{{cvtag(AWS)}}}
+    {{{cvtag(Kubernetes)}}}
 *** \textcolor{accent}{Areas of expertise}
     :PROPERTIES:
     :UNNUMBERED: t
@@ -344,7 +347,7 @@
     {{{cvtag(Semantic web)}}}
     {{{cvtag(Artificial intelligence)}}}
     {{{cvtag(Domain modelling)}}}
-*** \textcolor{accent}{Big data/Cloud}
+*** \textcolor{accent}{Big data}
     :PROPERTIES:
     :UNNUMBERED: t
     :END:
@@ -352,21 +355,18 @@
     {{{cvtag(SQL)}}}
     {{{cvtag(SPARQL)}}}
     {{{cvtag(RDF)}}}
-    {{{cvtag(AWS)}}}
-    {{{cvtag(Kubernetes)}}}
     {{{cvtag(BigQuery)}}}
-    {{{cvtag(HPC)}}}
     {{{cvtag(Redis)}}}
 
 ** Education
-*** PhD in CPBS                                                      :ignore:
+*** PhD in CPBS                                             :ignore:noexport:
     {{{cvevent(PhD Candidate in Computational Biosciences, University of Colorado\, Anschutz Medical Campus, 2016 -- Ongoing, Aurora\, Co)}}}
 
-*** Master of Science                                                :ignore:
     {{{par-div}}}
 
-    {{{cvevent(MS in Biomedical Sciences, University of Colorado\, Anschutz Medical Campus, 2016 --- 2022, Aurora\, CO)}}}
+*** Master of Science                                                :ignore:
 
+{{{cvevent(MS in Biomedical Sciences and Biotechnology, University of Colorado\, Anschutz Medical Campus, 2016 --- 2022, Aurora\, CO)}}}
 *** Master of Science with footnote                         :ignore:noexport:
     {{{par-div}}}
     #+BEGIN_EXPORT latex
