@@ -4,7 +4,7 @@
 
 * Config/Preamble                                                  :noexport:
 ** LaTeX Config
-#+BEGIN_SRC emacs-lisp :exports none  :results none :eval always
+   #+BEGIN_SRC emacs-lisp :exports none  :results none :eval always
 (require 'oc-biblatex)
 (setq org-latex-with-hyperref nil) ;; stop org adding hypersetup{author..} to latex export
 
@@ -56,85 +56,85 @@
         ))
 (require 'ox-extra)
 (ox-extras-activate '(latex-header-blocks ignore-headlines))
-#+END_SRC
-#+LATEX_CLASS: altacv
-#+LATEX_HEADER: \columnratio{0.6} % Set the left/right column width ratio to 6:4.
-#+LATEX_HEADER: \usepackage[bottom]{footmisc}
+   #+END_SRC
+   #+LATEX_CLASS: altacv
+   #+LATEX_HEADER: \columnratio{0.6} % Set the left/right column width ratio to 6:4.
+   #+LATEX_HEADER: \usepackage[bottom]{footmisc}
 *** Bibliography
-# #+LATEX_HEADER: \DeclareNameAlias{sortname}{last-first}
-#+LATEX_HEADER: \DeclareNameAlias{sortname}{given-family}
-#+LATEX_HEADER: \addbibresource{resume.bib}
-# #+LATEX_HEADER: \usepackage[citestyle=numeric-comp, maxcitenames=1, maxbibnames=4, doi=false, isbn=false, eprint=true, backend=bibtex, hyperref=true, url=false, natbib=true]{biblatex}
-# #+LATEX_HEADER: \usepackage[backend=biber, sorting=nyvt, style=authoryear, firstinits]{biblatex}
-# #+LATEX_HEADER: \usepackage[backend=natbib, giveninits=true]{biblatex}
-# #+LATEX_HEADER: \usepackage[style=trad-abbrv,sorting=none,sortcites=true,doi=false,url=false,giveninits=true,hyperref]{biblatex}
+    # #+LATEX_HEADER: \DeclareNameAlias{sortname}{last-first}
+    #+LATEX_HEADER: \DeclareNameAlias{sortname}{given-family}
+    #+LATEX_HEADER: \addbibresource{resume.bib}
+    # #+LATEX_HEADER: \usepackage[citestyle=numeric-comp, maxcitenames=1, maxbibnames=4, doi=false, isbn=false, eprint=true, backend=bibtex, hyperref=true, url=false, natbib=true]{biblatex}
+    # #+LATEX_HEADER: \usepackage[backend=biber, sorting=nyvt, style=authoryear, firstinits]{biblatex}
+    # #+LATEX_HEADER: \usepackage[backend=natbib, giveninits=true]{biblatex}
+    # #+LATEX_HEADER: \usepackage[style=trad-abbrv,sorting=none,sortcites=true,doi=false,url=false,giveninits=true,hyperref]{biblatex}
 
 ** Exporter Settings
-#+AUTHOR: Harrison Pielke-Lombardo
-#+EXPORT_FILE_NAME: ./resume.pdf
-#+OPTIONS: toc:nil title:nil H:1
+   #+AUTHOR: Harrison Pielke-Lombardo
+   #+EXPORT_FILE_NAME: ./resume.pdf
+   #+OPTIONS: toc:nil title:nil H:1
 ** Macros
-#+MACRO: cvevent \cvevent{$1}{$2}{$3}{$4}
-#+MACRO: cvachievement \cvachievement{$1}{$2}{$3}{$4}
-#+MACRO: cvtag \cvtag{$1}
-#+MACRO: divider \divider
-#+MACRO: par-div \par\divider
-#+MACRO: new-page \newpage
+   #+MACRO: cvevent \cvevent{$1}{$2}{$3}{$4}
+   #+MACRO: cvachievement \cvachievement{$1}{$2}{$3}{$4}
+   #+MACRO: cvtag \cvtag{$1}
+   #+MACRO: divider \divider
+   #+MACRO: par-div \par\divider
+   #+MACRO: new-page \newpage
 
 * Header                                                             :ignore:
 
 ** Photo & Tagline :ignore:
-#+begin_export latex
-\name{Harrison Pielke-Lombardo}
-\photoR{2.8cm}{20220815_110341.jpg}
-\tagline{PhD Researcher}
-#+end_export
+   #+begin_export latex
+   \name{Harrison Pielke-Lombardo}
+   \photoR{2.8cm}{20220815_110341.jpg}
+   \tagline{PhD Researcher}
+   #+end_export
 
 ** Personal Info :ignore:
-#+begin_export latex
-\personalinfo{
- %%  \homepage{www.github.com/tuh8888}
-  \email{harrison.pielke-lombardo@cuanschutz.edu}
-  \phone{720 209 6249}
-  \location{Denver, CO}
-  \dob{12 May 1995}
-  \github{tuh8888}
-  \linkedin{tuh8888}
-%%   \driving{US Driving Licence
-  }
-}
-\makecvheader
-#+end_export
+   #+begin_export latex
+   \personalinfo{
+    %%  \homepage{www.github.com/tuh8888}
+     \email{harrison.pielke-lombardo@cuanschutz.edu}
+     \phone{720 209 6249}
+     \location{Denver, CO}
+     \dob{12 May 1995}
+     \github{tuh8888}
+     \linkedin{tuh8888}
+   %%   \driving{US Driving Licence
+     }
+   }
+   \makecvheader
+   #+end_export
 
 * CV Column 1 :ignore:
-#+begin_export latex
-\begin{paracol}{2}
-#+end_export
+  #+begin_export latex
+  \begin{paracol}{2}
+  #+end_export
 ** Personal Statement General                               :ignore:
-#+begin_export latex
- \begin{quote}
- ``I am a Computational Bioscience graduate interested in developing software for artificial intelligence, health informatics, and game development. My work includes developing novel algorithms for symbolic AI and natural language processing. As a polyglot programmer, I enjoy turning difficult problems for people into easy solutions for computers.''
- \end{quote}
-#+end_export
+   #+begin_export latex
+    \begin{quote}
+    ``I am a Computational Bioscience graduate interested in developing software for artificial intelligence, health informatics, and game development. My work includes developing novel algorithms for symbolic AI and natural language processing. As a polyglot programmer, I enjoy turning difficult problems for people into easy solutions for computers.''
+    \end{quote}
+   #+end_export
 ** Personal Statement Reify Health                          :ignore:noexport:
-#+begin_export latex
- \begin{quote}
- ``I am a Computational Bioscience graduate interested in developing software for healthcare, bioinformatics, and clinical applications. My work has included developing novel algorithms for symbolic AI and natural language processing. I am a polyglot programmer who enjoys turning difficult problems for people into easy solutions for computers.''
- \end{quote}
-#+end_export
+   #+begin_export latex
+    \begin{quote}
+    ``I am a Computational Bioscience graduate interested in developing software for healthcare, bioinformatics, and clinical applications. My work has included developing novel algorithms for symbolic AI and natural language processing. I am a polyglot programmer who enjoys turning difficult problems for people into easy solutions for computers.''
+    \end{quote}
+   #+end_export
 ** Experience
 *** PhD Researcher :ignore:
-{{{cvevent(PhD Researcher, University of Colorado\, Anschutz Medical Campus, 2016 -- 2022, Aurora\, CO)}}}
+    {{{cvevent(PhD Researcher, University of Colorado\, Anschutz Medical Campus, 2016 -- 2022, Aurora\, CO)}}}
 
-- Thesis title: Schematization of biological mechanisms using network alignment and computational analogy for hypothesizing about disease mechanisms and their interventions.
-- Managed multiple, interconnected computational projects across different teams from planning to publication.
-- Communicated with technical and non-technical audiences.
-- Developed interpretable, symbolic artificial intelligence and machine learning methods for identifying drug-targets in text and performing inductive reasoning about drug-disease mechanisms.
-- Maintained sustainable, open software development practices.
+    - Thesis title: Schematization of biological mechanisms using network alignment and computational analogy for hypothesizing about disease mechanisms and their interventions.
+    - Managed multiple, interconnected computational projects across different teams from planning to publication.
+    - Communicated with technical and non-technical audiences.
+    - Developed interpretable, symbolic artificial intelligence and machine learning methods for identifying drug-targets in text and performing inductive reasoning about drug-disease mechanisms.
+    - Maintained sustainable, open software development practices.
 
-{{{cvtag(Knowledge graphs)}}}
-{{{cvtag(Artificial intelligence)}}}
-{{{cvtag(Biomedical data science)}}}
+    {{{cvtag(Knowledge graphs)}}}
+    {{{cvtag(Artificial intelligence)}}}
+    {{{cvtag(Biomedical data science)}}}
 
 ** Projects
 *** LeSS                                                             :ignore:
@@ -151,131 +151,131 @@
 
 *** Knowtator                                                        :ignore:
 
-{{{par-div}}}
+    {{{par-div}}}
 
-{{{cvevent(Knowtator: Concept/relation annotation for Protégé,,,)}}}
+    {{{cvevent(Knowtator: Concept/relation annotation for Protégé,,,)}}}
 
-- Deployed a WYSIWYG plugin for ontology development and text annotation that includes interactive graph visualization for textual features.
-- Incorporated user feedback  in several feature updates.
+    - Deployed a WYSIWYG plugin for ontology development and text annotation that includes interactive graph visualization for textual features.
+    - Incorporated user feedback  in several feature updates.
 
-# {{{cvtag(Semantic web)}}}
-# {{{cvtag(UX/GUI)}}}
-# {{{cvtag(Ontology)}}}
+    # {{{cvtag(Semantic web)}}}
+    # {{{cvtag(UX/GUI)}}}
+    # {{{cvtag(Ontology)}}}
 
 *** Dep2Rel                                                          :ignore:
 
-{{{par-div}}}
+    {{{par-div}}}
 
-{{{cvevent(Bootstrapped relation extraction using word embeddings and dependency paths,,,)}}}
+    {{{cvevent(Bootstrapped relation extraction using word embeddings and dependency paths,,,)}}}
 
-- Developed a novel bootstrapping relation extraction approach in Clojure that creates human-interpretable syntax patterns from dependency paths and word embeddings
-- Performance optimized with GPU accelerated matrix operations.
-- Evaluated the approach on a large corpus of biomedical text on its ability to identify drug-target relationships.
+    - Developed a novel bootstrapping relation extraction approach in Clojure that creates human-interpretable syntax patterns from dependency paths and word embeddings
+    - Performance optimized with GPU accelerated matrix operations.
+    - Evaluated the approach on a large corpus of biomedical text on its ability to identify drug-target relationships.
 
-# {{{cvtag(Natural language processing)}}}
-# {{{cvtag(Semantic web)}}}
+    # {{{cvtag(Natural language processing)}}}
+    # {{{cvtag(Semantic web)}}}
 
 ** Publications                                                    :noexport:
-    #+begin_export latex
- \nocite{*}
- % \printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
- % \divider
- % \printbibliography[heading=pubtype,title={\printinfo{\faFile*[regular]}{Journal Articles}},type=article]
- % \divider
- \printbibliography[heading=none]
- #+end_export
+   #+begin_export latex
+\nocite{*}
+% \printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
+% \divider
+% \printbibliography[heading=pubtype,title={\printinfo{\faFile*[regular]}{Journal Articles}},type=article]
+% \divider
+\printbibliography[heading=none]
+#+end_export
 
 ** Newpage :ignore:
-{{{new-page}}}
+   {{{new-page}}}
 
 ** Projects (Cont.)                                                :noexport:
 
 ** A day of my life :noexport:
-# #+begin_export latex
-# % \medskip
+   # #+begin_export latex
+   # % \medskip
 
-# % \cvsection{A Day of My Life}
+   # % \cvsection{A Day of My Life}
 
-# % % Adapted from @Jake's answer from http://tex.stackexchange.com/a/82729/226
-# % % \wheelchart{outer radius}{inner radius}{
-# % % comma-separated list of value/text width/color/detail}
-# % \wheelchart{1.5cm}{0.5cm}{%
-# %   6/8em/accent!30/{Sleep,\\beautiful sleep},
-# %   3/8em/accent!40/Hopeful novelist by night,
-# %   8/8em/accent!60/Daytime job,
-# %   2/10em/accent/Sports and relaxation,
-# %   5/6em/accent!20/Spending time with family
-# % }
+   # % % Adapted from @Jake's answer from http://tex.stackexchange.com/a/82729/226
+   # % % \wheelchart{outer radius}{inner radius}{
+   # % % comma-separated list of value/text width/color/detail}
+   # % \wheelchart{1.5cm}{0.5cm}{%
+   # %   6/8em/accent!30/{Sleep,\\beautiful sleep},
+   # %   3/8em/accent!40/Hopeful novelist by night,
+   # %   8/8em/accent!60/Daytime job,
+   # %   2/10em/accent/Sports and relaxation,
+   # %   5/6em/accent!20/Spending time with family
+   # % }
 
-# % % use ONLY \newpage if you want to force a page break for
-# % % ONLY the current column
-# % \newpage
-# #+end_export
+   # % % use ONLY \newpage if you want to force a page break for
+   # % % ONLY the current column
+   # % \newpage
+   # #+end_export
 
 ** Newpage :ignore:noexport:
-{{{new-page}}}
+   {{{new-page}}}
 
 ** Volunteering                                                    :noexport:
 *** FARSCOPE Course Rep :ignore:
-{{{cvevent(Cohort Representative, FARSCOPE CDT, Sept 2018 - Ongoing, Bristol\, UK)}}}
-# - I represent myself and fellow CDT students in management meetings where I communicate ideas and information between students and management.
-- Represent myself and my CDT peers in management meetings.
-- Communicate information between students and management.
+    {{{cvevent(Cohort Representative, FARSCOPE CDT, Sept 2018 - Ongoing, Bristol\, UK)}}}
+    # - I represent myself and fellow CDT students in management meetings where I communicate ideas and information between students and management.
+    - Represent myself and my CDT peers in management meetings.
+    - Communicate information between students and management.
 
-{{{cvtag(Communication)}}}
-{{{cvtag(Interpersonal Skills)}}}
+    {{{cvtag(Communication)}}}
+    {{{cvtag(Interpersonal Skills)}}}
 
-{{{par-div}}}
+    {{{par-div}}}
 
 *** Code Club :ignore:
-{{{cvevent(Club Leader, Code Club, Dec 2017 - April 2018, Junction 3 Library\, Bristol \, UK)}}}
+    {{{cvevent(Club Leader, Code Club, Dec 2017 - April 2018, Junction 3 Library\, Bristol \, UK)}}}
 
-# - I collaborated with [[https://codeclub.org/en/][Code Club]] and Bristol Libraries to set up and run a Code Club for young people aged 9-13.
-# - Demonstrating my abi involved organising,  planning lessons and teaching
-- Set up (and then ran) a [[https://codeclub.org/en/][Code Club]] for children aged 9-13.
-- Led the organisation, planning and teaching of weekly lessons.
-- Planned lessons to engage children by making coding fun.
-- Extremely rewarding and reinforced my love for teaching.
-# - @ Junction 3 Library in Easton, Bristol.
+    # - I collaborated with [[https://codeclub.org/en/][Code Club]] and Bristol Libraries to set up and run a Code Club for young people aged 9-13.
+    # - Demonstrating my abi involved organising,  planning lessons and teaching
+    - Set up (and then ran) a [[https://codeclub.org/en/][Code Club]] for children aged 9-13.
+    - Led the organisation, planning and teaching of weekly lessons.
+    - Planned lessons to engage children by making coding fun.
+    - Extremely rewarding and reinforced my love for teaching.
+    # - @ Junction 3 Library in Easton, Bristol.
 
-{{{cvtag(Leadership)}}}
-{{{cvtag(Teaching)}}}
-{{{cvtag(Communication)}}}
-{{{cvtag(Active listening)}}}
+    {{{cvtag(Leadership)}}}
+    {{{cvtag(Teaching)}}}
+    {{{cvtag(Communication)}}}
+    {{{cvtag(Active listening)}}}
 
 *** Drivetrain :ignore:noexport:
-{{{par-div}}}
+    {{{par-div}}}
 
-{{{cvevent(Technical Lead (Drivetrain), Formula Student, Jan 2015 - Jan 2016, Bristol\, UK)}}}
+    {{{cvevent(Technical Lead (Drivetrain), Formula Student, Jan 2015 - Jan 2016, Bristol\, UK)}}}
 
-Each year, as part of Formula Student, students design, build and race a single seat race car.
-- Finished 2nd in the National Class 2 competition in 2013/2014, I was then selected as the Drivetrain lead.
-- This role improved my communication skills as I was leading weekly presentations.
-- I developed my leadership skills through setting realistic objectives, effectively allocating work to the appropriate team members and monitoring outcomes.
+    Each year, as part of Formula Student, students design, build and race a single seat race car.
+    - Finished 2nd in the National Class 2 competition in 2013/2014, I was then selected as the Drivetrain lead.
+    - This role improved my communication skills as I was leading weekly presentations.
+    - I developed my leadership skills through setting realistic objectives, effectively allocating work to the appropriate team members and monitoring outcomes.
 
-{{{cvtag(Teamwork)}}}
-{{{cvtag(Leadership)}}}
-{{{cvtag(Time Management)}}}
+    {{{cvtag(Teamwork)}}}
+    {{{cvtag(Leadership)}}}
+    {{{cvtag(Time Management)}}}
 
 *** Snowboard Captain :ignore:noexport:
-{{{par-div}}}
+    {{{par-div}}}
 
-{{{cvevent(Snowboard Captain, University of Bristol Snowsports Club, Jan 2014 - Sept 2015, Bristol\, UK)}}}
+    {{{cvevent(Snowboard Captain, University of Bristol Snowsports Club, Jan 2014 - Sept 2015, Bristol\, UK)}}}
 
-- Organised multiple weekly training sessions, demonstrating my ability to plan and run events smoothly.
-- Negotiated competitive prices for a growing member base within an inherently expensive sport.
-- Responsible for aiding the smooth running of the club and helping to organise the annual university ski trip, with circa 1500 participants, working under pressure to manage people in high stress situations.
-- Awarded the ‘Team of the Year’ award and full colours for my performances and contributions to the sport.
+    - Organised multiple weekly training sessions, demonstrating my ability to plan and run events smoothly.
+    - Negotiated competitive prices for a growing member base within an inherently expensive sport.
+    - Responsible for aiding the smooth running of the club and helping to organise the annual university ski trip, with circa 1500 participants, working under pressure to manage people in high stress situations.
+    - Awarded the ‘Team of the Year’ award and full colours for my performances and contributions to the sport.
 
-{{{cvtag(Teamwork)}}}
-{{{cvtag(Leadership)}}}
-{{{cvtag(Time Management)}}}
+    {{{cvtag(Teamwork)}}}
+    {{{cvtag(Leadership)}}}
+    {{{cvtag(Time Management)}}}
 
 * CV Column 2                                                        :ignore:
-# Switch to the right column - will automatically move to the next page.
-#+begin_export latex
-\switchcolumn
-#+end_export
+  # Switch to the right column - will automatically move to the next page.
+  #+begin_export latex
+  \switchcolumn
+  #+end_export
 
 ** Skills
 *** \textcolor{accent}{Clojure(script) (6 years)}
@@ -290,168 +290,168 @@ Each year, as part of Formula Student, students design, build and race a single 
     :PROPERTIES:
     :UNNUMBERED: t
     :END:
-\hfill \break
-{{{cvtag(NumPy)}}}
-{{{cvtag(Pandas)}}}
-{{{cvtag(scikit-learn)}}}
+    \hfill \break
+    {{{cvtag(NumPy)}}}
+    {{{cvtag(Pandas)}}}
+    {{{cvtag(scikit-learn)}}}
 *** \textcolor{accent}{Data visualization}
     :PROPERTIES:
     :UNNUMBERED: t
     :END:
-\hfill \break
-{{{cvtag(Matplotlib)}}}
-{{{cvtag(Vega)}}}
-{{{cvtag(GraphViz)}}}
-{{{cvtag(D3)}}}
+    \hfill \break
+    {{{cvtag(Matplotlib)}}}
+    {{{cvtag(Vega)}}}
+    {{{cvtag(GraphViz)}}}
+    {{{cvtag(D3)}}}
 *** \textcolor{accent}{Communication}
     :PROPERTIES:
     :UNNUMBERED: t
     :END:
-\hfill \break
-{{{cvtag(Jupyter(Lab))}}}
-{{{cvtag(LaTeX)}}}
-{{{cvtag(RMarkdown)}}}
+    \hfill \break
+    {{{cvtag(Jupyter(Lab))}}}
+    {{{cvtag(LaTeX)}}}
+    {{{cvtag(RMarkdown)}}}
 
 *** \textcolor{accent}{Additional languages}
     :PROPERTIES:
     :UNNUMBERED: t
     :END:
-\hfill \break
-{{{cvtag(Java)}}}
-{{{cvtag(JavaScript)}}}
-{{{cvtag(Bash)}}}
-{{{cvtag(Common Lisp)}}}
-{{{cvtag(C++)}}}
-{{{cvtag(R)}}}
-{{{cvtag(MATLAB)}}}
-{{{cvtag(HTML/CSS)}}}
+    \hfill \break
+    {{{cvtag(Java)}}}
+    {{{cvtag(JavaScript)}}}
+    {{{cvtag(Bash)}}}
+    {{{cvtag(Common Lisp)}}}
+    {{{cvtag(C++)}}}
+    {{{cvtag(R)}}}
+    {{{cvtag(MATLAB)}}}
+    {{{cvtag(HTML/CSS)}}}
 *** \textcolor{accent}{Development tools}
     :PROPERTIES:
     :UNNUMBERED: t
     :END:
-\hfill \break
-{{{cvtag(Git)}}}
-{{{cvtag(GitHub)}}}
-{{{cvtag(CI/CD)}}}
+    \hfill \break
+    {{{cvtag(Git)}}}
+    {{{cvtag(GitHub)}}}
+    {{{cvtag(CI/CD)}}}
 *** \textcolor{accent}{Areas of expertise}
     :PROPERTIES:
     :UNNUMBERED: t
     :END:
-\hfill \break
-{{{cvtag(Natural Language Processing)}}}
-{{{cvtag(Statistics)}}}
-{{{cvtag(Machine Learning)}}}
-{{{cvtag(Semantic web)}}}
-{{{cvtag(Artificial intelligence)}}}
-{{{cvtag(Domain modelling)}}}
+    \hfill \break
+    {{{cvtag(Natural Language Processing)}}}
+    {{{cvtag(Statistics)}}}
+    {{{cvtag(Machine Learning)}}}
+    {{{cvtag(Semantic web)}}}
+    {{{cvtag(Artificial intelligence)}}}
+    {{{cvtag(Domain modelling)}}}
 *** \textcolor{accent}{Big data/Cloud}
     :PROPERTIES:
     :UNNUMBERED: t
     :END:
-\hfill \break
-{{{cvtag(SQL)}}}
-{{{cvtag(SPARQL)}}}
-{{{cvtag(RDF)}}}
-{{{cvtag(AWS)}}}
-{{{cvtag(Kubernetes)}}}
-{{{cvtag(BigQuery)}}}
-{{{cvtag(HPC)}}}
-{{{cvtag(Redis)}}}
+    \hfill \break
+    {{{cvtag(SQL)}}}
+    {{{cvtag(SPARQL)}}}
+    {{{cvtag(RDF)}}}
+    {{{cvtag(AWS)}}}
+    {{{cvtag(Kubernetes)}}}
+    {{{cvtag(BigQuery)}}}
+    {{{cvtag(HPC)}}}
+    {{{cvtag(Redis)}}}
 
 ** Education
 *** PhD in CPBS                                                      :ignore:
-{{{cvevent(PhD Candidate in Computational Biosciences, University of Colorado\, Anschutz Medical Campus, 2016 -- Ongoing, Aurora\, Co)}}}
+    {{{cvevent(PhD Candidate in Computational Biosciences, University of Colorado\, Anschutz Medical Campus, 2016 -- Ongoing, Aurora\, Co)}}}
 
 *** Master of Science                                                :ignore:
     {{{par-div}}}
 
-{{{cvevent(MS in Biomedical Sciences, University of Colorado\, Anschutz Medical Campus, 2016 --- 2022, Aurora\, CO)}}}
+    {{{cvevent(MS in Biomedical Sciences, University of Colorado\, Anschutz Medical Campus, 2016 --- 2022, Aurora\, CO)}}}
 
 *** Master of Science with footnote                         :ignore:noexport:
     {{{par-div}}}
-#+BEGIN_EXPORT latex
-\cvevent{\footnote{Awarded if PhD is not completed.} MS in Biomedical Sciences}{University of Colorado\, Anschutz Medical Campus}{2016 --- 2022}{Aurora\, CO}
-#+END_EXPORT
+    #+BEGIN_EXPORT latex
+    \cvevent{\footnote{Awarded if PhD is not completed.} MS in Biomedical Sciences}{University of Colorado\, Anschutz Medical Campus}{2016 --- 2022}{Aurora\, CO}
+    #+END_EXPORT
 
 *** Bachelor of Science                                              :ignore:
     {{{par-div}}}
 
-{{{cvevent(BS in Applied Mathematics, University of Colorado, 2013 -- 2016,Boulder\, CO)}}}
-# - First Class Honours \\
+    {{{cvevent(BS in Applied Mathematics, University of Colorado, 2013 -- 2016,Boulder\, CO)}}}
+    # - First Class Honours \\
 
 ** Note
    References available upon request. Please see my GitHub page (@tuh8888) for my software projects as well as my contributions to various open-source projects.
 
 ** Newpage :ignore:noexport:
-#+BEGIN_EXPORT latex
-\newpage
-#+END_EXPORT
+   #+BEGIN_EXPORT latex
+   \newpage
+   #+END_EXPORT
 
 ** My Life Philosophy :noexport:
-#+begin_export latex
-% \begin{quote}
-% ``Something smart or heartfelt, preferably in one sentence.''
-% \end{quote}
-#+end_export
+   #+begin_export latex
+   % \begin{quote}
+   % ``Something smart or heartfelt, preferably in one sentence.''
+   % \end{quote}
+   #+end_export
 
 ** Achievements :noexport:
-{{{cvachievement(\faTrophy, Full Sporting Colours, Awarded full colours for outstanding achievements in snowboarding. Multiple gold medals in British University Snowboard Championships.)}}}
+   {{{cvachievement(\faTrophy, Full Sporting Colours, Awarded full colours for outstanding achievements in snowboarding. Multiple gold medals in British University Snowboard Championships.)}}}
 
-{{{divider}}}
+   {{{divider}}}
 
-{{{cvachievement(\faCertificate, Starting To Teach, Established myself as a confident\, enthusiastic and effective teacher who is able to engage\, encourage and develop students' learning.)}}}
+   {{{cvachievement(\faCertificate, Starting To Teach, Established myself as a confident\, enthusiastic and effective teacher who is able to engage\, encourage and develop students' learning.)}}}
 
-{{{divider}}}
+   {{{divider}}}
 
-{{{cvachievement(\faTrophy,Bristol Plus Award, For undertaking a wide range of tasks to further enhance student skills - only 700 out of 23\,000 achieved this award per annum.)}}}
+   {{{cvachievement(\faTrophy,Bristol Plus Award, For undertaking a wide range of tasks to further enhance student skills - only 700 out of 23\,000 achieved this award per annum.)}}}
 
-{{{divider}}}
+   {{{divider}}}
 
-{{{cvachievement(\faCertificate, Mary Jones Prize for Mathematics, For outstanding achievements in A Level mathematics @ Ripon Grammar School)}}}
+   {{{cvachievement(\faCertificate, Mary Jones Prize for Mathematics, For outstanding achievements in A Level mathematics @ Ripon Grammar School)}}}
 
-{{{divider}}}
+   {{{divider}}}
 
-{{{cvachievement(\faTrophy, The Duke of Edinburgh's Award, Bronze/Silver/Gold)}}}
+   {{{cvachievement(\faTrophy, The Duke of Edinburgh's Award, Bronze/Silver/Gold)}}}
 
 ** Languages :noexport:
-#+begin_export latex
-% \cvsection{Languages}
+   #+begin_export latex
+   % \cvsection{Languages}
 
-% \cvskill{English}{5}
-% \divider
+   % \cvskill{English}{5}
+   % \divider
 
-% \cvskill{Spanish}{4}
-% \divider
+   % \cvskill{Spanish}{4}
+   % \divider
 
-% \cvskill{German}{3}
+   % \cvskill{German}{3}
 
-% %% Yeah I didn't spend too much time making all the
-% %% spacing consistent... sorry. Use \smallskip, \medskip,
-% %% \bigskip, \vpsace etc to make ajustments.
-% \medskip
-#+end_export
+   % %% Yeah I didn't spend too much time making all the
+   % %% spacing consistent... sorry. Use \smallskip, \medskip,
+   % %% \bigskip, \vpsace etc to make ajustments.
+   % \medskip
+   #+end_export
 
-\newpage
+   \newpage
 ** References                                                      :noexport:
-#+begin_export latex
-% \cvref{name}{email}{mailing address}
-\cvref{Dr.\ Lawrence Hunter}{University of Colorado}{lawrence.hunter@cuanschutz.edu}
-% {Address Line 1\\Address line 2}
-#+end_export
-- Thesis advisor
-{{{divider}}}
-#+begin_export latex
-\cvref{Dr.\ James Costello}{University of Colorado}{james.costello@cuanschutz.edu}
-% {Address Line 1\\Address line 2}
-#+end_export
-- Committee chair
+   #+begin_export latex
+   % \cvref{name}{email}{mailing address}
+   \cvref{Dr.\ Lawrence Hunter}{University of Colorado}{lawrence.hunter@cuanschutz.edu}
+   % {Address Line 1\\Address line 2}
+   #+end_export
+   - Thesis advisor
+   {{{divider}}}
+   #+begin_export latex
+   \cvref{Dr.\ James Costello}{University of Colorado}{james.costello@cuanschutz.edu}
+   % {Address Line 1\\Address line 2}
+   #+end_export
+   - Committee chair
 
 * Back Matter :ignore:
-#+begin_export latex
-\end{paracol}
-\end{document}
-#+end_export
+  #+begin_export latex
+  \end{paracol}
+  \end{document}
+  #+end_export
 
-# Local Variables:
-# org-cite-global-bibliography: nil
-# End:
+  # Local Variables:
+  # org-cite-global-bibliography: nil
+  # End:

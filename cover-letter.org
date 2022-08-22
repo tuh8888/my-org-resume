@@ -4,7 +4,7 @@
 
 * Config/Preamble                                                  :noexport:
 ** LaTeX Config
-#+BEGIN_SRC emacs-lisp :exports none  :results none :eval always
+   #+BEGIN_SRC emacs-lisp :exports none  :results none :eval always
 (require 'oc-biblatex)
 (setq org-latex-with-hyperref nil) ;; stop org adding hypersetup{author..} to latex export
 
@@ -56,30 +56,30 @@
         ))
 (require 'ox-extra)
 (ox-extras-activate '(latex-header-blocks ignore-headlines))
-#+END_SRC
-#+LATEX_CLASS: altacv
-#+LATEX_HEADER: \columnratio{0.6} % Set the left/right column width ratio to 6:4.
-#+LATEX_HEADER: \usepackage[bottom]{footmisc}
+   #+END_SRC
+   #+LATEX_CLASS: altacv
+   #+LATEX_HEADER: \columnratio{0.6} % Set the left/right column width ratio to 6:4.
+   #+LATEX_HEADER: \usepackage[bottom]{footmisc}
 *** Bibliography
-# #+LATEX_HEADER: \DeclareNameAlias{sortname}{last-first}
-#+LATEX_HEADER: \DeclareNameAlias{sortname}{given-family}
-#+LATEX_HEADER: \addbibresource{resume.bib}
-# #+LATEX_HEADER: \usepackage[citestyle=numeric-comp, maxcitenames=1, maxbibnames=4, doi=false, isbn=false, eprint=true, backend=bibtex, hyperref=true, url=false, natbib=true]{biblatex}
-# #+LATEX_HEADER: \usepackage[backend=biber, sorting=nyvt, style=authoryear, firstinits]{biblatex}
-# #+LATEX_HEADER: \usepackage[backend=natbib, giveninits=true]{biblatex}
-# #+LATEX_HEADER: \usepackage[style=trad-abbrv,sorting=none,sortcites=true,doi=false,url=false,giveninits=true,hyperref]{biblatex}
+    # #+LATEX_HEADER: \DeclareNameAlias{sortname}{last-first}
+    #+LATEX_HEADER: \DeclareNameAlias{sortname}{given-family}
+    #+LATEX_HEADER: \addbibresource{resume.bib}
+    # #+LATEX_HEADER: \usepackage[citestyle=numeric-comp, maxcitenames=1, maxbibnames=4, doi=false, isbn=false, eprint=true, backend=bibtex, hyperref=true, url=false, natbib=true]{biblatex}
+    # #+LATEX_HEADER: \usepackage[backend=biber, sorting=nyvt, style=authoryear, firstinits]{biblatex}
+    # #+LATEX_HEADER: \usepackage[backend=natbib, giveninits=true]{biblatex}
+    # #+LATEX_HEADER: \usepackage[style=trad-abbrv,sorting=none,sortcites=true,doi=false,url=false,giveninits=true,hyperref]{biblatex}
 
 ** Exporter Settings
-#+AUTHOR: Harrison Pielke-Lombardo
-#+EXPORT_FILE_NAME: ./cover-letter.pdf
-#+OPTIONS: toc:nil title:nil H:1
+   #+AUTHOR: Harrison Pielke-Lombardo
+   #+EXPORT_FILE_NAME: ./cover-letter.pdf
+   #+OPTIONS: toc:nil title:nil H:1
 ** Macros
-#+MACRO: cvevent \cvevent{$1}{$2}{$3}{$4}
-#+MACRO: cvachievement \cvachievement{$1}{$2}{$3}{$4}
-#+MACRO: cvtag \cvtag{$1}
-#+MACRO: divider \divider
-#+MACRO: par-div \par\divider
-#+MACRO: new-page \newpage
+   #+MACRO: cvevent \cvevent{$1}{$2}{$3}{$4}
+   #+MACRO: cvachievement \cvachievement{$1}{$2}{$3}{$4}
+   #+MACRO: cvtag \cvtag{$1}
+   #+MACRO: divider \divider
+   #+MACRO: par-div \par\divider
+   #+MACRO: new-page \newpage
 
 * Header                                                             :ignore:
 
@@ -91,20 +91,20 @@
    #+end_export
 
 ** Personal Info :ignore:
-#+begin_export latex
-\personalinfo{
- %%  \homepage{www.github.com/tuh8888}
-  \email{harrison.pielke-lombardo@cuanschutz.edu}
-  \phone{720 209 6249}
-%% \location{Denver, CO}
-  \github{tuh8888}
-  \linkedin{tuh8888}
-%%  \dob{12 May 1995}
-%%   \driving{US Driving Licence
-  }
-}
-\makecvheader
-#+end_export
+   #+begin_export latex
+   \personalinfo{
+    %%  \homepage{www.github.com/tuh8888}
+     \email{harrison.pielke-lombardo@cuanschutz.edu}
+     \phone{720 209 6249}
+   %% \location{Denver, CO}
+     \github{tuh8888}
+     \linkedin{tuh8888}
+   %%  \dob{12 May 1995}
+   %%   \driving{US Driving Licence
+     }
+   }
+   \makecvheader
+   #+end_export
 
 ** Contact Info                                                    :noexport:
    - Phone :: (720) - 209 - 6249
@@ -116,7 +116,7 @@
 * Salutation (arrival)                                               :ignore:
 ** Reify Health                                                      :ignore:
 
-  To Reify Health hiring team,
+   To Reify Health hiring team,
 
 ** ThorTech                                                 :ignore:noexport:
 
@@ -128,44 +128,44 @@
 ** Reify Health                                                      :ignore:
 *** Introduction                                                     :ignore:
 
-   The opportunity to implement and drive data-oriented software solutions for improving health care that Reify Health presents has attracted me to your job posting. As both a Clojure programmer and a graduate in the field of biomedical sciences, this is the position I have been preparing for.
+    The opportunity to implement and drive data-oriented software solutions for improving health care that Reify Health presents has attracted me to your job posting. As both a Clojure programmer and a graduate in the field of biomedical sciences, this is the position I have been preparing for.
 
 *** About me                                                         :ignore:
 
-   \hfill \break
+    \hfill \break
 
-   There are two areas that have always interested me: software development and biology. Software development, for me, satisfies a creative itch when designing new systems while also being intellectually stimulating when solving domain specific challenges. Biology represents a uniquely complex system to untangle and understand while also being incredibly important to helping the people we know and love. To meet these interests, I have pursued a career in computational biology which lead me to study in the Computational Biosciences Program at the University of Colorado, Anschutz Medical Campus where my thesis research involved developing a method to reason about knowledge graphs of disease mechanisms in order to hypothesize drug treatments.
+    There are two areas that have always interested me: software development and biology. Software development, for me, satisfies a creative itch when designing new systems while also being intellectually stimulating when solving domain specific challenges. Biology represents a uniquely complex system to untangle and understand while also being incredibly important to helping the people we know and love. To meet these interests, I have pursued a career in computational biology which lead me to study in the Computational Biosciences Program at the University of Colorado, Anschutz Medical Campus where my thesis research involved developing a method to reason about knowledge graphs of disease mechanisms in order to hypothesize drug treatments.
 
 *** Skills                                                           :ignore:
-   \hfill \break
+    \hfill \break
 
 **** Skills (paragraph)                                              :ignore:
 
-   As a graduate of this program, I have developed skills in algorithm-development, domain-modeling, data science, machine learning, and artificial intelligence. Now, I am eager to apply what I have learned to solve challenges in the world. I know that your company uses Clojure in its architecture, and I am happy to say that I have been programming in Clojure for 6 years now and consider myself to have expert proficiency. I have contributed to the Clojure ecosystem with a number of my own projects as well as by submitting pull-requests to several open source libraries.
+     As a graduate of this program, I have developed skills in algorithm-development, domain-modeling, data science, machine learning, and artificial intelligence. Now, I am eager to apply what I have learned to solve challenges in the world. I know that your company uses Clojure in its architecture, and I am happy to say that I have been programming in Clojure for 6 years now and consider myself to have expert proficiency. I have contributed to the Clojure ecosystem with a number of my own projects as well as by submitting pull-requests to several open source libraries.
 
 **** Skills (list)                                 :ignore:
-   \hfill \break
+     \hfill \break
 
-   Below are listed a relevant selection of tools, packages, and concepts which I have experience using or have implemented in my own projects.
-   - Clojure, Clojurescript, Re-Frame, Reagent, Spec
-   - Python, Tensorflow, Pandas, Numpy, Scikit-Learn
-   - Java, Swing
-   - Docker
-   - Data visualization, graph/network interaction
-   - Technical communication, API documentation, non-technical explanation,
-   - Inter-disciplinary communication
-   - Git, GitHub, CI/CD
-   - AWS
-   - Algorithm development
-   - Domain-modeling
-   - FAIR data principles, Test-Driven-Development
-   - Artificial intelligence, machine learning, statistics model optimization/evaluation
-   - SQL, SPARQL, RDF, Neo4j, Datomic, Datascript
+     Below are listed a relevant selection of tools, packages, and concepts which I have experience using or have implemented in my own projects.
+     - Clojure, Clojurescript, Re-Frame, Reagent, Spec
+     - Python, Tensorflow, Pandas, Numpy, Scikit-Learn
+     - Java, Swing
+     - Docker
+     - Data visualization, graph/network interaction
+     - Technical communication, API documentation, non-technical explanation,
+     - Inter-disciplinary communication
+     - Git, GitHub, CI/CD
+     - AWS
+     - Algorithm development
+     - Domain-modeling
+     - FAIR data principles, Test-Driven-Development
+     - Artificial intelligence, machine learning, statistics model optimization/evaluation
+     - SQL, SPARQL, RDF, Neo4j, Datomic, Datascript
 
 *** Closing                                                          :ignore:
-  \hfill \break
+    \hfill \break
 
-  I hope that you will consider me in your decision-making process as I would like to contribute my expertise to improving your products as well as learn from your team how to use software to improve the world.
+    I hope that you will consider me in your decision-making process as I would like to contribute my expertise to improving your products as well as learn from your team how to use software to improve the world.
 
 
 ** ThorTech                                                 :ignore:noexport:
@@ -181,10 +181,10 @@
   Harrison Pielke-Lombardo
 
 * Back Matter                                                        :ignore:
-#+begin_export latex
-\end{document}
-#+end_export
+  #+begin_export latex
+  \end{document}
+  #+end_export
 
-# Local Variables:
-# org-cite-global-bibliography: nil
-# End:
+  # Local Variables:
+  # org-cite-global-bibliography: nil
+  # End:
