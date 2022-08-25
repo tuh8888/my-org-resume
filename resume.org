@@ -128,14 +128,25 @@
     {{{cvevent(Computational Biologist, University of Colorado\, Anschutz Medical Campus, 2016 -- 2022, Aurora\, CO)}}}
 
     - Thesis title: Schematization of biological mechanisms using network alignment and computational analogy for hypothesizing about disease mechanisms and their interventions.
-    - Managed multiple, interconnected computational projects across different teams from planning to publication.
-    - Communicated with technical and non-technical audiences.
-    - Developed interpretable, symbolic artificial intelligence and machine learning methods for identifying drug-targets in text and performing inductive reasoning about drug-disease mechanisms.
-    - Maintained sustainable, open software development practices.
+    - Managed multiple, interconnected computational projects written in {{{cvtag(Clojure)}}}, {{{cvtag(Java)}}}, and {{{cvtag(Python)}}} across different teams from planning to publication.
+    - Developed interpretable, symbolic {{{cvtag(Artificial Intelligence)}}}, {{{cvtag(Machine Learning)}}}, and {{{cvtag(Natural Language Processing)}}} methods for identifying drug-targets in text and performing inductive reasoning about drug-disease mechanisms using {{{cvtag(Knowledge Graphs)}}}.
+*** IEEE Undergraduate Grant                                         :ignore:
 
-    {{{cvtag(Knowledge graphs)}}}
-    {{{cvtag(Artificial intelligence)}}}
-    {{{cvtag(Biomedical data science)}}}
+    {{{par-div}}}
+
+    {{{cvevent(IEEE Undergraduate Grant, University of Colorado\, Boulder, 2015 -- 2016, Boulder\, CO)}}}
+
+    Used an Aho-Corrasick automata representation of CRISPR-Cas9 binding sites to reduce the complexity of the estimation of binding coverage from $O(4^n)$ (4^{\text{3 billion}}) combinations to a $O(1)$ (constant time statistical approximation when $n$ is large).
+    Implemented mathematical models in {{{cvtag(Python)}}} and {{{cvtag(MATLAB)}}} and evaluated using genetic data from the Human Genome Project.
+
+*** Cancer Center Summer Fellow                                      :ignore:
+
+    {{{par-div}}}
+
+    {{{cvevent(Cancer Center Summer Fellow, University of Colorado\, Anschutz Medical Campus, Jun 2015 -- Aug 2015, Aurora\, CO)}}}
+
+    Optimized and evaluated a drug-efficacy scoring algorithm which incorporates multi-omic data including cancer genomes and drug-target profiles.
+    Communicated results with domain experts using heatmap visualizations of kinase scores for selected cancer subtypes.
 
 ** Projects
 *** LeSS                                                             :ignore:
@@ -143,12 +154,7 @@
     {{{cvevent(Schematization of biological mechanisms using structural\, semantic\, and causal properties,,,,)}}}
 
     - Developed algorithmic approaches in {{{cvtag(Clojure)}}} and {{{cvtag(Python)}}} for extending analogical reasoning of complex networks representing biological knowledge.
-    - Merged and harmonized large biomedical knowledge graphs.
-
-      # {{{cvtag(Artificial intelligence)}}}
-      # {{{cvtag(Knowledge graphs)}}}
-      # {{{cvtag(Algorithm development)}}}
-      # {{{cvtag(Analogical reasoning)}}}
+    - Merged and harmonized large biomedical knowledge graphs represented in {{{cvtag(RDF)}}}, {{{cvtag(Datomic)}}}, and {{{cvtag(SQL)}}} formats.
 
 *** Knowtator                                                        :ignore:
 
@@ -156,8 +162,8 @@
 
     {{{cvevent(Knowtator: Concept/relation annotation for Protégé,,,)}}}
 
-    - Deployed a WYSIWYG plugin for ontology development and text annotation that includes interactive graph visualization for textual features.
-    - Incorporated user feedback  in several feature updates.
+    - Deployed a WYSIWYG {{{cvtag(Java)}}} plugin for ontology development and text annotation that includes interactive graph visualization for textual features. Later became a {{{cvtag(Clojurescript)}}} {{{cvtag(web application)}}}.
+    - {{{cvtag(CI/CD)}}}: Incorporated user feedback  in several feature updates.
 
     # {{{cvtag(Semantic web)}}}
     # {{{cvtag(UX/GUI)}}}
@@ -169,9 +175,9 @@
 
     {{{cvevent(Bootstrapped relation extraction using word embeddings and dependency paths,,,)}}}
 
-    - Developed a novel bootstrapping relation extraction approach in Clojure that creates human-interpretable syntax patterns from dependency paths and word embeddings
+    - Developed a novel bootstrapping relation extraction approach in {{{cvtag(Clojure)}}} that creates human-interpretable syntax patterns from dependency paths and word embeddings.
     - Performance optimized with GPU accelerated matrix operations.
-    - Evaluated the approach on a large corpus of biomedical text on its ability to identify drug-target relationships.
+    - Improved precision for relation extraction for drug-targets from biomedical texts by 10%.
 
     # {{{cvtag(Natural language processing)}}}
     # {{{cvtag(Semantic web)}}}
