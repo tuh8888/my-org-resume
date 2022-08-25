@@ -78,7 +78,7 @@
    #+MACRO: cvtag  \cvtag{$1}
    #+MACRO: accent   \textcolor{accent}{$1}
    #+MACRO: divider \divider
-   #+MACRO: par-div \par\divider
+   #+MACRO: par-div \par
    #+MACRO: new-page \newpage
 
 * Header                                                             :ignore:
@@ -99,7 +99,7 @@
      \location{Denver, CO}
      \dob{12 May 1995}
      \github{tuh8888}
-     \linkedin{tuh8888}
+     \linkedin{https://www.linkedin.com/in/tuh8888}
    %%   \driving{US Driving Licence
      }
    }
@@ -129,7 +129,7 @@
 
     - Thesis title: Schematization of biological mechanisms using network alignment and computational analogy for hypothesizing about disease mechanisms and their interventions.
     - Managed multiple, interconnected computational projects written in {{{cvtag(Clojure)}}}, {{{cvtag(Java)}}}, and {{{cvtag(Python)}}} across different teams from planning to publication.
-    - Developed interpretable, symbolic {{{cvtag(Artificial Intelligence)}}}, {{{cvtag(Machine Learning)}}}, and {{{cvtag(Natural Language Processing)}}} methods for identifying drug-targets in text and performing inductive reasoning about drug-disease mechanisms using {{{cvtag(Knowledge Graphs)}}}.
+    - Developed interpretable, symbolic {{{cvtag(Artificial Intelligence)}}}, {{{cvtag(Machine Learning)}}}, and {{{cvtag(Natural Language Processing)}}} methods for identifying drug-targets in text and performing inductive reasoning about drug-disease mechanisms using a {{{cvtag(Knowledge Graph)}}} constructed from 10 biomedical ontologies and 10 databases containing 1 trillion triples.
 *** IEEE Undergraduate Grant                                         :ignore:
 
     {{{par-div}}}
@@ -153,8 +153,8 @@
 
     {{{cvevent(Schematization of biological mechanisms using structural\, semantic\, and causal properties,,,,)}}}
 
-    - Developed algorithmic approaches in {{{cvtag(Clojure)}}} and {{{cvtag(Python)}}} for extending analogical reasoning of complex networks representing biological knowledge.
-    - Merged and harmonized large biomedical knowledge graphs represented in {{{cvtag(RDF)}}}, {{{cvtag(Datomic)}}}, and {{{cvtag(SQL)}}} formats.
+    Developed algorithmic approaches in {{{cvtag(Clojure)}}} and {{{cvtag(Python)}}} for extending analogical reasoning of complex networks representing biological knowledge.
+    Merged and harmonized large biomedical knowledge graphs represented in {{{cvtag(RDF)}}}, {{{cvtag(Datomic)}}}, and {{{cvtag(SQL)}}} formats.
 
 *** Knowtator                                                        :ignore:
 
@@ -162,8 +162,8 @@
 
     {{{cvevent(Knowtator: Concept/relation annotation for Protégé,,,)}}}
 
-    - Deployed a WYSIWYG {{{cvtag(Java)}}} plugin for ontology development and text annotation that includes interactive graph visualization for textual features. Later became a {{{cvtag(Clojurescript)}}} {{{cvtag(web application)}}}.
-    - {{{cvtag(CI/CD)}}}: Incorporated user feedback  in several feature updates.
+    Deployed a WYSIWYG {{{cvtag(Java)}}} plugin for ontology development and text annotation that includes interactive graph visualization for textual features. It was used to annotate over 100k concept and relation annotations. Later became a {{{cvtag(Clojurescript)}}} {{{cvtag(web application)}}}.
+    {{{cvtag(CI/CD)}}}: Incorporated user feedback  in several feature updates.
 
     # {{{cvtag(Semantic web)}}}
     # {{{cvtag(UX/GUI)}}}
@@ -175,9 +175,9 @@
 
     {{{cvevent(Bootstrapped relation extraction using word embeddings and dependency paths,,,)}}}
 
-    - Developed a novel bootstrapping relation extraction approach in {{{cvtag(Clojure)}}} that creates human-interpretable syntax patterns from dependency paths and word embeddings.
-    - Performance optimized with GPU accelerated matrix operations.
-    - Improved precision for relation extraction for drug-targets from biomedical texts by 10%.
+    Developed a novel bootstrapping relation extraction approach in {{{cvtag(Clojure)}}} that creates human-interpretable syntax patterns from dependency paths and word embeddings.
+    Performance optimized with GPU accelerated matrix operations.
+    Improved precision for relation extraction for drug-targets from biomedical texts by 10%.
 
     # {{{cvtag(Natural language processing)}}}
     # {{{cvtag(Semantic web)}}}
@@ -312,6 +312,9 @@
 - {{{accent(Clojure)}}}
 - {{{accent(Clojurescript)}}}
 - {{{accent(C++)}}}
+- {{{accent(Creativity)}}}
+- {{{accent(Organization)}}}
+- {{{accent(Problem-solving)}}}
 - {{{accent(NumPy)}}}
 - {{{accent(Pandas)}}}
 - {{{accent(Reagent)}}}
@@ -337,6 +340,10 @@
 - {{{accent(SPARQL)}}}
 - {{{accent(BigQuery)}}}
 - {{{accent(Redis)}}}
+- {{{accent(Adaptability)}}}
+- {{{accent(Communication)}}}
+- {{{accent(Teamwork)}}}
+- {{{accent(Time management)}}}
 
 ** Note
    References available upon request. Please see my GitHub page (@tuh8888) for my software projects as well as my contributions to various open-source projects.
