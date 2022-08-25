@@ -94,11 +94,11 @@
    #+begin_export latex
    \personalinfo{
     %%  \homepage{www.github.com/tuh8888}
-     \email{harrison.pielke-lombardo@cuanschutz.edu}
+     \email{pielkekid@gmail.com}
      \phone{720 209 6249}
      \location{Denver, CO}
      \dob{12 May 1995}
-     \github{tuh8888}
+     \github{https://www.github.com/tuh8888}
      \linkedin{https://www.linkedin.com/in/tuh8888}
    %%   \driving{US Driving Licence
      }
@@ -127,8 +127,7 @@
 *** PhD Researcher :ignore:
     {{{cvevent(Computational Biologist, University of Colorado\, Anschutz Medical Campus, 2016 -- 2022, Aurora\, CO)}}}
 
-    - Thesis title: Schematization of biological mechanisms using network alignment and computational analogy for hypothesizing about disease mechanisms and their interventions.
-    - Managed multiple, interconnected computational projects written in {{{cvtag(Clojure)}}}, {{{cvtag(Java)}}}, and {{{cvtag(Python)}}} across different teams from planning to publication.
+    - Managed multiple, interconnected computational projects written in {{{cvtag(Clojure)}}}, {{{cvtag(Java)}}}, and {{{cvtag(Python)}}} across different teams resulting in 6 publications, 4 dataset releases, and 5 package releases.
     - Developed interpretable, symbolic {{{cvtag(Artificial Intelligence)}}}, {{{cvtag(Machine Learning)}}}, and {{{cvtag(Natural Language Processing)}}} methods for identifying drug-targets in text and performing inductive reasoning about drug-disease mechanisms using a {{{cvtag(Knowledge Graph)}}} constructed from 10 biomedical ontologies and 10 databases containing 1 trillion triples.
 *** IEEE Undergraduate Grant                                         :ignore:
 
@@ -136,8 +135,7 @@
 
     {{{cvevent(IEEE Undergraduate Grant, University of Colorado\, Boulder, 2015 -- 2016, Boulder\, CO)}}}
 
-    Used an Aho-Corrasick automata representation of CRISPR-Cas9 binding sites to reduce the complexity of the estimation of binding coverage from $O(4^n)$ (4^{\text{3 billion}}) combinations to a $O(1)$ (constant time statistical approximation when $n$ is large).
-    Implemented mathematical models in {{{cvtag(Python)}}} and {{{cvtag(MATLAB)}}} and evaluated using genetic data from the Human Genome Project.
+    - Used an Aho-Corrasick automata representation of CRISPR-Cas9 binding sites to reduce the complexity of the estimation of binding coverage from $O(4^n)$ (4^{\text{3 billion}}) combinations to a $O(1)$ (constant time statistical approximation when $n$ is large). Implemented mathematical models in {{{cvtag(Python)}}} and {{{cvtag(MATLAB)}}} and evaluated using genetic data from the Human Genome Project.
 
 *** Cancer Center Summer Fellow                                      :ignore:
 
@@ -145,16 +143,14 @@
 
     {{{cvevent(Cancer Center Summer Fellow, University of Colorado\, Anschutz Medical Campus, Jun 2015 -- Aug 2015, Aurora\, CO)}}}
 
-    Optimized and evaluated a drug-efficacy scoring algorithm which incorporates multi-omic data including cancer genomes and drug-target profiles.
-    Communicated results with domain experts using heatmap visualizations of kinase scores for selected cancer subtypes.
+    - Optimized and evaluated a drug-efficacy scoring algorithm which incorporates multi-omic data including cancer genomes and drug-target profiles. Communicated results with domain experts using heat-map visualizations of kinase scores for selected cancer subtypes.
 
 ** Projects
 *** LeSS                                                             :ignore:
 
     {{{cvevent(Schematization of biological mechanisms using structural\, semantic\, and causal properties,,,,)}}}
 
-    Developed algorithmic approaches in {{{cvtag(Clojure)}}} and {{{cvtag(Python)}}} for extending analogical reasoning of complex networks representing biological knowledge.
-    Merged and harmonized large biomedical knowledge graphs represented in {{{cvtag(RDF)}}}, {{{cvtag(Datomic)}}}, and {{{cvtag(SQL)}}} formats.
+    - Conceptualized and tested algorithmic approaches in {{{cvtag(Clojure)}}} and {{{cvtag(Python)}}} for extending analogical reasoning of complex networks representing biological knowledge. Merged and harmonized large biomedical knowledge graphs represented in {{{cvtag(RDF)}}}, {{{cvtag(Datomic)}}}, and {{{cvtag(SQL)}}} formats.
 
 *** Knowtator                                                        :ignore:
 
@@ -162,8 +158,7 @@
 
     {{{cvevent(Knowtator: Concept/relation annotation for Protégé,,,)}}}
 
-    Deployed a WYSIWYG {{{cvtag(Java)}}} plugin for ontology development and text annotation that includes interactive graph visualization for textual features. It was used to annotate over 100k concept and relation annotations. Later became a {{{cvtag(Clojurescript)}}} {{{cvtag(web application)}}}.
-    {{{cvtag(CI/CD)}}}: Incorporated user feedback  in several feature updates.
+    - Deployed a WYSIWYG {{{cvtag(Java)}}} plugin for ontology development and text annotation that includes interactive graph visualization for textual features. It was used to annotate over 100k concept and relation annotations. Later became a {{{cvtag(Clojurescript)}}} {{{cvtag(web application)}}}. {{{cvtag(CI/CD)}}}: Incorporated user feedback  in several feature updates.
 
     # {{{cvtag(Semantic web)}}}
     # {{{cvtag(UX/GUI)}}}
@@ -175,9 +170,7 @@
 
     {{{cvevent(Bootstrapped relation extraction using word embeddings and dependency paths,,,)}}}
 
-    Developed a novel bootstrapping relation extraction approach in {{{cvtag(Clojure)}}} that creates human-interpretable syntax patterns from dependency paths and word embeddings.
-    Performance optimized with GPU accelerated matrix operations.
-    Improved precision for relation extraction for drug-targets from biomedical texts by 10%.
+    - Automated relation extraction by implementing a novel bootstrapping approach in {{{cvtag(Clojure)}}} that creates human-interpretable syntax patterns from dependency paths and word embeddings. Performance optimized with GPU accelerated matrix operations. Improved precision for relation extraction for drug-targets from biomedical texts by 10%.
 
     # {{{cvtag(Natural language processing)}}}
     # {{{cvtag(Semantic web)}}}
@@ -314,7 +307,6 @@
 - {{{accent(C++)}}}
 - {{{accent(Creativity)}}}
 - {{{accent(Organization)}}}
-- {{{accent(Problem-solving)}}}
 - {{{accent(NumPy)}}}
 - {{{accent(Pandas)}}}
 - {{{accent(Reagent)}}}
@@ -340,10 +332,8 @@
 - {{{accent(SPARQL)}}}
 - {{{accent(BigQuery)}}}
 - {{{accent(Redis)}}}
-- {{{accent(Adaptability)}}}
 - {{{accent(Communication)}}}
 - {{{accent(Teamwork)}}}
-- {{{accent(Time management)}}}
 
 ** Note
    References available upon request. Please see my GitHub page (@tuh8888) for my software projects as well as my contributions to various open-source projects.
