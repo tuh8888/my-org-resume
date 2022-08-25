@@ -58,7 +58,6 @@
 (ox-extras-activate '(latex-header-blocks ignore-headlines))
    #+END_SRC
    #+LATEX_CLASS: altacv
-   #+LATEX_HEADER: \columnratio{0.6} % Set the left/right column width ratio to 6:4.
    #+LATEX_HEADER: \usepackage[bottom]{footmisc}
 *** Bibliography
     # #+LATEX_HEADER: \DeclareNameAlias{sortname}{last-first}
@@ -76,7 +75,8 @@
 ** Macros
    #+MACRO: cvevent \cvevent{$1}{$2}{$3}{$4}
    #+MACRO: cvachievement \cvachievement{$1}{$2}{$3}{$4}
-   #+MACRO: cvtag \cvtag{$1}
+   #+MACRO: cvtag  \cvtag{$1}
+   #+MACRO: accent   \textcolor{accent}{$1}
    #+MACRO: divider \divider
    #+MACRO: par-div \par\divider
    #+MACRO: new-page \newpage
@@ -87,7 +87,7 @@
    #+begin_export latex
    \name{Harrison Pielke-Lombardo}
    \photoR{2.8cm}{20220815_110341.jpg}
-   \tagline{PhD Researcher}
+   \tagline{Computational Biologist}
    #+end_export
 
 ** Personal Info :ignore:
@@ -108,23 +108,24 @@
 
 * CV Column 1 :ignore:
   #+begin_export latex
-  \begin{paracol}{2}
+  \begin{paracol}{1}
   #+end_export
-** Personal Statement General                               :ignore:
-   #+begin_export latex
-    \begin{quote}
-    ``I am a Computational Bioscience graduate interested in developing software for artificial intelligence, health informatics, and game development. My work includes developing novel algorithms for symbolic AI and natural language processing. As a polyglot programmer, I enjoy turning difficult problems for people into easy solutions for computers.''
-    \end{quote}
-   #+end_export
-** Personal Statement Reify Health                          :ignore:noexport:
-   #+begin_export latex
-    \begin{quote}
-    ``I am a Computational Bioscience graduate interested in developing software for healthcare, bioinformatics, and clinical applications. My work has included developing novel algorithms for symbolic AI and natural language processing. I am a polyglot programmer who enjoys turning difficult problems for people into easy solutions for computers.''
-    \end{quote}
-   #+end_export
+** Personal Statement                                       :ignore:noexport:
+*** General                                       :ignore:
+    #+begin_export latex
+     \begin{quote}
+     ``I am a Computational Bioscience graduate interested in developing software for artificial intelligence, health informatics, and game development. My work includes developing novel algorithms for symbolic AI and natural language processing. As a polyglot programmer, I enjoy turning difficult problems for people into easy solutions for computers.''
+     \end{quote}
+    #+end_export
+*** Reify Health                         :ignore:noexport:
+    #+begin_export latex
+     \begin{quote}
+     ``I am a Computational Bioscience graduate interested in developing software for healthcare, bioinformatics, and clinical applications. My work has included developing novel algorithms for symbolic AI and natural language processing. I am a polyglot programmer who enjoys turning difficult problems for people into easy solutions for computers.''
+     \end{quote}
+    #+end_export
 ** Experience
 *** PhD Researcher :ignore:
-    {{{cvevent(PhD Researcher, University of Colorado\, Anschutz Medical Campus, 2016 -- 2022, Aurora\, CO)}}}
+    {{{cvevent(Computational Biologist, University of Colorado\, Anschutz Medical Campus, 2016 -- 2022, Aurora\, CO)}}}
 
     - Thesis title: Schematization of biological mechanisms using network alignment and computational analogy for hypothesizing about disease mechanisms and their interventions.
     - Managed multiple, interconnected computational projects across different teams from planning to publication.
@@ -141,7 +142,7 @@
 
     {{{cvevent(Schematization of biological mechanisms using structural\, semantic\, and causal properties,,,,)}}}
 
-    - Developed algorithmic approaches in Clojure and Python for extending analogical reasoning of complex networks representing biological knowledge.
+    - Developed algorithmic approaches in {{{cvtag(Clojure)}}} and {{{cvtag(Python)}}} for extending analogical reasoning of complex networks representing biological knowledge.
     - Merged and harmonized large biomedical knowledge graphs.
 
       # {{{cvtag(Artificial intelligence)}}}
@@ -185,7 +186,7 @@
 \printbibliography[heading=none]
 #+end_export
 
-** Newpage :ignore:
+** Newpage                                                  :ignore:noexport:
    {{{new-page}}}
 
 ** Projects (Cont.)                                                :noexport:
@@ -273,90 +274,6 @@
 
 * CV Column 2                                                        :ignore:
   # Switch to the right column - will automatically move to the next page.
-  #+begin_export latex
-  \switchcolumn
-  #+end_export
-
-** Skills
-*** \textcolor{accent}{Clojure(script) (6 years)}
-    :PROPERTIES:
-    :UNNUMBERED: t
-    :END:
-    \hfill \break
-    {{{cvtag(Reagent)}}}
-    {{{cvtag(Re-frame)}}}
-    {{{cvtag(Datascript/Datomic)}}}
-*** \textcolor{accent}{Python (10 years)}
-    :PROPERTIES:
-    :UNNUMBERED: t
-    :END:
-    \hfill \break
-    {{{cvtag(NumPy)}}}
-    {{{cvtag(Pandas)}}}
-    {{{cvtag(scikit-learn)}}}
-    {{{cvtag(NLTK)}}}
-*** \textcolor{accent}{Data visualization}
-    :PROPERTIES:
-    :UNNUMBERED: t
-    :END:
-    \hfill \break
-    {{{cvtag(Matplotlib)}}}
-    {{{cvtag(Vega)}}}
-    {{{cvtag(GraphViz)}}}
-    {{{cvtag(D3)}}}
-*** \textcolor{accent}{Communication}
-    :PROPERTIES:
-    :UNNUMBERED: t
-    :END:
-    \hfill \break
-    {{{cvtag(Jupyter(Lab))}}}
-    {{{cvtag(LaTeX)}}}
-    {{{cvtag(RMarkdown)}}}
-
-*** \textcolor{accent}{Additional languages}
-    :PROPERTIES:
-    :UNNUMBERED: t
-    :END:
-    \hfill \break
-    {{{cvtag(Java (10 years))}}}
-    {{{cvtag(JavaScript (6 years))}}}
-    {{{cvtag(Bash)}}}
-    {{{cvtag(Common Lisp)}}}
-    {{{cvtag(C++)}}}
-    {{{cvtag(R)}}}
-    {{{cvtag(MATLAB)}}}
-    {{{cvtag(HTML/CSS)}}}
-*** \textcolor{accent}{DevOps}
-    :PROPERTIES:
-    :UNNUMBERED: t
-    :END:
-    \hfill \break
-    {{{cvtag(Git)}}}
-    {{{cvtag(GitHub)}}}
-    {{{cvtag(CI/CD)}}}
-    {{{cvtag(AWS)}}}
-    {{{cvtag(Kubernetes)}}}
-*** \textcolor{accent}{Areas of expertise}
-    :PROPERTIES:
-    :UNNUMBERED: t
-    :END:
-    \hfill \break
-    {{{cvtag(Natural Language Processing)}}}
-    {{{cvtag(Statistics)}}}
-    {{{cvtag(Machine Learning)}}}
-    {{{cvtag(Semantic web)}}}
-    {{{cvtag(Artificial intelligence)}}}
-    {{{cvtag(Domain modelling)}}}
-*** \textcolor{accent}{Big data}
-    :PROPERTIES:
-    :UNNUMBERED: t
-    :END:
-    \hfill \break
-    {{{cvtag(SQL)}}}
-    {{{cvtag(SPARQL)}}}
-    {{{cvtag(RDF)}}}
-    {{{cvtag(BigQuery)}}}
-    {{{cvtag(Redis)}}}
 
 ** Education
 *** PhD in CPBS                                             :ignore:noexport:
@@ -366,7 +283,7 @@
 
 *** Master of Science                                                :ignore:
 
-{{{cvevent(MS in Biomedical Sciences and Biotechnology, University of Colorado\, Anschutz Medical Campus, 2016 --- 2022, Aurora\, CO)}}}
+{{{cvevent(Master of Science in Biomedical Sciences and Biotechnology, University of Colorado\, Anschutz Medical Campus, 2016 --- 2022, Aurora\, CO)}}}
 *** Master of Science with footnote                         :ignore:noexport:
     {{{par-div}}}
     #+BEGIN_EXPORT latex
@@ -376,8 +293,44 @@
 *** Bachelor of Science                                              :ignore:
     {{{par-div}}}
 
-    {{{cvevent(BS in Applied Mathematics, University of Colorado, 2013 -- 2016,Boulder\, CO)}}}
+    {{{cvevent(Bachelor of Science in Applied Mathematics, University of Colorado, 2013 -- 2016,Boulder\, CO)}}}
     # - First Class Honours \\
+
+
+   {{{new-page}}}
+
+** Skills
+- {{{accent(Python)}}}
+- {{{accent(Java)}}}
+- {{{accent(JavaScript)}}}
+- {{{accent(Clojure)}}}
+- {{{accent(Clojurescript)}}}
+- {{{accent(C++)}}}
+- {{{accent(NumPy)}}}
+- {{{accent(Pandas)}}}
+- {{{accent(Reagent)}}}
+- {{{accent(Re-frame)}}}
+- {{{accent(Datascript)}}}
+- {{{accent(Datomic)}}}
+- {{{accent(NLTK)}}}
+- {{{accent(R)}}}
+- {{{accent(MATLAB)}}}
+- {{{accent(HTML)}}}
+- {{{accent(CSS)}}}
+- {{{accent(Git)}}}
+- {{{accent(GitHub)}}}
+- {{{accent(CI/CD)}}}
+- {{{accent(AWS)}}}
+- {{{accent(Kubernetes)}}}
+- {{{accent(Natural language processing)}}}
+- {{{accent(Statistics)}}}
+- {{{accent(Machine learning)}}}
+- {{{accent(Semantic web)}}}
+- {{{accent(Artificial intelligence)}}}
+- {{{accent(SQL)}}}
+- {{{accent(SPARQL)}}}
+- {{{accent(BigQuery)}}}
+- {{{accent(Redis)}}}
 
 ** Note
    References available upon request. Please see my GitHub page (@tuh8888) for my software projects as well as my contributions to various open-source projects.
