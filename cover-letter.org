@@ -99,7 +99,6 @@
    %% \location{Denver, CO}
      \github{tuh8888}
      \linkedin{tuh8888}
-   %%  \dob{12 May 1995}
    %%   \driving{US Driving Licence
      }
    }

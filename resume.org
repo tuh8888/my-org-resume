@@ -97,7 +97,6 @@
      \email{pielkekid@gmail.com}
      \phone{720 209 6249}
      \location{Denver, CO}
-     \dob{12 May 1995}
      \github{https://www.github.com/tuh8888}
      \linkedin{https://www.linkedin.com/in/tuh8888}
    %%   \driving{US Driving Licence
@@ -125,17 +124,18 @@
     #+end_export
 ** Experience
 *** PhD Researcher :ignore:
-    {{{cvevent(Computational Biologist, University of Colorado\, Anschutz Medical Campus, 2016 -- 2022, Aurora\, CO)}}}
+    {{{cvevent(Computational Biologist, University of Colorado\, Anschutz Medical Campus, Aug 2016 -- Aug 2022, Aurora\, CO)}}}
 
-    - Managed multiple, interconnected computational projects written in {{{cvtag(Clojure)}}}, {{{cvtag(Java)}}}, and {{{cvtag(Python)}}} across different teams resulting in 6 publications, 4 dataset releases, and 5 package releases.
+    - Managed interconnected computational projects written in {{{cvtag(Python)}}}, {{{cvtag(Java)}}}, and {{{cvtag(Clojure)}}} across 4+ teams through consistent communication and leadership
+    - Produced 6 publications, 4 dataset releases, and 5 package releases.
     - Developed interpretable, symbolic {{{cvtag(Artificial Intelligence)}}}, {{{cvtag(Machine Learning)}}}, and {{{cvtag(Natural Language Processing)}}} methods for identifying drug-targets in text and performing inductive reasoning about drug-disease mechanisms using a {{{cvtag(Knowledge Graph)}}} constructed from 10 biomedical ontologies and 10 databases containing 1 trillion triples.
 *** IEEE Undergraduate Grant                                         :ignore:
 
     {{{par-div}}}
 
-    {{{cvevent(IEEE Undergraduate Grant, University of Colorado\, Boulder, 2015 -- 2016, Boulder\, CO)}}}
+    {{{cvevent(IEEE Undergraduate Grant, University of Colorado\, Boulder, Aug 2015 -- May 2016, Boulder\, CO)}}}
 
-    - Used an Aho-Corrasick automata representation of CRISPR-Cas9 binding sites to reduce the complexity of the estimation of binding coverage from $O(4^n)$ (4^{\text{3 billion}}) combinations to a $O(1)$ (constant time statistical approximation when $n$ is large). Implemented mathematical models in {{{cvtag(Python)}}} and {{{cvtag(MATLAB)}}} and evaluated using genetic data from the Human Genome Project.
+    - Used an Aho-Corrasick automata representation  of CRISPR-Cas9 binding sites implemented in {{{cvtag(Python)}}} and {{{cvtag(MATLAB)}}} to reduce the complexity of the estimation of binding coverage from O(4^n) (4^{\text{3 billion}}) combinations to a O(1) (constant time statistical approximation when n is large).
 
 *** Cancer Center Summer Fellow                                      :ignore:
 
@@ -148,7 +148,7 @@
 ** Projects
 *** LeSS                                                             :ignore:
 
-    {{{cvevent(Schematization of biological mechanisms using structural\, semantic\, and causal properties,,,,)}}}
+    {{{cvevent(Schematization of biological mechanisms from structural\, semantic\, and causal properties,,2017 -- 2022,)}}}
 
     - Conceptualized and tested algorithmic approaches in {{{cvtag(Clojure)}}} and {{{cvtag(Python)}}} for extending analogical reasoning of complex networks representing biological knowledge. Merged and harmonized large biomedical knowledge graphs represented in {{{cvtag(RDF)}}}, {{{cvtag(Datomic)}}}, and {{{cvtag(SQL)}}} formats.
 
@@ -156,7 +156,7 @@
 
     {{{par-div}}}
 
-    {{{cvevent(Knowtator: Concept/relation annotation for Protégé,,,)}}}
+    {{{cvevent(Knowtator: Concept/relation annotation for Protégé,,2016--2022,)}}}
 
     - Deployed a WYSIWYG {{{cvtag(Java)}}} plugin for ontology development and text annotation that includes interactive graph visualization for textual features. It was used to annotate over 100k concept and relation annotations. Later became a {{{cvtag(Clojurescript)}}} {{{cvtag(web application)}}}. {{{cvtag(CI/CD)}}}: Incorporated user feedback  in several feature updates.
 
@@ -168,7 +168,7 @@
 
     {{{par-div}}}
 
-    {{{cvevent(Bootstrapped relation extraction using word embeddings and dependency paths,,,)}}}
+    {{{cvevent(Bootstrapped relation extraction using word embeddings and dependency paths,,2016--2019,)}}}
 
     - Automated relation extraction by implementing a novel bootstrapping approach in {{{cvtag(Clojure)}}} that creates human-interpretable syntax patterns from dependency paths and word embeddings. Performance optimized with GPU accelerated matrix operations. Improved precision for relation extraction for drug-targets from biomedical texts by 10%.
 
@@ -303,39 +303,22 @@
 - {{{accent(Java)}}}
 - {{{accent(JavaScript)}}}
 - {{{accent(Clojure)}}}
-- {{{accent(Clojurescript)}}}
-- {{{accent(C++)}}}
-- {{{accent(Creativity)}}}
-- {{{accent(Organization)}}}
-- {{{accent(NumPy)}}}
-- {{{accent(Pandas)}}}
-- {{{accent(Reagent)}}}
-- {{{accent(Re-frame)}}}
-- {{{accent(Datascript)}}}
-- {{{accent(Datomic)}}}
-- {{{accent(NLTK)}}}
-- {{{accent(R)}}}
-- {{{accent(MATLAB)}}}
-- {{{accent(HTML)}}}
-- {{{accent(CSS)}}}
-- {{{accent(Git)}}}
-- {{{accent(GitHub)}}}
-- {{{accent(CI/CD)}}}
 - {{{accent(AWS)}}}
 - {{{accent(Kubernetes)}}}
+- {{{accent(Creativity)}}}
+- {{{accent(Organization)}}}
+- {{{accent(SDLC)}}}
+- {{{accent(CI/CD)}}}
 - {{{accent(Natural language processing)}}}
 - {{{accent(Statistics)}}}
 - {{{accent(Machine learning)}}}
 - {{{accent(Semantic web)}}}
 - {{{accent(Artificial intelligence)}}}
-- {{{accent(SQL)}}}
-- {{{accent(SPARQL)}}}
-- {{{accent(BigQuery)}}}
-- {{{accent(Redis)}}}
+- {{{accent(Databases)}}}
 - {{{accent(Communication)}}}
 - {{{accent(Teamwork)}}}
 
-** Note
+** Note                                                            :noexport:
    References available upon request. Please see my GitHub page (@tuh8888) for my software projects as well as my contributions to various open-source projects.
 
 ** Newpage :ignore:noexport:
