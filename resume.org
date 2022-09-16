@@ -282,7 +282,7 @@
 
 *** Master of Science                                                :ignore:
 
-{{{cvevent(Master of Science in Biomedical Sciences and Biotechnology, University of Colorado\, Anschutz Medical Campus, 2016 --- 2022, Aurora\, CO)}}}
+{{{cvevent(Master of Science in Computational Bioscience, University of Colorado\, Anschutz Medical Campus, 2016 --- 2022, Aurora\, CO)}}}
 *** Master of Science with footnote                         :ignore:noexport:
     {{{par-div}}}
     #+BEGIN_EXPORT latex
@@ -293,6 +293,8 @@
     {{{par-div}}}
 
     {{{cvevent(Bachelor of Science in Applied Mathematics, University of Colorado, 2013 -- 2016,Boulder\, CO)}}}
+    - Minor in Computer Science
+    - Minor in Biochemistry
     # - First Class Honours \\
 
 
