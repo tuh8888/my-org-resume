@@ -1,0 +1,75 @@
+* Default cover letter
+** TODO As a researcher in an AI/NLP lab studying complex biological pathways, I've come to embrace the complexity in the problems I solve. I rejected the dominant perspective in the field of AI, that biological systems can only be understood in terms of statistical artifacts picked up on by machine learning algorithms. Instead, I combined network analysis and structure mapping to understand the relationships and similarities across biological pathways in order to get a better understanding of drug-disease mechanisms.  Now, I would like to apply my computational skills which I've developed in my research projects to solving the world's problems. I have implemented novel computational algorithms in Python (10 years), Java (10 years), and Clojure (6 years). All the while, I have embraced TDD and DevOps to make my code bases reusable and deployable as well as learning where they need to be improved.  I hope that you will consider me for the role of Software Engineer so that I can tranfer my computational skills from biological pathways to the plethora of other computational problems the world needs to have solved
+   :PROPERTIES:
+   :CREATED:  [2022-08-23 Tue 22:26]
+   :END:
+
+** TODO As a researcher in an AI/NLP lab studying complex biological pathways, I've come to embrace the complexity in the problems I solve. I rejected the dominant perspective in the field of AI, that biological systems can only be understood in terms of statistical artifacts picked up on by machine learning algorithms. Instead, I combined network analysis and structure mapping to understand the relationships and similarities across biological pathways in order to get a better understanding of drug-disease mechanisms.  Now, I would like to apply my computational skills which I've developed in my research projects to solving the world's problems. I have implemented novel computational algorithms in Python (10 years), Java (10 years), and Clojure (6 years). All the while, I have embraced TDD and DevOps to make my code bases reusable and deployable as well as learning where they need to be improved.  I hope that you will consider me for the role of Senior Software Engineer so that I can tranfer my computational skills from biological pathways to logistical pathways.
+   :PROPERTIES:
+   :CREATED:  [2022-08-23 Tue 17:25]
+   :END:
+
+** TODO Share via
+   :PROPERTIES:
+   :CREATED:  [2022-08-23 Tue 11:39]
+   :END:
+
+ My passion is for solving challenges which are difficult for people in a way that makes them simple for computers. I am especially passionate about improving models and AI for healthcare so that they are interpretable and dependable. As a polyglot programmer, I am experienced in Python, Java, C++, Javascript, R, Clojure, and Common Lisp. I am competent in a wide range of computing applications from ML, AI, and NLP to DevOps, Cloud, and web applications.
+
+
+** TODO Hello An and Tienson, I am a recent graduate from a graduate program where I worked in an AI/NLP lab. We utilized biomedical knowledge to generate insights into biological mechanisms so I understand the potential of working with knowledge to generate new ideas and ways of understanding. I'd like to highlight one project I deployed which I think your team will find very relevant. It is a text annotation platform called Knowtator which is used to link concepts and relations to textual documents. I originally implemented it as a Java Swing app in order to function as a plugin to Protege, an OSGi app for ontology development. However, I got 90% of the way through reimplementing it as a Clojurescript app using re-frame and datascript while maintaining its ability to interface with Protege. I was wondering if your team would be interested in having this functionality adapted as an annotation plugin for Logseq.
+   :PROPERTIES:
+   :CREATED:  [2022-08-17 Wed 15:36]
+   :END:
+** DONE Cover letter for ThorTech
+   CLOSED: [2022-08-12 Fri 13:31] SCHEDULED: <2022-08-11 Thu>
+   :PROPERTIES:
+   :CREATED:  [2022-08-11 Thu 07:54]
+   :END:
+
+ Dear ThorTech hiring team,
+
+ It's hard to say I love healthcare. Certainly, it's one of the most impactful industries and improves nearly every life on the planet. But when you've had loved ones go through the health care system and you see how long it takes to get adequate treatment and how rare it is to get diagnosed or even properly treated, I can't help but think it could be so much better.
+
+ To make health care and medicine better is why I've devoted my life to studying computational biomedical systems. As a PhD researcher in a biomedical artificial intelligence laboratory, I've developed systems written exclusively in Clojure to reason about large knowledge graphs of biological mechanisms. This required both domain knowledge of drug-disease pathways as well as computer systems knowledge and algorithm design to handle the large amount of information and computations. In addition, I've built Clojurescript Re-Frame/React-based interactive frontends to visualize and communicate my results with other researchers.
+
+ Additionally, I had two major projects relating to natural language processing. The first was a relation extraction approach for identifying drug-target relations from biomedical journal articles. For my second project, I deployed a text annotation tool called Knowtator for developing manually annotated corpora. I released several user-informed feature-releases and it has been used to create the CRAFT corpus which itself is the foundation of several natural language models.
+
+ I've come to love writing in clojure, but with an opportunity to also improve health care, working with your client through ThorTech would be a great opportunity. Hopefully this letter and my resume demonstrate that working with me would be an equally great opportunity for you. I look forward to getting to know ThorTech and the client I would be working with. I have references available upon request.
+
+ Sincerely,
+ Harrison Pielke-Lombardo
+
+** Current preferred letter
+I am a Computational Biologist who has been developing artificial intelligence and natural language processing methods for biomedical research. However, I have found that the software engineering component of my role appeals to me much more than the research component, so I am seeking software engineering roles, especially in Clojure (6 years experience), Java (7 years experience), and Python (7 years experience). I have developed both complex data processing applications as well as user-oriented data-input and data-visualization applications. I've used a variety of databases including GraphQL, SQL, Datomic, and RDF triple stores. In addition to a wide range of technical expertise, I am also a clear contributor and have lead several projects from ideation to publication and deployment. My documentation style is concise and discoverable. I am able to communicate complex concepts and technical information not only to technical audiences, but also to non-technical audiences. I'm excited to bring my unique perspective to solving difficult problems through simple, usable code (especially if that code is Clojure!)
+
+** cover letter
+
+   My passion is for experiencing those moments when solving difficult, complex problems where the fog lifts for just a moment and you know you're on the right path. Even better are those times where these moments can be experienced with a dedicated, driven team. Amperity, your success story is inspiring, and I am fascinated to tackle the problems you've laid out. I have years of experience developing AI methods and tools, all using Clojure, my favorite language. I am quick to learn, fast to prototype, and careful to deploy. My experience is from the healthcare domain as a Computational Biologist, however I am a software engineer, mathematician, and data scientist at heart. I am curious and driven by the desire to learn new technologies that I need to create even more exciting new technologies. In addition, I have strong leadership qualities, and am an excellent communicator, whether it's through technical documentation or presenting technical concepts to non-technical people. Please take a look at some of my GitHub projects for evidence (I am happy to send a roadmap since I have worked on quite a few projects). I would love to hear more about your journey and see if I can contribute to helping you in the steps to come.
+
+** TODO While I have only worked in academia as part of an artificial intelligence and machine learning lab, I would like to apply my expertise as a software developer to projects that I am passionate about. I have always loved gaming, especially narratively driven experiences, which is what drew me to your studio. My passion for writing beautiful, functional, performant software along with my love of stories and how interactive games can shape people's experiences would make me a good fit for this role. I recognize that I do not have experience creating games, but I am an excellent programmer and problem solver, and I can pick up new concepts very quickly. While my own software mainly included data science and research applications, performance and user-oriented design were always high priorities. I have a very strong math background form my undergraduate degree in Applied Mathematics, so I am an expert in linear algebra, discrete math, and 3D physics. In addition, I am a strong communicator both with technical and non-technical audiences due to my experience explaining complex computational methods to research scientists. I am eager to learn and participate in the world of game design so I look forward to hearing if my skills would be valuable enough to contribute to your team.   Thank you for your consideration, Harrison Pielke-Lombardo
+   :PROPERTIES:
+   :CREATED:  [2022-09-08 Thu 14:10]
+   :END:
+** TODO Share via
+   :PROPERTIES:
+   :CREATED:  [2022-09-03 Sat 09:21]
+   :END:
+
+ To Fy Talent Team,
+
+ When a colleague asks me if I can come over to help them with something, I get up from my desk almost right away. While it is important to me that I get my own work done, what really drives me is the opportunity to solve problems. And when a colleague has decided to relinquish their own problems to me, it means that I am going to get my hands on a good one. What makes this experience even better is that I can take this opportunity to teach the colleague I'm helping something new while we discuss how we are going to approach this challenge together.
+
+ My goal as a software developer is not merely to satisfy the requirements laid out, but to deliver extra performance or an extra feature. With 7 years of both Java and Python development experience and 6 years of Clojure development experience, I know how to deliver a little something extra while still writing documentation, implementing tests, providing examples, refactoring, using version control, and using CI/CD.
+
+ I would love the opportunity to participate in the user-feedback loop by addressing user's problems and implementing their desired features. Your platform looks very nicely designed, though I have not purchased anything before. I should also mention that I am U.S.-based but I am willing to relocate or adjust my schedule to work within CET working hours.
+
+ Thank you for your time in reviewing my application.
+
+ Sincerely,
+ Harrison Pielke-Lombardo
+
+** TODO To Fy Talent Team,  When a colleague asks me if I can come over to help them with something, I get up from my desk almost right away. While it is important to me that I get my own work done, what really drives me is the opportunity to solve problems. And when a colleague has decided to relinquish their own problems to me, it means that I am going to get my hands on a good one. What makes this experience even better is that I can take this opportunity to teach the colleague I'm helping something new while we discuss how we are going to approach this challenge together.  My goal as a software developer is not merely to satisfy the requirements laid out, but to deliver a little extra performance, or an extra feature. With 7 years of both Java and Python development experience and 6 years of Clojure development experience, I know how to deliver something a little extra while still writing documentation, implementing tests,
+   :PROPERTIES:
+   :CREATED:  [2022-09-03 Sat 09:12]
+   :END:
