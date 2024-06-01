@@ -86,8 +86,8 @@
 ** Photo & Tagline :ignore:
    #+begin_export latex
    \name{Harrison Pielke-Lombardo}
-   \photoR{2.8cm}{20220815_110341.jpg}
-   \tagline{Computational Biologist}
+   %\photoR{2.8cm}{20220815_110341.jpg}
+   \tagline{Senior Software Engineer}
    #+end_export
 
 ** Personal Info :ignore:
@@ -96,7 +96,7 @@
     %%  \homepage{www.github.com/tuh8888}
      \email{pielkekid@gmail.com}
      \phone{720 209 6249}
-     \location{Denver, CO}
+     \location{Chicago, IL}
      \github{https://www.github.com/tuh8888}
      \linkedin{https://www.linkedin.com/in/tuh8888}
    %%   \driving{US Driving Licence
@@ -123,13 +123,20 @@
      \end{quote}
     #+end_export
 ** Experience
+*** Senior Software  Engineer                                        :ignore:
+    {{{cvevent(Senior Software Engineer, Peruse Technology LLC, Sep 2022, Remote)}}}
+
+    - Designed and implemented backend {{{cvtag(REST)}}} and {{{cvtag(GraphQL)}}} APIs written in {{{cvtag(Clojure)}}} which handle high-volume requests from both external and internal clients, manage machine learning data, and integrate with external services and APIs.
+    - Manage backend databases and services including {{{cvtag(Datomic)}}} and {{{cvtag(ElasticSearch)}}} hosted on {{{cvtag(AWS)}}}.
+    - Support and maintain relationships with key existing and prospective clients by understanding their needs and communicating progress regularly.
+	
 *** PhD Researcher :ignore:
     {{{cvevent(Computational Biologist, University of Colorado\, Anschutz Medical Campus, Aug 2016 -- Aug 2022, Aurora\, CO)}}}
 
     - Managed interconnected computational projects written in {{{cvtag(Python)}}}, {{{cvtag(Java)}}}, and {{{cvtag(Clojure)}}} across 4+ teams through consistent communication and leadership
     - Produced 6 publications, 4 dataset releases, and 5 package releases.
     - Developed interpretable, symbolic {{{cvtag(Artificial Intelligence)}}}, {{{cvtag(Machine Learning)}}}, and {{{cvtag(Natural Language Processing)}}} methods for identifying drug-targets in text and performing inductive reasoning about drug-disease mechanisms using a {{{cvtag(Knowledge Graph)}}} constructed from 10 biomedical ontologies and 10 databases containing 1 trillion triples.
-*** IEEE Undergraduate Grant                                         :ignore:
+*** IEEE Undergraduate Grant                                :ignore:noexport:
 
     {{{par-div}}}
 
@@ -137,7 +144,7 @@
 
     - Used an Aho-Corrasick automata representation  of CRISPR-Cas9 binding sites implemented in {{{cvtag(Python)}}} and {{{cvtag(MATLAB)}}} to reduce the complexity of the estimation of binding coverage from O(4^n) (4^{\text{3 billion}}) combinations to a O(1) (constant time statistical approximation when n is large).
 
-*** Cancer Center Summer Fellow                                      :ignore:
+*** Cancer Center Summer Fellow                             :ignore:noexport:
 
     {{{par-div}}}
 
@@ -301,24 +308,17 @@
    {{{new-page}}}
 
 ** Skills
-- {{{accent(Python)}}}
+- {{{accent(Clojure/Script)}}}
 - {{{accent(Java)}}}
-- {{{accent(JavaScript)}}}
-- {{{accent(Clojure)}}}
+- {{{accent(Python)}}}
 - {{{accent(AWS)}}}
-- {{{accent(Kubernetes)}}}
-- {{{accent(Creativity)}}}
-- {{{accent(Organization)}}}
-- {{{accent(SDLC)}}}
-- {{{accent(CI/CD)}}}
+- {{{accent(ElasticSearch)}}}
 - {{{accent(Natural language processing)}}}
-- {{{accent(Statistics)}}}
 - {{{accent(Machine learning)}}}
 - {{{accent(Semantic web)}}}
 - {{{accent(Artificial intelligence)}}}
 - {{{accent(Databases)}}}
-- {{{accent(Communication)}}}
-- {{{accent(Teamwork)}}}
+- {{{accent(ReST/GraphQL)}}}
 
 ** Note                                                            :noexport:
    References available upon request. Please see my GitHub page (@tuh8888) for my software projects as well as my contributions to various open-source projects.
