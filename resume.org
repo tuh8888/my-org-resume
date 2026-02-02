@@ -37,7 +37,7 @@
 % Change some fonts, if necessary
 \\renewcommand{\\namefont}{\\Huge\\rmfamily\\bfseries}
 \\renewcommand{\\personalinfofont}{\\footnotesize}
-\\renewcommand{\\cvsectionfont}{\\LARGE\\rmfamily\\bfseries}
+\\renewcommand{\\cvsectionfont}{\\Large\\rmfamily\\bfseries}
 \\renewcommand{\\cvsubsectionfont}{\\large\\bfseries}
 
 % Change the bullets for itemize and rating marker
@@ -87,7 +87,7 @@
    #+begin_export latex
    \name{Harrison Pielke-Lombardo}
    %\photoR{2.8cm}{20220815_110341.jpg}
-   \tagline{Senior Software Engineer}
+   \tagline{Software Developer}
    #+end_export
 
 ** Personal Info :ignore:
@@ -96,7 +96,7 @@
     %%  \homepage{www.github.com/tuh8888}
      \email{pielkekid@gmail.com}
      \phone{720 209 6249}
-     \location{Chicago, IL}
+     \location{Denver, CO}
      \github{https://www.github.com/tuh8888}
      \linkedin{https://www.linkedin.com/in/tuh8888}
    %%   \driving{US Driving Licence
@@ -113,7 +113,7 @@
 *** General                                       :ignore:
     #+begin_export latex
      \begin{quote}
-     ``I am a Computational Bioscience graduate interested in developing software for artificial intelligence, health informatics, and game development. My work includes developing novel algorithms for symbolic AI and natural language processing. As a polyglot programmer, I enjoy turning difficult problems for people into easy solutions for computers.''
+     ``Through perseverance and commitment, I've helped a startup achieve a successful exit, and I'm ready to take on the next one! My diverse technical background in software development has helped me solve countless challenges while my calm, attentive personality endears me to clients and fellow engineers alike.''
      \end{quote}
     #+end_export
 *** Reify Health                         :ignore:noexport:
@@ -124,18 +124,17 @@
     #+end_export
 ** Experience
 *** Senior Software  Engineer                                        :ignore:
-    {{{cvevent(Senior Software Engineer, Peruse Technology LLC, Sep 2022, Remote)}}}
+    {{{cvevent(Senior Software Engineer, Peruse Technology Inc (SOLD), Sep 2022 - Current, Remote)}}}
 
-    - Designed and implemented backend {{{cvtag(REST)}}} and {{{cvtag(GraphQL)}}} APIs written in {{{cvtag(Clojure)}}} which handle high-volume requests from both external and internal clients, manage machine learning data, and integrate with external services and APIs.
-    - Manage backend databases and services including {{{cvtag(Datomic)}}} and {{{cvtag(ElasticSearch)}}} hosted on {{{cvtag(AWS)}}}.
-    - Support and maintain relationships with key existing and prospective clients by understanding their needs and communicating progress regularly.
+    - Saw through the development of a product and platform which grew revenue while on-boarding new clients which allowed us to achieve a successful exit.
+    - Implemented many critical features of a high-volume logistics document processing platform including automatic broker verification, automatic and manual document assignment, custom rules engine, as well as the overall load processing pipeline used by both UI and API customers as well as technical challenges such as  a database migration from {{{cvtag(Datomic)}}} to {{{cvtag(Postgres)}}}.
+    - Full stack development spanning from backend {{{cvtag(REST)}}} and {{{cvtag(GraphQL)}}} APIs written in {{{cvtag(Clojure)}}} and {{{cvtag(Python)}}}, frontend {{{cvtag(Typescript)}}} UI components, and cloud-based infrastructure maintained using {{{cvtag(terraform)}}} and deployed to {{{cvtag(AWS)}}} while also maintaining and deploying LLM-based machine learning models trained using {{{cvtag(PyTorch)}}}.
 	
 *** PhD Researcher :ignore:
     {{{cvevent(Computational Biologist, University of Colorado\, Anschutz Medical Campus, Aug 2016 -- Aug 2022, Aurora\, CO)}}}
 
-    - Managed interconnected computational projects written in {{{cvtag(Python)}}}, {{{cvtag(Java)}}}, and {{{cvtag(Clojure)}}} across 4+ teams through consistent communication and leadership
-    - Produced 6 publications, 4 dataset releases, and 5 package releases.
-    - Developed interpretable, symbolic {{{cvtag(Artificial Intelligence)}}}, {{{cvtag(Machine Learning)}}}, and {{{cvtag(Natural Language Processing)}}} methods for identifying drug-targets in text and performing inductive reasoning about drug-disease mechanisms using a {{{cvtag(Knowledge Graph)}}} constructed from 10 biomedical ontologies and 10 databases containing 1 trillion triples.
+    - Managed interconnected computational projects written in {{{cvtag(Python)}}}, {{{cvtag(Java)}}}, and {{{cvtag(Clojure)}}} across 4+ teams through consistent communication and leadership and produced 6 publications, 4 dataset releases, and 5 package releases.
+
 *** IEEE Undergraduate Grant                                :ignore:noexport:
 
     {{{par-div}}}
@@ -152,7 +151,7 @@
 
     - Optimized and evaluated a drug-efficacy scoring algorithm which incorporates multi-omic data including cancer genomes and drug-target profiles. Communicated results with domain experts using heat-map visualizations of kinase scores for selected cancer subtypes.
 
-** Projects
+** Projects                                                        
 *** LeSS                                                             :ignore:
 
     {{{cvevent(Schematization of biological mechanisms from structural\, semantic\, and causal properties,,2017 -- 2022,)}}}
@@ -196,6 +195,14 @@
    {{{new-page}}}
 
 ** Projects (Cont.)                                                :noexport:
+
+** Presentations
+   
+*** IDEAL Invited Speaker                                            :ignore:
+
+    {{{cvevent(IDEAL Invited Speaker, The Institute for Data\, Econometrics\, Algorithms\, and Learning, June 2024, Chicago\, IL)}}}
+    
+    - Title: AI in the Transportation Sector: Challenges and Successes
 
 ** A day of my life :noexport:
    # #+begin_export latex
@@ -307,7 +314,7 @@
 
    {{{new-page}}}
 
-** Skills
+** Skills                                                          :noexport:
 - {{{accent(Clojure/Script)}}}
 - {{{accent(Java)}}}
 - {{{accent(Python)}}}
