@@ -99,8 +99,6 @@
      \location{Denver, CO}
      \github{https://www.github.com/tuh8888}
      \linkedin{https://www.linkedin.com/in/tuh8888}
-   %%   \driving{US Driving Licence
-     }
    }
    \makecvheader
    #+end_export
@@ -124,11 +122,12 @@
     #+end_export
 ** Experience
 *** Senior Software  Engineer                                        :ignore:
-    {{{cvevent(Senior Software Engineer, Peruse Technology Inc (SOLD), Sep 2022 - Current, Remote)}}}
+    {{{cvevent(Senior Software Engineer, Peruse Technology Inc (SOLD), Sep 2022 - Present, Remote)}}}
 
-    - Saw through the development of a product and platform which grew revenue while on-boarding new clients which allowed us to achieve a successful exit.
-    - Implemented many critical features of a high-volume logistics document processing platform including automatic broker verification, automatic and manual document assignment, custom rules engine, as well as the overall load processing pipeline used by both UI and API customers as well as technical challenges such as  a database migration from {{{cvtag(Datomic)}}} to {{{cvtag(Postgres)}}}.
-    - Full stack development spanning from backend {{{cvtag(REST)}}} and {{{cvtag(GraphQL)}}} APIs written in {{{cvtag(Clojure)}}} and {{{cvtag(Python)}}}, frontend {{{cvtag(Typescript)}}} UI components, and cloud-based infrastructure maintained using {{{cvtag(terraform)}}} and deployed to {{{cvtag(AWS)}}} while also maintaining and deploying LLM-based machine learning models trained using {{{cvtag(PyTorch)}}}.
+    - Helped drive product development from zero to $2.1M annual revenue and over 70 B2B clients, culminating in a successful acquisition.
+    - Built critical features for a high-volume logistics document processing platform: automatic broker verification, document assignment workflows, custom rules engine, and the core load processing pipeline serving both UI and API customers.
+    - Executed a complex database migration from {{{cvtag(Datomic)}}} to {{{cvtag(Postgres)}}} while maintaining system reliability.
+    - Developed full-stack solutions using {{{cvtag(Clojure)}}} and {{{cvtag(Python)}}} backends ({{{cvtag(REST)}}}/{{{cvtag(GraphQL)}}}), {{{cvtag(Typescript)}}} frontend components, and {{{cvtag(AWS)}}} infrastructure managed with {{{cvtag(terraform)}}}. Trained and deployed LLM-based ML models using {{{cvtag(PyTorch)}}}.
 	
 *** PhD Researcher :ignore:
     {{{cvevent(Computational Biologist, University of Colorado\, Anschutz Medical Campus, Aug 2016 -- Aug 2022, Aurora\, CO)}}}
@@ -164,7 +163,7 @@
 
     {{{cvevent(Knowtator: Concept/relation annotation for Protégé,,2016--2022,)}}}
 
-    - Deployed a WYSIWYG {{{cvtag(Java)}}} plugin for ontology development and text annotation that includes interactive graph visualization for textual features. It was used to annotate over 100k concept and relation annotations. Later became a {{{cvtag(Clojurescript)}}} {{{cvtag(web application)}}}. {{{cvtag(CI/CD)}}}: Incorporated user feedback  in several feature updates.
+    - Deployed a WYSIWYG {{{cvtag(Java)}}} plugin for ontology development and text annotation with interactive graph visualization. Used to create 100k+ concept and relation annotations. Evolved into a {{{cvtag(Clojurescript)}}} {{{cvtag(web application)}}} with {{{cvtag(CI/CD)}}} pipeline incorporating iterative user feedback.
 
     # {{{cvtag(Semantic web)}}}
     # {{{cvtag(UX/GUI)}}}
@@ -176,7 +175,7 @@
 
     {{{cvevent(Bootstrapped relation extraction using word embeddings and dependency paths,,2016--2019,)}}}
 
-    - Automated relation extraction by implementing a novel bootstrapping approach in {{{cvtag(Clojure)}}} that creates human-interpretable syntax patterns from dependency paths and word embeddings. Performance optimized with GPU accelerated matrix operations. Improved precision for relation extraction for drug-targets from biomedical texts by 10%.
+    - Implemented a novel bootstrapping approach in {{{cvtag(Clojure)}}} for automated relation extraction, generating human-interpretable syntax patterns from dependency paths and word embeddings. Optimized with GPU-accelerated matrix operations, improving drug-target relation extraction precision by 10%.
 
     # {{{cvtag(Natural language processing)}}}
     # {{{cvtag(Semantic web)}}}
@@ -314,7 +313,7 @@
 
    {{{new-page}}}
 
-** Skills                                                          :noexport:
+** Skills
 - {{{accent(Clojure/Script)}}}
 - {{{accent(Java)}}}
 - {{{accent(Python)}}}
