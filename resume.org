@@ -87,7 +87,7 @@
    #+begin_export latex
    \name{Harrison Pielke-Lombardo}
    %\photoR{2.8cm}{20220815_110341.jpg}
-   \tagline{Software Developer}
+   \tagline{Full-Stack Software Engineer \& Computational Biologist}
    #+end_export
 
 ** Personal Info :ignore:
@@ -107,6 +107,24 @@
   #+begin_export latex
   \begin{paracol}{1}
   #+end_export
+** Summary                                                           :ignore:
+   #+begin_export latex
+    \begin{quote}
+    Full-stack Software Engineer and Computational Biologist with 8+ years of experience building production-grade AI systems. Expert in bridging the gap between complex biomedical knowledge graphs and modern AI applications. Proven track record of driving \$2.1M in annual revenue through deployment of LLM-based automation and high-volume data pipelines. Deep experience with clinical ontologies and human-in-the-loop annotation workflows.
+    \end{quote}
+   #+end_export
+
+** Technical Skills                                                  :ignore:
+   #+begin_export latex
+   \cvsection{Technical Skills}
+   \textbf{AI/ML \& GenAI:} LLMs, PyTorch, NLP, Claude, Copilot, Statistical Inference \\
+   \textbf{Knowledge Engineering:} Knowledge Graphs, Semantic Web (RDF), Ontologies (Prot\'{e}g\'{e}), Causal Reasoning, ICD, SNOMED \\
+   \textbf{Languages \& Frameworks:} Python, Clojure/ClojureScript, Java, JavaScript, SQL, GraphQL, Bash \\
+   \textbf{Cloud \& Infrastructure:} AWS (Lambda, EC2, ECS, SQS, SNS, RDS, DynamoDB, CloudFront), Terraform, Docker, PostgreSQL, Datomic, Redis, Git/GitHub \\
+   \textbf{Healthcare AI \& MedTech:} Clinical NLP, Automated Relation Extraction, Explainable AI (XAI), Human-in-the-Loop Annotation \\
+   \smallskip
+   #+end_export
+
 ** Personal Statement                                       :ignore:noexport:
 *** General                                       :ignore:
     #+begin_export latex
@@ -124,15 +142,19 @@
 *** Senior Software  Engineer                                        :ignore:
     {{{cvevent(Senior Software Engineer, Peruse Technology Inc (SOLD), Sep 2022 - Present, Remote)}}}
 
-    - Helped drive product development from zero to $2.1M annual revenue and over 70 B2B clients, culminating in a successful acquisition.
-    - Built critical features for a high-volume logistics document processing platform: automatic broker verification, document assignment workflows, custom rules engine, and the core load processing pipeline serving both UI and API customers.
-    - Executed a complex database migration from {{{cvtag(Datomic)}}} to {{{cvtag(Postgres)}}} while maintaining system reliability.
-    - Developed full-stack solutions using {{{cvtag(Clojure)}}} and {{{cvtag(Python)}}} backends ({{{cvtag(REST)}}}/{{{cvtag(GraphQL)}}}), {{{cvtag(Typescript)}}} frontend components, and {{{cvtag(AWS)}}} infrastructure managed with {{{cvtag(terraform)}}}. Trained and deployed LLM-based ML models using {{{cvtag(PyTorch)}}}.
+    - Scaled product from zero to $2.1M ARR and 70+ B2B clients, leading to a successful acquisition.
+    - Built a custom rules engine and core load processing pipeline using {{{cvtag(Clojure)}}} and {{{cvtag(Python)}}} ({{{cvtag(REST)}}}/{{{cvtag(GraphQL)}}}).
+    - Trained and deployed LLM-based ML models using {{{cvtag(PyTorch)}}} to automate logistics document processing and broker verification.
+    - Managed cloud infrastructure via {{{cvtag(Terraform)}}} on {{{cvtag(AWS)}}} ({{{cvtag(Lambda)}}}, {{{cvtag(ECS)}}}, {{{cvtag(SQS)}}}, {{{cvtag(RDS)}}}) to support high-volume document workflows.
+    - Executed a complex database migration from {{{cvtag(Datomic)}}} to {{{cvtag(Postgres)}}} while maintaining 100% system uptime.
 	
 *** PhD Researcher :ignore:
     {{{cvevent(Computational Biologist, University of Colorado\, Anschutz Medical Campus, Aug 2016 -- Aug 2022, Aurora\, CO)}}}
 
-    - Managed interconnected computational projects written in {{{cvtag(Python)}}}, {{{cvtag(Java)}}}, and {{{cvtag(Clojure)}}} across 4+ teams through consistent communication and leadership and produced 6 publications, 4 dataset releases, and 5 package releases.
+    - Managed interconnected computational projects across 4+ cross-functional teams, producing 6 publications, 4 dataset releases, and 5 package releases.
+    - Harmonized large-scale biomedical knowledge graphs represented in {{{cvtag(RDF)}}}, {{{cvtag(Datomic)}}}, and {{{cvtag(SQL)}}} formats for drug-target identification and diagnostic assistance applications.
+    - Implemented a novel bootstrapping approach for automated relation extraction; optimized with GPU-accelerated matrix operations to improve drug-target precision by 10%.
+    - Developed algorithmic approaches in {{{cvtag(Clojure)}}} and {{{cvtag(Python)}}} for extending analogical reasoning of biological networks, enabling human-interpretable pattern discovery.
 
 *** IEEE Undergraduate Grant                                :ignore:noexport:
 
@@ -150,26 +172,22 @@
 
     - Optimized and evaluated a drug-efficacy scoring algorithm which incorporates multi-omic data including cancer genomes and drug-target profiles. Communicated results with domain experts using heat-map visualizations of kinase scores for selected cancer subtypes.
 
-** Projects                                                        
-*** LeSS                                                             :ignore:
+** Selected Projects
+*** Knowtator                                                        :ignore:
+
+    {{{cvevent(Knowtator: Semantic Annotation \& Ontology Platform,,2016--2022,)}}}
+
+    - Deployed a {{{cvtag(Java)}}}/{{{cvtag(ClojureScript)}}} web application for ontology development and text annotation with interactive graph visualization.
+    - Facilitated creation of 100k+ concept and relation annotations using {{{cvtag(ICD)}}} and {{{cvtag(SNOMED)}}} terminologies, evolving the system through iterative feedback from clinicians and researchers.
+    - Implemented {{{cvtag(CI/CD)}}} pipelines to support human-in-the-loop annotation workflows for validating LLM outputs against medical data models.
+
+*** LeSS                                                    :ignore:noexport:
 
     {{{cvevent(Schematization of biological mechanisms from structural\, semantic\, and causal properties,,2017 -- 2022,)}}}
 
     - Conceptualized and tested algorithmic approaches in {{{cvtag(Clojure)}}} and {{{cvtag(Python)}}} for extending analogical reasoning of complex networks representing biological knowledge. Merged and harmonized large biomedical knowledge graphs represented in {{{cvtag(RDF)}}}, {{{cvtag(Datomic)}}}, and {{{cvtag(SQL)}}} formats.
 
-*** Knowtator                                                        :ignore:
-
-    {{{par-div}}}
-
-    {{{cvevent(Knowtator: Concept/relation annotation for Protégé,,2016--2022,)}}}
-
-    - Deployed a WYSIWYG {{{cvtag(Java)}}} plugin for ontology development and text annotation with interactive graph visualization. Used to create 100k+ concept and relation annotations. Evolved into a {{{cvtag(Clojurescript)}}} {{{cvtag(web application)}}} with {{{cvtag(CI/CD)}}} pipeline incorporating iterative user feedback.
-
-    # {{{cvtag(Semantic web)}}}
-    # {{{cvtag(UX/GUI)}}}
-    # {{{cvtag(Ontology)}}}
-
-*** Dep2Rel                                                          :ignore:
+*** Dep2Rel                                                 :ignore:noexport:
 
     {{{par-div}}}
 
@@ -295,7 +313,7 @@
 
 *** Master of Science                                                :ignore:
 
-{{{cvevent(Master of Science in Computational Bioscience, University of Colorado\, Anschutz Medical Campus, 2016 --- 2022, Aurora\, CO)}}}
+{{{cvevent(Master of Science in Computational Bioscience, University of Colorado\, Anschutz Medical Campus, 2022, Aurora\, CO)}}}
 *** Master of Science with footnote                         :ignore:noexport:
     {{{par-div}}}
     #+BEGIN_EXPORT latex
@@ -305,15 +323,13 @@
 *** Bachelor of Science                                              :ignore:
     {{{par-div}}}
 
-    {{{cvevent(Bachelor of Science in Applied Mathematics, University of Colorado, 2013 -- 2016,Boulder\, CO)}}}
-    - Minor in Computer Science
-    - Minor in Biochemistry
-    # - First Class Honours \\
+    {{{cvevent(Bachelor of Science in Applied Mathematics, University of Colorado, 2016, Boulder\, CO)}}}
+    - Minors: Computer Science @@latex:\&@@ Biochemistry
 
 
    {{{new-page}}}
 
-** Skills
+** Skills                                                          :noexport:
 - {{{accent(Clojure/Script)}}}
 - {{{accent(Java)}}}
 - {{{accent(Python)}}}
