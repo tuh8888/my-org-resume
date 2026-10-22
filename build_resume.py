@@ -20,8 +20,8 @@ ACCENT = RGBColor(0x1F, 0x3A, 0x5F)
 doc = Document()
 sec = doc.sections[0]
 sec.page_width, sec.page_height = Inches(8.5), Inches(11)
-sec.left_margin = sec.right_margin = Inches(0.6)
-sec.top_margin = sec.bottom_margin = Inches(0.5)
+sec.left_margin = sec.right_margin = Inches(0.55)
+sec.top_margin = sec.bottom_margin = Inches(0.45)
 RIGHT = sec.page_width - sec.left_margin - sec.right_margin
 
 st = doc.styles["Normal"]
@@ -112,17 +112,16 @@ p = para()
 if CONTRACT:
     run(p, "Senior backend and full-stack engineer available for contract and 1099 engagements, remote or "
            "on-site in Colorado. 10 years of building production systems in Python, Clojure, TypeScript, and "
-           "Java. Most recently built the document-processing pipeline, rules engine, and AWS infrastructure "
-           "behind a B2B SaaS logistics platform handling 1M+ documents per month, which grew from zero to "
-           "$2.1M ARR and was acquired. Comfortable owning a project end to end, working directly with "
-           "clients, and getting productive quickly in an existing codebase.")
+           "Java. Built the pipeline, rules engine, and AWS infrastructure behind a B2B SaaS platform handling "
+           "1M+ documents per month, from zero to $2.1M ARR through acquisition. Now building Well Met, a web "
+           "and mobile app, with AI coding agents. Owns projects end to end and works directly with clients.")
 else:
     run(p, "Senior software engineer with 10 years of experience building production backend systems, "
-           "data pipelines, and web applications in Python, Clojure, TypeScript, and Java. Most recently a "
-           "core engineer on a 4-6 person team at a B2B SaaS logistics startup, building the pipeline that "
-           "processed 1M+ documents per month and helping grow the product from zero to $2.1M ARR through "
-           "acquisition. Owns features end to end, from design with product through on-call, and has "
-           "mentored, interviewed, and served as technical contact for clients.")
+           "data pipelines, and web and mobile applications in Python, Clojure, TypeScript, and Java. Core "
+           "engineer on a 4-6 person team at a B2B SaaS logistics startup, building the pipeline that processed "
+           "1M+ documents per month and helping grow the product from zero to $2.1M ARR through acquisition. "
+           "Now building Well Met, a web and mobile dating app, solo with AI coding agents. Owns features end "
+           "to end and has mentored, interviewed, and led client calls.")
 
 if CONTRACT:
     heading("What I Can Deliver")
@@ -133,61 +132,65 @@ if CONTRACT:
     labeled("AWS infrastructure", "Terraform-managed, event-driven systems on Lambda, ECS, SQS, SNS, and RDS")
     labeled("LLM and ML automation", "production document processing and verification that replaces "
                                      "manual review work")
-    labeled("Clojure and ClojureScript", "new builds, maintenance, and modernization of existing Clojure "
-                                         "systems")
+    labeled("Clojure and ClojureScript", "new builds, web and mobile apps, and modernizing existing systems")
 
 heading("Skills")
 labeled("Languages", "Python, Clojure, ClojureScript, TypeScript, Java, JavaScript, SQL, Bash")
 if not CONTRACT:
     labeled("Backend", "REST APIs, GraphQL, data pipelines, rules engines, event-driven architecture, "
                        "database migrations")
-labeled("Frontend", "TypeScript, ClojureScript, React (Reagent / re-frame), JavaScript, data visualization")
+labeled("Frontend & Mobile", "TypeScript, ClojureScript, React (Reagent / re-frame), React Native (Expo), "
+                             "JavaScript, WebSockets")
 labeled("Data", "PostgreSQL, Datomic, DynamoDB, Redis, SQL, knowledge graphs (RDF)")
 labeled("Cloud & DevOps", "AWS (Lambda, ECS, EC2, SQS, SNS, RDS, DynamoDB, CloudFront), Terraform, "
-                          "Docker, CI/CD, Git, GitHub")
-labeled("AI & ML", "LLM integration, PyTorch, NLP, AI-assisted development (Claude, Copilot)")
+                          "Docker, GitHub Actions, CI/CD")
+labeled("AI & ML", "LLM integration, PyTorch, NLP, agentic development with Claude Code")
 
 heading("Experience")
-line_with_date("Senior Software Engineer", "Sep 2022 - Mar 2026")
+line_with_date("Founder & Software Engineer", "Aug 2026 - Present")
+line_with_date("Well Met (pre-launch dating app, getwellmet.app)", "Denver, CO", sep=", ", bold=False, italic=True)
+bullet("Building a web, iOS, and Android dating app centered on structured, mutual-consent post-date reviews.")
+bullet("Architected a Clojure backend on PostgreSQL with real-time WebSocket updates, and one shared "
+       "ClojureScript / re-frame core for the web app, admin tool, and React Native (Expo) mobile app.")
+bullet("Implemented ID verification (Persona), geohash-only location storage, and audit-logged photo and "
+       "video moderation.")
+bullet("Led development with AI coding agents (Claude Code) under written architecture guardrails and "
+       "review, merging 450+ pull requests in two months with Playwright, unit, and CI test suites.")
+if not CONTRACT:
+    bullet("Wrote the AWS deployment (ECS Fargate, ALB with WAF, RDS, GuardDuty) as Terraform with GitHub "
+           "Actions deploy workflows.")
+
+line_with_date("Senior Software Engineer", "Sep 2022 - Mar 2026", space_before=4)
 line_with_date("Peruse Technology Inc. (acquired)", "Remote", sep=", ", bold=False, italic=True)
-bullet("Helped scale a B2B SaaS logistics platform from zero to $2.1M ARR and 70+ business customers as "
-       "part of a 4-6 person engineering team, leading to the company's acquisition.")
-bullet("Designed and built the core load processing pipeline and a custom rules engine in Clojure and "
-       "Python, processing 1M+ documents per month through REST and GraphQL APIs.")
+bullet("Helped scale a B2B SaaS logistics platform from zero to $2.1M ARR and 70+ customers on a 4-6 person "
+       "team through acquisition.")
+bullet("Designed and built the core load processing pipeline and rules engine in Clojure and Python, "
+       "handling 1M+ documents per month via REST and GraphQL.")
 bullet("Trained and deployed LLM-based models in PyTorch to automate document processing and freight broker "
        "verification, replacing work that took customers entire back-office audit teams.")
-bullet("Planned and executed the zero-downtime migration of the production database from Datomic to "
-       "PostgreSQL as it approached Datomic's size limits.")
+bullet("Led a zero-downtime migration of the production database from Datomic to PostgreSQL as it neared "
+       "Datomic's size limits.")
 bullet("Shared ownership of event-driven AWS infrastructure as code in Terraform (Lambda, ECS, SQS, SNS, RDS); "
        "took on-call rotations and contributed to the TypeScript frontend.")
-if not CONTRACT:
-    bullet("Owned features end to end, from design with the product team to release; mentored an engineer, "
-           "interviewed candidates, and reviewed code.")
-bullet("Served as technical contact on client calls and owned relationships with several client accounts.")
+if CONTRACT:
+    bullet("Served as technical contact on client calls and owned relationships with several client accounts.")
+else:
+    bullet("Owned features end to end with the product team; mentored an engineer, interviewed candidates, "
+           "reviewed code, and owned several client relationships as technical contact.")
 
 line_with_date("Research Software Engineer (Graduate Researcher)", "Aug 2016 - Aug 2022", space_before=4)
 line_with_date("University of Colorado Anschutz Medical Campus", "Aurora, CO", sep=", ", bold=False, italic=True)
-bullet("Led software for interconnected research projects across 4+ cross-functional teams, shipping "
-       "5 open-source package releases, 4 dataset releases, and 6 peer-reviewed publications.")
-bullet("Built Knowtator, a Java and ClojureScript / re-frame web app for text annotation and ontology "
-       "development (rewritten from a Java Swing desktop app), used to create 100k+ annotations by "
-       "clinicians and researchers.")
-if not CONTRACT:
-    bullet("Built data integration pipelines that merged large knowledge graphs across RDF, Datomic, and SQL "
-           "stores for drug-target identification and diagnostic tools.")
-bullet("Improved relation-extraction precision by 10% with a novel bootstrapping algorithm accelerated "
-       "with GPU matrix operations.")
+bullet("Led software for research projects across 4+ teams, shipping 5 open-source packages, 4 datasets, and "
+       "6 publications.")
+bullet("Built Knowtator, a Java and ClojureScript / re-frame annotation web app (rewritten from Java Swing), "
+       "used for 100k+ annotations by clinicians and researchers.")
 
-heading("Open Source & Speaking")
-bullet("datascript-shortest-path, a graph library with a Fibonacci heap built on immutable data structures; "
-       "contributor to the re-frame ecosystem (day8/re-frame-undo).")
-bullet("Invited speaker, \"AI in the Transportation Sector: Challenges and Successes,\" Institute for Data, "
-       "Econometrics, Algorithms, and Learning (IDEAL), Chicago, June 2024.")
-
-heading("Education")
+heading("Education, Open Source & Speaking")
 line_with_date("M.S., Computational Bioscience, University of Colorado Anschutz Medical Campus", "2022",
                bold=False)
 line_with_date("B.S., Applied Mathematics (minors: Computer Science, Biochemistry), University of Colorado "
                "Boulder", "2016", bold=False)
+labeled("Open source & speaking", "author of datascript-shortest-path; contributor to day8/re-frame-undo; "
+                                  "invited talk on AI in transportation, IDEAL institute, Chicago, 2024")
 
 doc.save(OUT)
